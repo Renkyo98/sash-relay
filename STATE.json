@@ -1,21 +1,19 @@
 ﻿{
     "schema":  1,
     "project":  "SaSH Client05 porting",
-    "phase":  "unmanned_transport_smoke_test",
+    "phase":  "slim_prompt_reverify",
     "turn":  "awaiting_analyst",
     "needs_human":  false,
     "human_gate":  null,
     "attach_authorized":  false,
     "autologin_authorized":  false,
     "oaaw":  false,
-    "cycle":  140,
-    "model":  "gpt-5.6-terra",
-    "reasoning_effort":  "low",
-    "instruction":  "SAFE transport smoke test: read-only git branch/HEAD/status + free disk of C:\\src\\etc-source-local, then write RESULT.md. No client, no build, no commit. See INSTRUCTION.md",
+    "cycle":  141,
+    "instruction":  "SAFE re-verify with slim prompts + default fast model (SAFE=luna/low): read-only git/gh/disk, write RESULT.md. No client, no build, no commit. See INSTRUCTION.md",
     "relay":  "C:\\SaSH-relay",
     "repo":  "C:\\src\\etc-source-local",
     "client_exe":  "C:\\sa-bridge\\Client Source Code\\bin\\Release\\SA93Client.exe",
     "client_exe_sha256":  "756A90D6CCF5CEFEED72B12E3D524D88B702946B365FF804A86B47C56BB73F4E",
     "updated_by":  "codex-watcher",
-    "notes":  "Direction1 transport smoke test. Watcher -\u003e Codex(SAFE, fast model) -\u003e RESULT.md -\u003e cycle-end bus-push -\u003e cloud pull. One-shot; after this turn becomes awaiting_analyst."
+    "notes":  "Re-verify after prompt slimming + Codex model/effort policy (SAFE-\u003eluna/low). No STATE.model override, so exercises the new per-mode default. Watcher restart required to load slim prompts + policy. One-shot; then awaiting_analyst; auto bus-push on cycle end."
 }
