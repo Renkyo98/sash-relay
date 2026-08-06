@@ -1,19 +1,19 @@
 ﻿{
     "schema":  1,
     "project":  "SaSH Client05 porting",
-    "phase":  "slim_prompt_reverify",
+    "phase":  "exp_display_e2e_runtime_proof",
     "turn":  "awaiting_analyst",
     "needs_human":  false,
     "human_gate":  null,
     "attach_authorized":  false,
     "autologin_authorized":  false,
-    "oaaw":  false,
-    "cycle":  141,
-    "instruction":  "SAFE re-verify with slim prompts + default fast model (SAFE=luna/low): read-only git/gh/disk, write RESULT.md. No client, no build, no commit. See INSTRUCTION.md",
+    "oaaw":  true,
+    "cycle":  142,
+    "instruction":  "OAAW EXP-display e2e proof: edit default.json (AutoLogin/FastAutoWalk/AutoBattle/ShowExp on, escapes off), run client, reach \u003e=3 auto-battles, capture client-exp/afkinfo/otherinfo PNGs to bus/artifacts/exp-test, confirm autobattle logs, report CODEX_RUNTIME_MINUTES, teardown. See INSTRUCTION.md",
     "relay":  "C:\\SaSH-relay",
     "repo":  "C:\\src\\etc-source-local",
     "client_exe":  "C:\\sa-bridge\\Client Source Code\\bin\\Release\\SA93Client.exe",
     "client_exe_sha256":  "756A90D6CCF5CEFEED72B12E3D524D88B702946B365FF804A86B47C56BB73F4E",
     "updated_by":  "codex-watcher",
-    "notes":  "Re-verify after prompt slimming + Codex model/effort policy (SAFE-\u003eluna/low). No STATE.model override, so exercises the new per-mode default. Watcher restart required to load slim prompts + policy. One-shot; then awaiting_analyst; auto bus-push on cycle end."
+    "notes":  "OAAW runtime proof of the full unmanned pipeline: launcher-config-by-JSON + client run + fast encounter + auto-battle + EXP display, screenshots + logs delivered via bus. Model policy OAAW default = terra/medium. One-shot: watcher auto-clears attach/autologin after this cycle. Prereqs (owner): test character can auto-login; local validation server running."
 }
