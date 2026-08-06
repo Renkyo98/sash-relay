@@ -1,19 +1,19 @@
 ﻿{
     "schema":  1,
     "project":  "SaSH Client05 porting",
-    "phase":  "fast_encounter_drift_fix_runtime_verify_v2",
+    "phase":  "walk_encounter_drift_fix_verify",
     "turn":  "awaiting_analyst",
     "needs_human":  false,
     "human_gate":  null,
     "attach_authorized":  false,
     "autologin_authorized":  false,
     "oaaw":  true,
-    "cycle":  145,
-    "instruction":  "OAAW runtime-only v2 (no rebuild): edit runtime default.json (FastAutoWalk pre-enabled), start launcher, START CLIENT via launcher start button (?앷린 ?ㅽ뻾) like cycle142, confirm SA93Client.exe running, auto-battle, verify this-run fastautowalk orig != (0,0) + no edge drift, screenshot, teardown. Exact paths in INSTRUCTION.md.",
+    "cycle":  146,
+    "instruction":  "OAAW runtime-only: verify walk-encounter (AutoWalk) drift fix. default.json AutoWalk pre-enabled (FastAutoWalk off), start launcher+client (?앷린?ㅽ뻾), auto-battle, verify autowalk orig != (0,0) and oscillates around stable origin (no edge wander), screenshot, teardown. Exact paths in INSTRUCTION.md.",
     "relay":  "C:\\SaSH-relay",
     "repo":  "C:\\src\\etc-source-local",
     "client_exe":  "C:\\sa-bridge\\Client Source Code\\bin\\Release\\SA93Client.exe",
     "client_exe_sha256":  "756A90D6CCF5CEFEED72B12E3D524D88B702946B365FF804A86B47C56BB73F4E",
     "updated_by":  "codex-watcher",
-    "notes":  "cycle143/144 BLOCKED were analyst INSTRUCTION errors (JSON_PATH; missing client-start action), NOT pipeline faults - pipeline surfaced them correctly (fail-loud, Codex hands-only). v2 restores cycle142\u0027s proven start-client step. Drift fix (origin gate on valid in-world pos) already deployed. OAAW terra/medium."
+    "notes":  "Warmup/parallel: verify the OTHER half of the drift fix (walk-encounter autowalk origin gate; fast-encounter already verified cycle145). Proven cycle145 procedure reused (client start via ?앷린?ㅽ뻾). Meanwhile analyst designs magic/skill battle-action framework. OAAW terra/medium. One-shot."
 }
