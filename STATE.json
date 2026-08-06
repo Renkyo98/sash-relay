@@ -1,19 +1,19 @@
 ﻿{
     "schema":  1,
     "project":  "SaSH Client05 porting",
-    "phase":  "fast_encounter_drift_fix",
+    "phase":  "fast_encounter_drift_fix_runtime_verify",
     "turn":  "awaiting_analyst",
     "needs_human":  false,
     "human_gate":  null,
     "attach_authorized":  false,
     "autologin_authorized":  false,
     "oaaw":  true,
-    "cycle":  143,
-    "instruction":  "OAAW feature-fix: build patched ps1 (origin gate: capture only at valid in-world pos), then reproduce drift condition (FastAutoWalk pre-enabled before launch), auto-login+auto-battle, verify fastautowalk orig != (0,0) and no edge drift, screenshot, timing, teardown. See INSTRUCTION.md",
+    "cycle":  144,
+    "instruction":  "OAAW runtime-only (no rebuild): edit runtime default.json (FastAutoWalk pre-enabled), launch launcher exe from runtime dir, auto-login+auto-battle, verify fastautowalk orig != (0,0) and no edge drift, screenshot, timing, teardown. Exact paths in INSTRUCTION.md; ignore JSON_PATH.",
     "relay":  "C:\\SaSH-relay",
     "repo":  "C:\\src\\etc-source-local",
     "client_exe":  "C:\\sa-bridge\\Client Source Code\\bin\\Release\\SA93Client.exe",
     "client_exe_sha256":  "756A90D6CCF5CEFEED72B12E3D524D88B702946B365FF804A86B47C56BB73F4E",
     "updated_by":  "codex-watcher",
-    "notes":  "Drift root cause: origin captured pre-login (pos (0,0)) -\u003e return-correction drifts char to map edge. Fix gates origin capture + drive on valid in-world pos (restores launcher gating). Test proves it under the failing condition (pre-enabled). OAAW model default terra/medium. Build via human-b1diag-go.ps1. One-shot; auto-clears authz."
+    "notes":  "Re-issue after cycle143 BLOCKED (JSON_PATH empty + build-launch timeout). Build already succeeded (drift fix deployed). Runtime-only verify with exact default.json path. Drift fix = origin capture gated on valid in-world pos. OAAW terra/medium. One-shot."
 }
