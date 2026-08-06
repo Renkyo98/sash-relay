@@ -1,19 +1,19 @@
 ﻿{
     "schema":  1,
     "project":  "SaSH Client05 porting",
-    "phase":  "exp_display_e2e_runtime_proof",
+    "phase":  "fast_encounter_drift_fix",
     "turn":  "awaiting_analyst",
     "needs_human":  false,
     "human_gate":  null,
     "attach_authorized":  false,
     "autologin_authorized":  false,
     "oaaw":  true,
-    "cycle":  142,
-    "instruction":  "OAAW EXP-display e2e proof: edit default.json (AutoLogin/FastAutoWalk/AutoBattle/ShowExp on, escapes off), run client, reach \u003e=3 auto-battles, capture client-exp/afkinfo/otherinfo PNGs to bus/artifacts/exp-test, confirm autobattle logs, report CODEX_RUNTIME_MINUTES, teardown. See INSTRUCTION.md",
+    "cycle":  143,
+    "instruction":  "OAAW feature-fix: build patched ps1 (origin gate: capture only at valid in-world pos), then reproduce drift condition (FastAutoWalk pre-enabled before launch), auto-login+auto-battle, verify fastautowalk orig != (0,0) and no edge drift, screenshot, timing, teardown. See INSTRUCTION.md",
     "relay":  "C:\\SaSH-relay",
     "repo":  "C:\\src\\etc-source-local",
     "client_exe":  "C:\\sa-bridge\\Client Source Code\\bin\\Release\\SA93Client.exe",
     "client_exe_sha256":  "756A90D6CCF5CEFEED72B12E3D524D88B702946B365FF804A86B47C56BB73F4E",
     "updated_by":  "codex-watcher",
-    "notes":  "OAAW runtime proof of the full unmanned pipeline: launcher-config-by-JSON + client run + fast encounter + auto-battle + EXP display, screenshots + logs delivered via bus. Model policy OAAW default = terra/medium. One-shot: watcher auto-clears attach/autologin after this cycle. Prereqs (owner): test character can auto-login; local validation server running."
+    "notes":  "Drift root cause: origin captured pre-login (pos (0,0)) -\u003e return-correction drifts char to map edge. Fix gates origin capture + drive on valid in-world pos (restores launcher gating). Test proves it under the failing condition (pre-enabled). OAAW model default terra/medium. Build via human-b1diag-go.ps1. One-shot; auto-clears authz."
 }
