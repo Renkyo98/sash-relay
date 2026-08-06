@@ -1,0 +1,7 @@
+# never commit secrets
+token*.txt
+*.token
+*.key
+*.pem
+*.pfx
+*PersonalKey*
