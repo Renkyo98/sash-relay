@@ -1,0 +1,161 @@
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+ai transition prev=3 pause=0 cnt=0 patchByte=00
+ai transition prev=0 pause=0 cnt=0 patchByte=00
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free
+AImanual one-time patch ok=2 (relogin 03->00 @+3345F, msg NOPx5 @+33463); PgUp free

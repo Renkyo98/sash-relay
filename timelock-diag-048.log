@@ -1,0 +1,2 @@
+timelock want=0 bytes B8 00 00 00 00 ok=1 base=00400000
+timelock want=-1 bytes A1 9C E9 6A 00 ok=1 base=00400000

@@ -1,46 +1,42 @@
 # RESULT (Codex writes this each turn)
 
-CYCLE: 169
-INSTRUCTION_SHA256: 8D3F2BED5E9FA43F52757B0C5FA5D96E1DB6B12B1B4E964AAF23D954FC90134A
-STATUS: DONE
+CYCLE: 170
+INSTRUCTION_SHA256: 150B0E830EB81B6252A80DA42E54093FB6A3EC49AE15A0FEF9B9C46642AA1086
+STATUS: BLOCKED
 
 ## git
-- branch: N/A (C:\SaSH-relay is not a git worktree)
-- HEAD: N/A
-- git status --short: N/A
+- branch: sash-client05-integration
+- HEAD: f325579faa0ccf1518856cd502298a9330ec1cd3
+- git status --short: source worktree contained modified and untracked files; no commit made.
 
 ## changed files (if any)
-- Runtime default.json files updated only with the instructed cycle settings.
-- C:\SaSH-relay\RESULT.md and C:\SaSH-relay\out\0168-cycle169-fastbattle-exp-facts.md written as instructed.
-(commit hash if committed: none, message: none)
+- runtime/default.json and runtime/settings/default.json: requested activation delta only (AutoWalk/AutoBattle true; FastAutoWalk/FastBattle false).
+- RESULT.md and out/0170-cycle170-rollbackA-facts.md.
 
 ## build (if any)
-- toolchain: script-provided sadll build
-- SaSH SHA256: reused launcher (SKIP_LAUNCHER_BUILD.flag)   sadll SHA256: 442C5B7721F37EB76604CBA77C1DC6B5B8BE1726D8218BB5420FA94A52748AAD
-- warnings: 0 observed   errors: 0
-- git diff --check: N/A
+- SaSH: SKIPPED (SKIP_LAUNCHER_BUILD.flag)
+- sadll SHA256: 0FB73E64DDC26B13DD8B1BB4C9A70CDAC0610951CBDE8B8F82C53C7344438020 (launcher output)
+- warnings: 0   errors: 0
+- git diff --check: PASS
 
 ## static checks (if any)
-- marker precheck: PASS
-- FASTBATTLE159: PASS
-- install_ok7=2; RSrecv=28; fastbattle-end(bc)=28; exp-result=14; procN==10=0; SAFETY=0
-
-## unified diff (if any)
-```
-N/A
-```
+- markers: PASS (stage1=3, fbInstallHook=3, fbHookRS=0, kFastBattleActMsg=0)
 
 ## safety self-confirm
-- sadll changed: yes (built and deployed by instructed script)
-- new client memory write: no new write authored this cycle
-- new client function call: no new call authored this cycle
-- new packet/TCP: no new packet/TCP authored this cycle
-- PersonalKey exposed/logged: no (readable: no; length: 0; value not read)
+- sadll changed: yes (build/deploy invoked)
+- new client memory write: no
+- new client function call: no
+- new packet/TCP: no
+- PersonalKey exposed/logged: no (readable:no; length:0)
 - default flags changed (RUNTIME_ACTIVATION/SPEED_CONTROL): yes
-- client started/attached/run: yes; launcher Start invoked once
-- only handoff/ still untracked: no
+- client started/attached/run: yes; client was absent at capture time
+- only handoff/ still untracked: no commit; pre-existing source worktree changes remain
 
 ## notes / exact error or refusal text (verbatim if BLOCKED/HALTED)
-- Screenshots: cycle169-35s.png and cycle169-70s.png. Chat contained player exp display.
-- Crash: none observed during the 70-second observation.
-- Teardown: launcher WM_CLOSE sent; launched SA93Client and launcher absent afterward.
+- sadll OK; SaSH build SKIPPED; launcher started (run 163).
+- Capture failed after 70 seconds: CAPTURE_FAILED=SA93Client not found.
+- No new C:\zmffk *-diag*.log was written after launch; therefore no fresh install ok or exp-result evidence exists.
+- Latest pre-existing fastbattle log line: fastbattle-hook install ok=7 enTr=0DF00000 bTr=0DF20000 rsTr=14500000 (last write 2026-08-07T22:37:01); this is not cycle-170 evidence.
+- exp-result count from existing autobattle logs: 0.
+- Battle-info screenshots: none; units visible: no; game screenshot: none.
+- Crash: yes/likely; SA93Client absent at capture time. Launcher and client were closed; remaining_count=0.

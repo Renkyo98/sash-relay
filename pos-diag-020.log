@@ -1,0 +1,6 @@
+LOGINSCR edge proc=1 alEnabled=1 pos=0
+AUTOLOGIN srv=0 sub=0 chr=0 proc=1 iter=0 cnt=0
+DC proc=11 rc=0 al=1 win=800x600 sweep x=397 y=320..400
+DC proc=11 rc=1 al=1 win=800x600 sweep x=397 y=320..400
+LOGINSCR edge proc=1 alEnabled=1 pos=0
+AUTOLOGIN srv=0 sub=0 chr=0 proc=1 iter=0 cnt=0

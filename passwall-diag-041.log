@@ -1,0 +1,3 @@
+passwall want=0 byte 74->74 ok=1 orig=74 base=00400000
+passwall want=1 byte 74->EB ok=1 orig=74 base=00400000
+passwall want=0 byte EB->74 ok=1 orig=74 base=00400000

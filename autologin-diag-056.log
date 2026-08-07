@@ -1,0 +1,6 @@
+want=0 proc=1 enable=0
+want=1 proc=1 enable=1
+CLEAR want=1 proc=9 enable 1->0 ok=1
+CLEAR want=1 proc=9 enable 1->0 ok=1
+CLEAR want=1 proc=9 enable 1->0 ok=1
+CLEAR want=1 proc=9 enable 1->0 ok=1

@@ -1,0 +1,424 @@
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=0 hp=0/mx0 pct=0 thr=90 petP=90 alP=50 mag=6 mi=3 mt=0 cost=0 mp=0 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=0 hp=0/mx0 pct=0 thr=90 petP=90 alP=50 mag=6 mi=3 mt=0 cost=0 mp=0 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=0 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=1 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=1 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=1 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=1 impV=50 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=60 tgt=-1 fired=0 impEn=1 impV=75 imp=10 fImp=1
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=75 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=75 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=75 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=75 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=75 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=75 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=75 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=75 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=75 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=75 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=75 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=75 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=20 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=3 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=221/mx227 pct=97 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=100 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=1 chan(en=1 ch=90 mg=6)
+nmh-monitor en=1 hwnd=1 bat=1 chan(en=1 ch=90 mg=6)
+nmh-monitor en=1 hwnd=1 bat=1 chan(en=1 ch=90 mg=6)
+nmh-monitor en=1 hwnd=1 bat=1 chan(en=1 ch=90 mg=6)
+nmh-monitor en=1 hwnd=1 bat=1 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=171/mx227 pct=75 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=40 tgt=0 fired=1 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=227/mx227 pct=100 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=20 tgt=3 fired=1 impEn=1 impV=30 imp=10 fImp=1
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=227/mx227 pct=100 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=76 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=227/mx227 pct=100 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=76 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=227/mx227 pct=100 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=76 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=227/mx227 pct=100 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=76 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=1 chan(en=1 ch=90 mg=6)
+nmh-monitor en=1 hwnd=1 bat=1 chan(en=1 ch=90 mg=6)
+nmh-monitor en=1 hwnd=1 bat=1 chan(en=1 ch=90 mg=6)
+nmh-monitor en=1 hwnd=1 bat=1 chan(en=1 ch=90 mg=6)
+nmh-monitor en=1 hwnd=1 bat=1 chan(en=1 ch=90 mg=6)
+nmh-monitor en=1 hwnd=1 bat=1 chan(en=1 ch=90 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=227/mx227 pct=100 thr=90 petP=90 alP=50 mag=6 mi=3 mt=1 cost=20 mp=56 tgt=2 fired=1 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=1 chan(en=1 ch=90 mg=6)
+nmh-monitor en=1 hwnd=1 bat=1 chan(en=1 ch=87 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=214/mx227 pct=94 thr=87 petP=87 alP=8 mag=6 mi=3 mt=1 cost=20 mp=16 tgt=-1 fired=0 impEn=1 impV=30 imp=10 fImp=1
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=87 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=214/mx227 pct=94 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=98 tgt=2 fired=1 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=214/mx227 pct=94 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=78 tgt=3 fired=1 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=1 chan(en=1 ch=87 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=213/mx227 pct=93 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=58 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=1 chan(en=1 ch=87 mg=6)
+nmh-monitor en=1 hwnd=1 bat=1 chan(en=1 ch=87 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=207/mx227 pct=91 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=18 tgt=-1 fired=0 impEn=1 impV=30 imp=10 fImp=1
+nmh-handler en=1 bat=0 sock=1 hp=207/mx227 pct=91 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=94 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=87 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=207/mx227 pct=91 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=94 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=207/mx227 pct=91 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=94 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=1 chan(en=1 ch=87 mg=6)
+nmh-monitor en=1 hwnd=1 bat=1 chan(en=1 ch=87 mg=6)
+nmh-monitor en=1 hwnd=1 bat=1 chan(en=1 ch=87 mg=6)
+nmh-monitor en=1 hwnd=1 bat=1 chan(en=1 ch=87 mg=6)
+nmh-monitor en=1 hwnd=1 bat=1 chan(en=1 ch=87 mg=6)
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=87 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=14 tgt=-1 fired=0 impEn=1 impV=30 imp=10 fImp=1
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=97 tgt=2 fired=1 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=77 tgt=3 fired=1 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=87 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=87 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=87 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=87 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=87 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=87 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=87 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=87 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=87 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=204/mx227 pct=89 thr=87 petP=87 alP=87 mag=6 mi=3 mt=1 cost=20 mp=57 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0

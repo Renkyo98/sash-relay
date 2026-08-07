@@ -1,20 +1,20 @@
 ﻿{
     "schema":  1,
     "project":  "SaSH Client05 porting",
-    "phase":  "fastbattle_core_expshow2",
+    "phase":  "fastbattle_rollback_A",
     "turn":  "awaiting_analyst",
     "needs_human":  false,
     "human_gate":  null,
     "attach_authorized":  false,
     "autologin_authorized":  false,
     "oaaw":  true,
-    "cycle":  169,
+    "cycle":  170,
     "model":  "gpt-5.6-terra",
     "reasoning_effort":  "medium",
-    "instruction":  "VERIFY 鍮좊Ⅸ?꾪닾 EXP ?쒖떆 ?ъ떆??(cycle 169). cycle168 鍮뚮뱶?ㅽ뙣: kExpResultMsg 誘몄꽑??3怨?- ?먯씤? kFastBattleActMsg ?좎뼵 二쇱꽍??\u0027kExpResultMsg\u0027 ?좏겙???곸뼱 鍮뚮뱶?ㅽ겕由쏀듃???좎뼵-?쎌엯 媛??if notmatch kExpResultMsg)媛 ?ㅽ궢?? ?섏젙: 二쇱꽍?먯꽌 ?좏겙 ?쒓굅. g++ EXIT=0, here-strings 43/43. 紐⑺몴 ?숈씪: fbHookRS?먯꽌 ?대씪 ?먮낯 RS call-through(battleResultMsg 梨꾩?) 吏곹썑 ExpResultHandler瑜?kExpResultMsg濡??몃━嫄고빐 StockChatBufferLine ?쒖떆+autobattle-diag exp-result 濡쒓렇(FastBattleExpShow). 硫붿떆吏踰덊샇 kFastBattleActMsg=0x1F2(kExpResultMsg=0x1F0怨?遺꾨━, FastBattleMsgFix). ?ъ쟾留덉빱 FastBattleExpShow/FastBattleMsgFix/fastbattle-end(bc)/fbHookRS/FoundationAShadow. Config ?묒そ default.json 遺덈?(FastBattle/FastAutoWalk=true, AutoBattle=false, ShowExp=true, boost14, delay0). Build(SaSH SKIPPED+sadll OK), Start 1?? 臾댁씤 ~70s. assert-fastbattle159.ps1. ?듭떖: exp-result 移댁슫??\u003e=3=EXP?쒖떆=肄붿뼱?꾩꽦) + ?쇱씤 verbatim + RS-recv/fastbattle-end(bc) 移댁슫??+ ?ㅽ겕由곗꺑 player exp:N. PASS=exp-result\u003e=3. exp0?몃뜲 RS-recv\u003e0?대㈃ battleResultMsg 誘몄땐??-\u003e ?ㅼ쓬 RS 吏곸젒?뚯떛. No commit. 怨꾩젙/鍮꾨쾲 誘몄텧??",
+    "instruction":  "鍮좊Ⅸ?꾪닾 (媛) ?ъ씠??A = 諛쒕챸 濡ㅻ갚 寃利?(cycle 170, OAAW, 臾댁씤). 諛곌꼍: ?댁쟾 鍮좊Ⅸ?꾪닾 fbHook? 諛쒕챸(蹂꾨룄 援щ룞 kFastBattleActMsg + lssproto_EO_send + fbHookRS + kExpResultMsg EXP?쒖떆 + 紐⑤땲??fast援щ룞/safety/state/shadow)?대씪 ?ㅻ꼫 吏?쒕줈 ?꾨㈃ 濡ㅻ갚. ?꾩옱 sadll??g_fb ?뚯꽌(fbParseBC ?뚯떛遺/fbShadowB C-A-P-U/fbShadowEN) + EN/B 李⑤떒(fbHookEN/B??if(g_fbLogEn) return) + ?낆꽕移?EN|B)留??⑥쓬. 鍮좊Ⅸ?꾪닾???щ쭔 留됯퀬 援щ룞/?쒖떆 ????以묐┰). 寃⑸━ g++ EXIT=0, here-string 43/43, 紐⑤땲??洹좏삎, 諛쒕챸 留덉빱 0. ???ъ씠??紐⑹쟻: (1)鍮뚮뱶 OK (2)?먮룞?꾪닾(scene) 臾댁넀??= 諛고??곹솴 ???뺤긽 ?쒖떆+?꾪닾/EXP ?뺤긽 (3)鍮좊Ⅸ?꾪닾 臾댄겕?섏떆. Config???먮룞?꾪닾 紐⑤뱶(AutoBattle=true, FastBattle=false, ShowExp=true, boost=14). ?깃났湲곗?=鍮뚮뱶 OK + 諛고??곹솴 ??뿉 ?좊떅 ?쒖떆(?ㅽ겕由곗꺑) + ?щ옒???놁쓬 + install ok=3(EN|B, RS?놁쓬). ?댄썑 ?ъ씠??B=g_fb ?뚯꽌 ?뺤옣(?곗쿂 BC?뚯꽌 ?댁떇), C=?곗씠?곗썝 ?ㅼ솑(鍮좊Ⅸ?꾪닾 ??諛고??곹솴쨌援щ룞遺瑜?g_fb濡?. ???PORTING-MANIFEST-fastbattle.md 짠6. No commit. 怨꾩젙/鍮꾨쾲 誘몄텧??",
     "relay":  "C:\\SaSH-relay",
     "repo":  "C:\\src\\etc-source-local",
     "client_exe":  "C:\\sa-bridge\\Client Source Code\\bin\\Release\\SA93Client.exe",
     "updated_by":  "codex-watcher",
-    "notes":  "cycle168 鍮뚮뱶?ㅽ뙣(二쇱꽍?좏겙??媛???ㅼ옉?? ?먭??섏젙 ??cycle169 ?щТ?? 紐⑺몴=EXP ?곗쿂???쒖떆(李?鍮꾩쓽議?. ?듦낵 ??鍮좊Ⅸ?꾪닾 肄붿뼱 ?꾩꽦. Owner away, autonomous. 蹂닿퀬 ?쒓뎅??"
+    "notes":  "諛⑺뼢 ?꾪솚(?ㅻ꼫 吏??: ?댁쟾 鍮좊Ⅸ?꾪닾??諛쒕챸?대씪 諛고??곹솴 誘명몴?쑣룹“??湲됯컧. F0 ?댁떇 = g_fb瑜??먮룞?꾪닾 諛고??곹솴쨌援щ룞遺??怨듦툒 + EN/B 李⑤떒, 諛쒕챸 濡ㅻ갚. 3?ъ씠???섍쾶: A濡ㅻ갚(?대쾲)/B?뚯꽌?뺤옣/C?곗씠?곗썝?ㅼ솑. ?깃났湲곗?=濡쒓렇 ?꾨땶 諛고??곹솴 ?ㅽ겕由곗꺑(?곗쿂 ?議?. (媛) ??C)?먯꽌 ?곗븣??\u003e?ㅻ꼫 ?섎룞?뺤씤-\u003e(??. 泥좎튃 PT 以?????諛?肄붾뱶 湲덉?). Owner watching, 臾댁씤 ?뚯씠?꾨씪?? 蹂닿퀬 ?쒓뎅??"
 }

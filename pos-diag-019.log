@@ -1,0 +1,4 @@
+LOGINSCR edge proc=1 alEnabled=1 pos=1
+AUTOLOGIN srv=0 sub=0 chr=1 proc=1 iter=0 cnt=0
+DC proc=11 rc=0 al=1 win=800x600 ok(395,330)
+DC proc=11 rc=1 al=1 win=800x600 ok(395,330)
