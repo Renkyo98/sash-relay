@@ -1,58 +1,88 @@
 # RESULT (Codex writes this each turn)
 
-CYCLE: 161
-INSTRUCTION_SHA256: 4130E8F7FD9306C7B3D66A75732D568F2EAB49E8E792444F4CA237F20DB7D74A
-STATUS: BLOCKED
+CYCLE: 162
+INSTRUCTION_SHA256: 9CC814DC3A27A1E5FA182D042A6733F47E86399D57792970B50AD90F6C9E8EEE
+STATUS: DONE
 
 ## git
 
-- branch: sash-client05-integration
-- HEAD: f325579faa0ccf1518856cd502298a9330ec1cd3
-- git status --short: 빌드 스크립트 실행 후 기존 작업 트리 변경이 존재함. 커밋하지 않음.
+- branch: main (C:\SaSH-relay\bus)
+- HEAD: 247b234c30f61767af8175b26d67c2f54c916cb6
+- git status --short (before reports):
+```
+ M artifacts/fastbattle-core/fastbattle-diag.log
+?? artifacts/fastbattle-core/autobattle-diag-155.log
+?? artifacts/fastbattle-core/fastbattle-core-01-30s.png
+?? artifacts/fastbattle-core/fastbattle-core-02-60s.png
+```
 
 ## changed files (if any)
 
-- 소스·플래그·커밋 변경 없음(명시된 빌드·배포 실행만 수행).
+- bus/artifacts/fastbattle-core/fastbattle-diag.log
+- bus/artifacts/fastbattle-core/autobattle-diag-155.log
+- bus/artifacts/fastbattle-core/fastbattle-core-01-30s.png
+- bus/artifacts/fastbattle-core/fastbattle-core-02-60s.png
+- RESULT.md; out/0162-cycle162-fastbattle-core4-facts.md
+- commit hash if committed: none
 
 ## build (if any)
 
-- SaSH: SKIPPED 확인
-- sadll SHA256: 135869CEA2763A1F94DDBC6E8F3154FC2FB0DA8924E70F01920722FB471FB69A
-- errors: 0 (sadll OK)
-- git diff --check: 실행하지 않음.
+- SaSH: build SKIPPED (SKIP_LAUNCHER_BUILD.flag); sadll build: OK
+- deployed sadll SHA256: 94F39A8984714EA2B1D1DBF0FC9C259888780548E3686A8D0BF17DB38A949E37
+- warnings: not reported; errors: 0
 
 ## static checks (if any)
 
-- 사전 마커: 모두 1개 이상.
-- SKIP_LAUNCHER_BUILD.flag: True.
-- 양쪽 설정 읽기: FastBattleEnable=True, FastAutoWalkEnable=True, AutoBattleEnable=False.
+- preflight markers / SKIP flag: PASS
+- FASTBATTLE159: FAIL
 
-## safety self-confirm
-
-- sadll changed: yes (배포됨)
-- new client memory write: yes (지시된 기능)
-- new client function call: yes (지시된 기능)
-- new packet/TCP: yes (지시된 기능)
-- PersonalKey exposed/logged: no
-- default flags changed (RUNTIME_ACTIVATION/SPEED_CONTROL): yes (지시된 런타임 default.json 두 파일)
-- client started/attached/run: yes
-- only handoff/ still untracked: yes (커밋 없음)
-
-## notes / exact error or refusal text (verbatim if BLOCKED/HALTED)
-
-- Start 1회 실행, 자동 로그인 후 약 60초 무인 관찰.
-- crash: no (관찰 종료 시 SA93Client 실행 중; 첫 조우 충돌 없음).
-- 스크린샷:
-  - C:\SaSH-relay\bus\artifacts\fastbattle-core\fastbattle-core-30s.png
-  - C:\SaSH-relay\bus\artifacts\fastbattle-core\fastbattle-core-60s.png
-- 로그 수집: C:\SaSH-relay\out\ 및 C:\SaSH-relay\bus\artifacts\fastbattle-core\.
-- 종료: 런처 WM_CLOSE, 이번 실행 SA93Client PID 1304 종료, 대상 프로세스 부재 확인.
+## FASTBATTLE159 stdout (verbatim)
 
 ```
-FASTBATTLE159: log=C:\zmffk\fastbattle-diag.log mtimeUtc=2026-08-07T10:30:22.6288710Z
-FASTBATTLE159: install_ok3=1 fastdrive=4 fbstate=84 procN==10=0 battlingSeen=0 SAFETY=1
+FASTBATTLE159: log=C:\zmffk\fastbattle-diag.log mtimeUtc=2026-08-07T10:40:39.4219571Z
+FASTBATTLE159: install_ok3=2 fastdrive=8 fbstate=181 procN==10=0 battlingSeen=0 SAFETY=2
 FASTBATTLE159: exp-result(EXP gained)=0
+--- last 20 fastbattle-diag lines ---
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+--- end ---
 FASTBATTLE159: FAIL
 REASON: EXP < 3 (battles not resolving / RS blocked / drive not killing enemies).
 ```
 
+## notes
+
+- config readback, both default.json: FastBattleEnable=true; FastAutoWalkEnable=true; AutoBattleEnable=false; AutoLoginEnable=true; AutoWalkEnable=false; ShowExpEnable=true; SpeedBoostValue=14; AutoWalkDelayValue=0.
+- Start invoked once; client PID 6436 remained running through the 60-second observation. Crash: no observed.
+- turn advanced beyond 1: yes (turn=4).
+- screenshots: C:\SaSH-relay\bus\artifacts\fastbattle-core\fastbattle-core-01-30s.png; C:\SaSH-relay\bus\artifacts\fastbattle-core\fastbattle-core-02-60s.png.
+- teardown: WM_CLOSE followed by scoped client/launcher termination; remaining scoped processes=0.
+
+## safety self-confirm
+
+- sadll changed: yes (built/deployed by instruction)
+- new client memory write: no
+- new client function call: no
+- new packet/TCP: no
+- PersonalKey exposed/logged: no (not inspected; readable=no; length=n/a)
+- default flags changed (RUNTIME_ACTIVATION/SPEED_CONTROL): no; requested values were already present in both files
+- client started/attached/run: yes
+- only handoff/ still untracked: yes, bus artifacts listed above
