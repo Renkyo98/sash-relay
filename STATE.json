@@ -1,20 +1,21 @@
 ﻿{
     "schema":  1,
     "project":  "SaSH Client05 porting",
-    "phase":  "fastbattle_B_parser_expand",
+    "phase":  "fastbattle_B_parser_verify_cfgfix",
     "turn":  "awaiting_analyst",
     "needs_human":  false,
     "human_gate":  null,
     "attach_authorized":  false,
     "autologin_authorized":  false,
     "oaaw":  true,
-    "cycle":  172,
+    "cycle":  173,
     "model":  "gpt-5.6-terra",
     "reasoning_effort":  "medium",
-    "instruction":  "鍮좊Ⅸ?꾪닾 (媛) ?ъ씠??B = g_fb ?뚯꽌 ?뺤옣 寃利?(cycle 172, OAAW, 臾댁씤). ?ъ씠?퀮(?щ옒?? 寃뚯씠?몃줈 ?닿껐쨌?듦낵. ?대쾲: ?곗쿂 tcpserver.cpp Worker::lssproto_B_recv case \u0027C\u0027 BC?뚯꽌(?좊떅??13?좏겙: base=2+i*13 湲곗? pos=base, name=base+1, modelid=base+3, level=base+4, hp=base+5, maxHp=base+6, status=base+7, rideFlag=base+8, rideName=base+9, rideLevel=base+10, rideHp=base+11, rideMaxHp=base+12)瑜?g_fb(FbState)??異⑹떎 ?댁떇. FbState??modelid/rideFlag/rideLevel/rideHp/rideMaxHp[20] + name/rideName[20][32] 異붽?. fbShadowB case \u0027C\u0027??BCunit ?뚯뒪濡쒓렇 異붽?(寃곗젙濡?寃利?. DEAD-zeroing+valid(sa::BC_FLG_DEAD/HIDE ?꾩슂)???뚮퉬遺 ?곌껐?섎뒗 ?ъ씠??C?먯꽌 ?댁떇(吏湲?raw留?罹≪쿂). g++ 臾몃쾿 OK + ?⑹꽦 BC?⑦궥 湲곕뒫寃利??듦낵(pos10 model=3E8 lv=3 hp=28 name=Slime). here-string 43/43. Config=鍮좊Ⅸ?꾪닾 ON(FastBattle=true, AutoBattle=true, ShowExp=true, boost=14). ?깃났湲곗?=鍮뚮뱶 OK + fastbattle-diag.log??BCunit ?뚯뒪濡쒓렇(model\u003e0/hp\u003e0/name?덉쓬)媛 ?먯떆 head=BC ??댁뼱? ?쇱튂 + install ok=3 + ?щ옒???놁쓬. ?낅튌瑜몄쟾??ON?대씪 ?먮룞?꾪닾 誘몄뿰寃곕줈 罹먮┃ ?꾪닾?뺤? ?뺤긽(?ъ씠??C?먯꽌 g_fb?믪옄?숈쟾??룸같??곹솴 ?곌껐). 濡쒓렇 寃쎈줈=C:\\zmffk\\fastbattle-diag.log(catch-all??D:\\SA-\u003eC:濡?移섑솚). No commit. 怨꾩젙/鍮꾨쾲 誘몄텧??",
+    "instruction":  "鍮좊Ⅸ?꾪닾 (媛) ?ъ씠??B ?ъ떎??= ?뚯꽌 寃利? ?ㅼ젙 ?섏젙 (cycle 173, OAAW, 臾댁씤). ?ъ씠??72???뚯꽌쨌鍮뚮뱶 ?뺤긽?대굹 ?ㅼ젙 ?ㅻ쪟濡?鍮좊Ⅸ?꾪닾 誘명솢?? FastBattle+AutoBattle ????true??붾뜲 ?곗쿂 generalform.cpp 697-726?먯꽌 鍮좊Ⅸ?꾪닾?μ옄?숈쟾???곹샇諛고???濡쒕뱶 ???먮룞?꾪닾媛 ?닿꺼 鍮좊Ⅸ?꾪닾 OFF??launcher-before-start.png ?≪븞 ?뺤씤: 鍮좊Ⅸ?꾪닾 泥댄겕 ?댁젣). ?뚯꽌肄붾뱶(?곗쿂 case \u0027C\u0027 ?댁떇)??洹몃?濡? ?대쾲: FastBattleEnable=true, AutoBattleEnable=false濡?鍮좊Ⅸ?꾪닾 ?ㅼ젣 ?쒖꽦????g_fb ?뚯뒪濡쒓렇(BCunit) 寃利? AutoWalk=true(嫄룰린議곗슦濡?議곗슦 諛쒖깮), 愿李?120珥? ?고??꾧?利?fastbattle-diag.log??install ok= 異쒗쁽(鍮좊Ⅸ?꾪닾 ?쒖꽦) + BCunit ?뚯뒪濡쒓렇(model\u003e0/hp\u003e0/name?덉쓬)媛 ?먯떆 head=BC ??댁뼱? ?쇱튂. ?낅튌瑜몄쟾?щ뒗 ?꾩쭅 援щ룞遺 ?놁쓬(battleActionFlag ?댁떇? ?ъ씠??C) ??罹먮┃ 泥??꾪닾??硫덉땄 ?뺤긽. PS1 ?щ같???놁쓬(?뚯꽌 洹몃?濡?, INSTRUCTION/STATE留?媛깆떊. ?깃났湲곗?=install ok=3 + BCunit ?뚯뒪媛 ?먯떆 BC? ?쇱튂 + ?щ옒???놁쓬. No commit. 怨꾩젙/鍮꾨쾲 誘몄텧??",
     "relay":  "C:\\SaSH-relay",
     "repo":  "C:\\src\\etc-source-local",
     "client_exe":  "C:\\sa-bridge\\Client Source Code\\bin\\Release\\SA93Client.exe",
     "updated_by":  "codex-watcher",
-    "notes":  "PT 異쒖쿂: FbState/fbParseBC ?뺤옣 = ?곗쿂 tcpserver.cpp lssproto_B_recv case \u0027C\u0027(13957~14024) 1:1 ?댁떇(二쇱냼/?좏겙?덉씠?꾩썐 洹몃?濡?. ?좉퇋 諛쒕챸 ?꾨떂. 寃利??곗쿂 ?議?BCunit ?뚯뒪濡쒓렇 vs ?먯떆 BC ??댁뼱). ?ㅼ쓬 ?ъ씠??C=g_fb瑜?諛고??곹솴(snapshot.battle)쨌?먮룞?꾪닾(kBattleActMsg) 怨듦툒 + DEAD/HIDE/valid ?댁떇(洹몃븣 sa::BC_FLG ?곸닔 ?붾컮?댁뒪 ?ㅻ뜑 ?ㅽ뀒?댁쭠) + ?꾪닾?쒓컙 諛고??곹솴 ??罹≪쿂濡?(媛) 理쒖쥌寃利? 寃뚯씠??CycleA-Gate171)???ъ씠??C?먯꽌 理쒖쥌 F0????긽?꾪궧+議곌굔遺李⑤떒) ?뺥빀 寃?? Owner watching, 臾댁씤. 蹂닿퀬 ?쒓뎅?? ???PORTING-MANIFEST-fastbattle.md 짠6 ?뚰듃2."
+    "notes":  "?낅컻寃?D16): 鍮좊Ⅸ?꾪닾?μ옄?숈쟾???곹샇諛고?(generalform 697-726). 鍮좊Ⅸ?꾪닾=EN/B李⑤떒+Worker?뚯떛(g_fb)+battleActionFlag援щ룞(generalform 708), ?먮룞?꾪닾 寃쎈줈 ?꾨떂. ?ъ씠??C ?ъ꽕怨? g_fb瑜??먮룞?꾪닾??怨듦툒???꾨땲???곗쿂 fast-battle 援щ룞(asyncBattleAction/battleActionFlag)??g_fb ?낅젰?쇰줈 ?댁떇 + 諛고??곹솴 snapshot.battle 怨듦툒 + DEAD/HIDE/valid(sa::BC_FLG, ?ㅻ뜑 ?ㅽ뀒?댁쭠) + ?꾪닾?쒓컙 諛고??곹솴 ??罹≪쿂. 寃뚯씠??鍮좊Ⅸ?꾪닾 ON???ㅼ튂(吏湲?留욎쓬). Owner watching, 臾댁씤. 蹂닿퀬 ?쒓뎅?? ???PORTING-MANIFEST-fastbattle.md 짠6.",
+    "config_note":  "runtime default.json + settings/default.json ???? AutoBattleEnable=false, FastBattleEnable=true (?곹샇諛고? ?꾩닔)"
 }
