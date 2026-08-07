@@ -1,20 +1,20 @@
 ﻿{
     "schema":  1,
     "project":  "SaSH Client05 porting",
-    "phase":  "fastenc_open_terrain_retest",
+    "phase":  "fastenc_zero_zero_verify",
     "turn":  "awaiting_analyst",
     "needs_human":  false,
     "human_gate":  null,
     "attach_authorized":  false,
     "autologin_authorized":  false,
     "oaaw":  true,
-    "cycle":  157,
+    "cycle":  158,
     "model":  "gpt-5.6-terra",
     "reasoning_effort":  "medium",
-    "instruction":  "鍮좊Ⅸ議곗슦 OPEN-TERRAIN re-test (cycle 157, OAAW + owner one manual reposition). Cycle 156: in-place gcgc (current-tile) still slowly drifted into a wall (owner nudged once). Owner hypothesis: char was in cluttered terrain; in open terrain (no walls within ~8 tiles) it may stay put. Build unchanged (current-tile, marker FastEncPosLog) + pos=(x,y) added to fastautowalk-diag. Owner manually moves char to open terrain ONCE after login, then unattended. Preflight markers FastEncPosLog, FoundationAShadow, \u0027((int)fs, cx, cy, feDir)\u0027==1, FreeRandomWalk==0, *noDrawMax==2. Config BOTH default.json: AutoLogin=true, AutoWalk=false, FastAutoWalk=TRUE, AutoBattle=true, FastBattle=false, ShowExp=true, SpeedBoost=14, AutoWalkDelay=0. Build, Start once, OWNER repositions char to open terrain ONCE (expected - do NOT teardown early), ~150s. From fastautowalk-diag pos=(x,y): report WHOLE-run span AND LAST-60-line span (the real drift metric, post-reposition). Verdict: last-60 span\u003c=2 = current-tile fine in open terrain (156 drift was terrain); span\u003e5 = fundamental leak -\u003e next step launcher (0,0). assert-foundationA bonus. No commit. Never print account/password/security-code. See INSTRUCTION.md.",
+    "instruction":  "VERIFY 鍮좊Ⅸ議곗슦 FIX2 = launcher (0,0) (cycle 158, OAAW, FULLY UNMANNED). Cycle157 open-terrain proved current-tile gcgc leaks on X (last-60 X span=11, no walls). Launcher move(QPoint(0,0),gcgc) tcpserver 7133 sends (0,0)=true in-place. FIX2 applied (marker FastEncFix2, send ((int)fs,0,0,feDir)). Preflight markers FastEncFix2, \u0027((int)fs, 0, 0, feDir)\u0027==1, \u0027((int)fs, cx, cy, feDir)\u0027==0, FoundationAShadow, FreeRandomWalk==0; confirm SKIP_LAUNCHER_BUILD.flag exists (launcher build skipped=expected, sadll-only). Config BOTH default.json: AutoLogin=true, AutoWalk=false, FastAutoWalk=TRUE, AutoBattle=true, FastBattle=false, ShowExp=true, SpeedBoost=14, AutoWalkDelay=0. Build (expect \u0027SaSH build SKIPPED\u0027 + sadll built), Start once, FULLY UNATTENDED (no touch), ~60s. From fastautowalk-diag pos=(x,y): WHOLE + last-30 span. assert-foundationA bonus. FIX2 PASS = battling\u003e=3 AND last-30 Xspan\u003c=2 AND Yspan\u003c=2 (truly in-place). If NO encounters (battling 0) -\u003e \u0027(0,0) NO ENCOUNTERS\u0027, revert to current-tile+robust anti-drift (valid outcome). No commit. Never print account/password/security-code. See INSTRUCTION.md.",
     "relay":  "C:\\SaSH-relay",
     "repo":  "C:\\src\\etc-source-local",
     "client_exe":  "C:\\sa-bridge\\Client Source Code\\bin\\Release\\SA93Client.exe",
     "updated_by":  "codex-watcher",
-    "notes":  "鍮좊Ⅸ議곗슦 open-terrain re-test. 156 in-place gcgc(current-tile) drifted into wall over time (owner nudged once). Launcher sends (0,0) not current-tile (move(QPoint(0,0),gcgc) tcpserver 7133) - candidate root fix, but owner wants to first rule out terrain: test current-tile in open terrain. pos logging added to fastautowalk-diag (pos-diag is tied to 嫄룰린議곗슦/off). If drifts even in open terrain -\u003e switch to (0,0). Foundation A already VERIFIED (155:236t, 156:414t, 100%). Cycle defaults now boost14/walkdelay0/observe short (RULES). NEXT after fastenc settled: switch auto-battle/escape/fall-escape/heal/show-exp to the verified wire engine, then fast-battle=block-only."
+    "notes":  "鍮좊Ⅸ議곗슦 (0,0) verify. 157 proved current-tile leaks on X (open terrain, span 11). Switched to launcher (0,0). Risk: prior note claimed (0,0) doesnt work on this server (likely confounded by the now-removed origin-drift bug) - this cleanly re-tests it. Build now fast: launcher build skipped via SKIP_LAUNCHER_BUILD.flag (sadll-only), observe 60s (owner: cut Codex time). Foundation A VERIFIED (155:236t, 156:414t, 157:632t, ~100%). NEXT after 鍮좊Ⅸ議곗슦 settled: roadmap-2 = switch auto-battle/escape/fall-escape/heal/show-exp from scene-read to the verified wire engine (shadow-equivalence first), then roadmap-3 fast-battle=EN/B block+wire-drive, roadmap-4 verify. North star: fully implement fast-battle unmanned. Owner away."
 }
