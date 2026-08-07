@@ -1,20 +1,20 @@
 ﻿{
     "schema":  1,
     "project":  "SaSH Client05 porting",
-    "phase":  "foundationA_shadow_verify",
+    "phase":  "foundationA_shadow_reverify",
     "turn":  "awaiting_analyst",
     "needs_human":  false,
     "human_gate":  null,
     "attach_authorized":  false,
     "autologin_authorized":  false,
     "oaaw":  true,
-    "cycle":  154,
+    "cycle":  155,
     "model":  "gpt-5.6-terra",
     "reasoning_effort":  "medium",
-    "instruction":  "BUILD+SHADOW-VERIFY Foundation A (cycle 154, OAAW). Preflight markers FoundationAShadow/AutoWalkOscillate/FastBattleHook, *noDrawMax==2, FreeRandomWalk==0. Config BOTH default.json: AutoLogin=true, AutoWalk=true, FastAutoWalk=false, AutoBattle=true, FastBattle=FALSE(scene needed), ShowExp=true, SpeedBoost=0, AutoWalkDistance=5, AutoWalkDelay=5; readback (FastBattle must be false). Delete stale foundationa-shadow/autobattle/autowalk logs. Build via human-b1diag-go.ps1 (fail-\u003eerror C + NEEDS_INPUT). Launch, Start once, auto-login, ~180s (oscillate-\u003eencounter-\u003eauto-battle w/ scene; shadow logs wire-vs-scene per turn). Collect foundationa-shadow+autobattle+autowalk. Run assert-foundationA.ps1 (PASS iff comparableTurns\u003e=8 AND matchRate\u003e=0.90). Confirm 嫄룰린議곗슦 oscillation (target orig+/-3, side flips) + battles occurred. If FAIL, paste first 8 mismatch SHADOW lines; change NO code. No commit. Foundation-A code is READ-ONLY (parse+read scene+log; no block, no send). Never print account/password/security-code. See INSTRUCTION.md.",
+    "instruction":  "RE-VERIFY Foundation A (cycle 155, OAAW). Cycle 154 \u0027FAIL\u0027 62.5% was a turn-0 pre-load race (wire parser correct: hp 30/32/24 read while scene still 0). FIXED: shadow compares every 400ms only for settled slots (scene maxHP\u003e0). Battles now via 鍮좊Ⅸ議곗슦 (FastAutoWalk in-place, no wall-stuck) not 嫄룰린議곗슦. Preflight markers FoundationAShadow/s_fbShWt/AutoWalkOscillate, FreeRandomWalk==0, *noDrawMax==2. Config BOTH default.json: AutoLogin=true, AutoWalk=FALSE, FastAutoWalk=TRUE, AutoBattle=true, FastBattle=FALSE(scene needed), ShowExp=true, SpeedBoost=14, AutoWalkDelay=5; readback (FastBattle=false, FastAutoWalk=true). Delete stale foundationa-shadow/autobattle logs. Build via human-b1diag-go.ps1 (fail-\u003eerror C+NEEDS_INPUT). Launch, Start once, ~180s dense in-place battles. assert-foundationA.ps1 (PASS iff comparableTurns\u003e=8 AND matchRate\u003e=0.90, expect ~1.0). If still FAIL, paste settled (non-turn-0) mismatch lines; change NO code. No commit. Foundation-A READ-ONLY (parse+read+log). Never print account/password/security-code. See INSTRUCTION.md.",
     "relay":  "C:\\SaSH-relay",
     "repo":  "C:\\src\\etc-source-local",
     "client_exe":  "C:\\sa-bridge\\Client Source Code\\bin\\Release\\SA93Client.exe",
     "updated_by":  "codex-watcher",
-    "notes":  "Foundation A shadow-verify: launcher wire battle parser (EN/BP/BC/BA) ported, running in SHADOW mode (parse + compare-log vs client scene feBObj, NO block, NO send). Goal: prove wire-parse == client scene so auto-battle/escape/fall-escape/heal/show-exp (all currently scene-shortcut, see FEATURE-AUDIT-F0.md) can be switched to the wire engine and fast-battle becomes block-only. BC token stride from Stage1 capture: unit i pos at full-token 2+i*13, hp+5 maxhp+6 status+7 level+4. This build also reverts 嫄룰린議곗슦 to pre-blackscreen fixed-origin oscillation (FreeRandomWalk removed - black-screen closed). Fast-battle checkbox is mutually-exclusive with auto-battle (generalform.cpp) and show-exp is independent (both confirmed in audit)."
+    "notes":  "Foundation A re-verify. 154 proved the wire parser reads correct enemy HP; only failed on turn-0 scene-not-loaded race (fixed: 400ms throttle + scene maxHP\u003e0 filter). 嫄룰린議곗슦 memory-move wall-stuck (side stuck 1802x, W2-drift server forced client-move; server-W2 rolls encounters vs walls, client-move stops at walls - separate follow-up). This cycle sidesteps it with 鍮좊Ⅸ議곗슦 (in-place gcgc encounters, faithful, dense). Boost=14 per owner (boost doesn\u0027t touch battle packets/scene, so verification unaffected + faster). On PASS -\u003e next: switch auto-battle/escape/fall-escape/heal/show-exp from scene-read to this wire engine (FEATURE-AUDIT-F0.md), then fast-battle = block-only."
 }
