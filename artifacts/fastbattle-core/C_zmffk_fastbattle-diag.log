@@ -1,0 +1,183 @@
+fastbattle-hook install ok=3 enTr=0F130000 bTr=0F150000
+EN fd=2652 result=1 field=68
+B fd=2652 sub=BP len=9 head=BP|0|8|3B
+B fd=2652 sub=BC len=76 head=BC|0|0|test2||18743|1E|FF|107|5|0||0|0|0|F|.....
+B fd=2652 sub=BA len=10 head=BA|8000|0|
+B fd=2652 sub=BA len=10 head=BA|8001|0|
+B fd=2652 sub=BH len=23 head=BH|a0|rF|f83|d49|p0|FF|
+B fd=2652 sub=BP len=9 head=BP|0|8|3B
+B fd=2652 sub=BC len=41 head=BC|0|0|test2||18743|1E|FF|107|4|0||0|0|0|
+B fd=2652 sub=BA len=7 head=BA|0|1|
+EN fd=2652 result=1 field=2
+B fd=2652 sub=BP len=9 head=BP|0|8|3B
+B fd=2652 sub=BC len=108 head=BC|0|0|test2||18743|1E|FF|107|5|0||0|0|0|F|....|
+B fd=2652 sub=BA len=11 head=BA|18000|0|
+B fd=2652 sub=BA len=11 head=BA|18001|0|
+B fd=2652 sub=BH len=46 head=BH|a0|rF|f83|d67|p0|FF|BH|a10|r0|f20|d0|p0|FF|
+B fd=2652 sub=BP len=9 head=BP|0|8|3B
+B fd=2652 sub=BC len=75 head=BC|0|0|test2||18743|1E|FF|107|4|0||0|0|0|10|....
+B fd=2652 sub=BA len=11 head=BA|10000|1|
+B fd=2652 sub=BA len=11 head=BA|10001|1|
+B fd=2652 sub=BH len=24 head=BH|a0|r10|f85|d92|p0|FF|
+B fd=2652 sub=BP len=9 head=BP|0|8|3B
+B fd=2652 sub=BC len=41 head=BC|0|0|test2||18743|1E|FF|107|4|0||0|0|0|
+B fd=2652 sub=BA len=7 head=BA|0|2|
+EN fd=2652 result=1 field=2
+B fd=2652 sub=BP len=9 head=BP|0|8|3B
+B fd=2652 sub=BC len=108 head=BC|0|0|test2||18743|1E|FF|107|5|0||0|0|0|F|....|
+B fd=2652 sub=BA len=11 head=BA|18000|0|
+B fd=2652 sub=BA len=11 head=BA|10001|1|
+B fd=2652 sub=BH len=46 head=BH|a0|r10|f20|d0|p0|FF|BH|a10|r0|f20|d0|p0|FF|
+B fd=2652 sub=BP len=9 head=BP|0|8|3B
+B fd=2652 sub=BC len=75 head=BC|0|0|test2||18743|1E|FF|107|4|0||0|0|0|10|....
+B fd=2652 sub=BA len=11 head=BA|10000|2|
+B fd=2652 sub=BA len=11 head=BA|10001|2|
+B fd=2652 sub=BH len=24 head=BH|a0|r10|f83|d69|p0|FF|
+B fd=2652 sub=BP len=9 head=BP|0|8|3B
+B fd=2652 sub=BC len=41 head=BC|0|0|test2||18743|1E|FF|107|4|0||0|0|0|
+B fd=2652 sub=BA len=7 head=BA|0|3|
+EN fd=2652 result=1 field=66
+B fd=2652 sub=BP len=9 head=BP|0|8|3B
+B fd=2652 sub=BC len=108 head=BC|0|0|test2||18743|1E|FF|107|5|0||0|0|0|F|....|
+B fd=2652 sub=BA len=11 head=BA|18000|0|
+B fd=2652 sub=BA len=11 head=BA|18001|0|
+B fd=2652 sub=BH len=46 head=BH|a0|rF|f83|d64|p0|FF|BH|a10|r0|f20|d0|p0|FF|
+B fd=2652 sub=BP len=9 head=BP|0|8|3B
+B fd=2652 sub=BC len=75 head=BC|0|0|test2||18743|1E|FF|107|4|0||0|0|0|10|....
+B fd=2652 sub=BA len=11 head=BA|10000|1|
+B fd=2652 sub=BA len=11 head=BA|10001|1|
+B fd=2652 sub=BH len=24 head=BH|a0|r10|f83|d64|p0|FF|
+B fd=2652 sub=BP len=9 head=BP|0|8|3B
+B fd=2652 sub=BC len=41 head=BC|0|0|test2||18743|1E|FF|107|4|0||0|0|0|
+B fd=2652 sub=BA len=7 head=BA|0|2|
+EN fd=2652 result=1 field=201
+B fd=2652 sub=BP len=9 head=BP|0|8|3B
+B fd=2652 sub=BC len=112 head=BC|0|0|test2||18743|1E|FF|107|5|0||0|0|0|F|.....
+B fd=2652 sub=BA len=11 head=BA|18000|0|
+fastbattle-hook install ok=3 enTr=13AC0000 bTr=13AD0000
+fastbattle-hook install ok=3 enTr=14440000 bTr=14450000
+fastbattle-hook install ok=3 enTr=14440000 bTr=14450000
+fastbattle-hook install ok=3 enTr=10EA0000 bTr=10EC0000
+fastbattle-hook install ok=3 enTr=10E20000 bTr=10E40000
+fastbattle-hook install ok=3 enTr=11CF0000 bTr=11D10000
+fastbattle-hook install ok=3 enTr=10850000 bTr=10870000
+fastbattle-hook install ok=3 enTr=0DE60000 bTr=0F260000
+fbstate procN=1 battling=0 active=0 turn=0 anim=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=0
+EN fd=2648 result=1 field=6
+B fd=2648 sub=BP len=9 head=BP|0|0|24
+B fd=2648 sub=BC len=140 head=BC|0|0|test2||18ADC|1E|101|107|5|1|.............
+B fd=2648 sub=BA len=10 head=BA|8000|0|
+fastdrive turn=0 myPos=0 anim=8000 target=15 bfd=A58
+B fd=2648 sub=BA len=10 head=BA|8001|0|
+B fd=2648 sub=BA len=10 head=BA|8021|0|
+B fd=2648 sub=BH len=23 head=BH|a0|rF|f83|d6D|p0|FF|
+B fd=2648 sub=BP len=9 head=BP|0|0|24
+B fd=2648 sub=BC len=107 head=BC|0|0|test2||18ADC|1E|101|107|4|1|.............
+B fd=2648 sub=BA len=7 head=BA|0|1|
+fbstate procN=9 battling=0 active=1 turn=1 anim=0
+fbstate procN=9 battling=0 active=1 turn=1 anim=0
+fbstate procN=9 battling=0 active=1 turn=1 anim=0
+fbstate procN=9 battling=0 active=1 turn=1 anim=0
+fbstate procN=9 battling=0 active=1 turn=1 anim=0
+fbstate procN=9 battling=0 active=1 turn=1 anim=0
+fbstate procN=9 battling=0 active=1 turn=1 anim=0
+fbstate procN=9 battling=0 active=1 turn=1 anim=0
+fastbattle SAFETY forced active=0 (stuck 8s) turn=1
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0

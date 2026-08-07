@@ -1,31 +1,60 @@
 # RESULT
 
-CYCLE: 158
-INSTRUCTION_SHA256: 88424A849ED3C80CA09D659905D2AD4B25A75794E327563060D109CE2F576AA6
+CYCLE: 159
+INSTRUCTION_SHA256: BCCF3EC8CEA17152B320EDF2F7D8E7F3F2A93199F3AEA0C3428DBDE84CD7062A
 STATUS: DONE
 
 ## build
 
-- sadll SHA256: 62E1C4EBA32BB8C48C76E4674EFE45E527A43F3F03CC5F3DBFF2EB9EA345A9C7
-- SaSH: SKIPPED (`SKIP_LAUNCHER_BUILD.flag` + existing launcher reuse).
-- 결과: sadll OK, build 오류 0.
+- sadll SHA256: A7762EB4F56D915B82B64F887B4B167C1611B16DDF13CDE47201D6523BDA4FC6
+- SaSH: SKIPPED (`SKIP_LAUNCHER_BUILD.flag` 확인; launcher unchanged).
+- 결과: `sadll OK`; 빌드 오류 출력 없음.
 
 ## runtime facts
 
-- 사전 표식: `FastEncFix2`=1, `((int)fs, 0, 0, feDir)`=1, 이전 `(cx, cy)` 전송=0, `FoundationAShadow`=2, `FreeRandomWalk`=0, SKIP flag=true.
-- 양쪽 default.json 읽기값: FastAutoWalkEnable=true, AutoWalkDelayValue=0. 지정 전체값: AutoLogin=true, AutoWalk=false, FastAutoWalk=true, AutoBattle=true, FastBattle=false, ShowExp=true, SpeedBoostValue=14.
-- Start 1회 실행 후 약 60초 무입력 관찰.
-- fastautowalk 위치: 전체 50개 — X=0..277 (span 277), Y=0..545 (span 545). 마지막 30개 — X=262..273 (span 11), Y=545..545 (span 0).
-- autobattle: `battling=1`=0, CHAR=0, PET=0, `comparableTurns`=0.
-- FoundationA assert stdout: PASS; comparableTurns=735, matched=730, mismatched=5, matchRate=0.9932.
-- 규칙상 판정: `(0,0) NO ENCOUNTERS` (`battling=0` 및 autobattle `comparableTurns=0`). 마지막 30 위치 X span=11, Y span=0.
-- 스크린샷: `bus/artifacts/fastenc-00/observe-30s.png`, `bus/artifacts/fastenc-00/observe-60s.png`.
-- 수집 로그: `out/` 및 `bus/artifacts/fastenc-00/`에 `fastautowalk-diag-151.log`, `foundationa-shadow.log`, `autobattle-diag.log` 복사. `D:\SA\zmffk` 경로는 없음.
+- 사전 표식: kFastBattleActMsg=3, FastBattleBlock=2, FastBattleDrive=2, FastBattleSafety=1, FastBattleState=1, FoundationAShadow=2. SKIP flag=true.
+- 양쪽 default.json 읽기값: FastBattleEnable=true, FastAutoWalkEnable=true, AutoBattleEnable=false.
+- Start 1회 실행. SA93Client PID 8080 시작. 종료 전 PID 8080 존재: true. crash=no (관찰 중 프로세스 존재); encounter 시 crash 관찰 없음.
+- 스크린샷: `bus/artifacts/fastbattle-core/fastbattle-core-159-20260807-190526-1.png`, `bus/artifacts/fastbattle-core/fastbattle-core-159-20260807-190602-2.png`.
+- 로그 수집: C:\zmffk의 fastbattle-diag.log, autobattle-diag-152.log, foundationa-shadow.log을 `out/` 및 `bus/artifacts/fastbattle-core/`에 복사. D:\SA\zmffk 드라이브는 없음.
+
+## FASTBATTLE159 stdout (verbatim)
+
+```
+FASTBATTLE159: log=C:\zmffk\fastbattle-diag.log mtimeUtc=2026-08-07T10:06:12.5336609Z
+FASTBATTLE159: install_ok3=9 fastdrive=1 fbstate=86 procN==10=0 battlingSeen=0 SAFETY=1
+FASTBATTLE159: exp-result(EXP gained)=0
+--- last 20 fastbattle-diag lines ---
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+fbstate procN=9 battling=0 active=0 turn=1 anim=0
+--- end ---
+FASTBATTLE159: FAIL
+REASON: fastdrive < 3 (drive not firing -> my-turn gate wrong, or no battles). Check fbstate active/turn.
+REASON: EXP < 3 (battles not resolving / RS blocked / drive not killing enemies).
+```
 
 ## safety self-confirm
 
-- PersonalKey: readable=no, length=0; 값 미기록.
+- PersonalKey: readable=not assessed (not read), length=not assessed; 값 미기록.
+- 계정/비밀번호/보안코드 출력: no.
 - client started/attached/run: yes; Start 1회.
-- crash check: 종료 전 SA93Client PID 1464 실행 확인.
-- teardown: launcher WM_CLOSE, 이 실행의 client PID 1464 종료, launcher 및 SA93Client 프로세스 부재, 모달 0 확인.
+- teardown: launcher WM_CLOSE, 이 실행의 client PID 8080 종료, SA93Client 및 SaSH-client05-cleanup-validation 잔존 프로세스 0.
 - commit: 없음.
