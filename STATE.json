@@ -1,20 +1,22 @@
 ﻿{
     "schema":  1,
     "project":  "SaSH Client05 porting",
-    "phase":  "fastbattle_encounter_channel_diag_retry",
+    "phase":  "fastbattle_pure_isolation_verify",
     "turn":  "awaiting_analyst",
     "needs_human":  false,
     "human_gate":  null,
     "attach_authorized":  false,
-    "autologin_authorized":  false,
+    "autologin_authorized":  true,
     "oaaw":  true,
-    "cycle":  183,
+    "cycle":  184,
     "model":  "gpt-5.6-terra",
     "reasoning_effort":  "low",
-    "instruction":  "鍮좊Ⅸ議곗슦 梨꾨꼸 吏꾨떒 ?ъ떎??182 ?쇱떆?ㅽ뙣 ?ъ떆??. fastbattle-diag??FBCHAN faw/aw/fb/ab 媛믪쑝濡?鍮좊Ⅸ議곗슦(fastAutoWalkRequested) ?꾪뙆 ?뺤젙. 鍮뚮뱶 寃곌낵 紐낆떆 蹂닿퀬. ?ㅼ젙 鍮좊Ⅸ?꾪닾ON+FastAutoWalk true. Start=\u0027?앷린 ?ㅽ뻾\u0027(1443,674). 肄붾뱶=吏꾨떒濡쒓렇留?cycle C + FBCHAN). No commit.",
+    "instruction_sha256":  "9D45F6A495584C3E1AAFB4D2F0B20FDF1DEF7683B05E72A93AC6A30C6384096D",
+    "instruction":  "PURE fast-battle only. Config Enable: FastBattle=true, AutoBattle=false, AutoEscape=false, FastAutoWalk=true, AutoWalk=false, Boost=14, WalkDelay=0 (BOTH default.json). Launch ONE client via \u0027?앷린 ?ㅽ뻾\u0027 click(1443,674). Record RUN_SINCE_ISO before launch. Observe ~90s; while battling open launcher F5 -\u003e \u0027諛고? ?곹솴\u0027 tab, save screenshot cycle184-battlestatus.png. Collect fastbattle-diag/autobattle-diag(-*)/fastautowalk-diag. Run assert-fastbattle184.ps1 (env RUN_SINCE_ISO). Report FBCHAN fb/ab, EN fd, BCunit count, fn1-vs-fn4909D0, exp-result count, pos fixed, sa.dmp fresh?, assert exit. No commit.",
     "relay":  "C:\\SaSH-relay",
     "repo":  "C:\\src\\etc-source-local",
     "client_exe":  "C:\\sa-bridge\\Client Source Code\\bin\\Release\\SA93Client.exe",
+    "assert":  "C:\\SaSH-relay\\assert-fastbattle184.ps1",
     "updated_by":  "codex-watcher",
-    "notes":  "faw=1?대㈃ ?꾪뙆OK?믩튌瑜몄“???ㅻⅨ寃뚯씠?? faw=0?대㈃ ?꾪뙆?ㅽ뙣?믩ℓ?????댁쨷json. ?ъ씠??C 肄붿뼱 諛고룷??議곗슦 ?뺣낫??遺곴레???먯젙). Owner watching, 臾댁씤. 蹂닿퀬 ?쒓뎅??"
+    "notes":  "媛 ?먯젙??寃⑸━ 寃利? 紐⑺몴: 罹먮┃???뺤?(pos 怨좎젙) + ??fn1(媛吏쒖뿏?고떚) + fn4909D0 遺??+ EN fd\u003e0 + exp-result + F5 諛고??곹솴 ?좊떅 ?쒖떆 + ?좉퇋?щ옒???? PASS硫?D19 湲곕줉 ??吏꾨떒留덉빱 ?쒓굅 ?ъ씠???덉빟. 蹂닿퀬 ?쒓뎅??"
 }
