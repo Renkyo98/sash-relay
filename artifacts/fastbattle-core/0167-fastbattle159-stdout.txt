@@ -1,0 +1,27 @@
+FASTBATTLE159: log=C:\zmffk\fastbattle-diag.log mtimeUtc=2026-08-07T12:04:53.2228324Z
+FASTBATTLE159: install_ok7=1 RSrecv=14 fastdrive=41 fbstate=94 procN==10=0 battlingSeen=0 SAFETY=0
+FASTBATTLE159: exp-result(EXP gained)=0
+--- last 20 fastbattle-diag lines ---
+fbstate procN=9 battling=0 active=0 turn=3 anim=0 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0 resultWnd=0
+--- end ---
+FASTBATTLE159: FAIL
+REASON: EXP < 3 (battles not resolving / RS blocked / drive not killing enemies).
