@@ -1,58 +1,49 @@
-# RESULT
+# RESULT (Codex writes this each turn)
 
-CYCLE: 155
-INSTRUCTION_SHA256: 3355CA3AE18FFDC26FA864B4C86EA5B315D7DFDC7976B06E284607A052ABCC58
+CYCLE: 156
+INSTRUCTION_SHA256: 7369CEF72EF0CDE654187C3B588062C890E677CDD5CCF391FFC71072BD2C9CA7
 STATUS: DONE
 
 ## git
 
 - branch: sash-client05-integration
 - HEAD: f325579faa0ccf1518856cd502298a9330ec1cd3
-- git status --short: 소스 변경 및 기존 미추적 파일 존재. 이 사이클에서 커밋 없음.
+- git status --short: 실행 전부터/빌드 스크립트 실행 후 변경·미추적 항목이 존재함. 커밋 없음.
 
 ## changed files (if any)
 
-- 지시된 런타임 default.json 두 파일의 설정값만 변경.
-- commit hash if committed: 없음
+- 런타임 설정: `logs/cycle-49/runtime/default.json`, `logs/cycle-49/runtime/settings/default.json` — FastAutoWalkEnable=true, AutoBattleEnable=true 포함 지시값 반영.
+- 보고: `RESULT.md`, `out/0156-cycle156-fastenc-fix-facts.md`.
+- commit hash: 없음.
 
-## build
+## build (if any)
 
-- 지정 스크립트: sadll OK, SaSH OK
-- deployed sadll SHA256: A700A881F2CC16A4122500A98111BC8164E84CE35CB8733FE5FC102BA786DFB6
-- warnings: 미집계
-- errors: 0
+- toolchain: VS2022 v143 / Release Win32 / Qt 5.15.2 msvc2019 x86 / /MD
+- sadll SHA256: AF91C4828663F8C52A31447CE12E99C3CF0B4AF0CB22DF7FB5CB42B6E1B27598
+- warnings: 빌드 표준출력에 경고 수 미보고
+- errors: 0 (sadll OK, SaSH OK)
+- git diff --check: PASS (줄끝 경고 출력 있음)
 
-## config readback
+## static checks (if any)
 
-- runtime/default.json: AutoBattleEnable=True, FastBattleEnable=False, FastAutoWalkEnable=True
-- runtime/settings/default.json: AutoBattleEnable=True, FastBattleEnable=False, FastAutoWalkEnable=True
-
-## FOUNDATIONA_ASSERT stdout (verbatim)
-
-```
-FOUNDATIONA_ASSERT: log=C:\zmffk\foundationa-shadow.log mtimeUtc=2026-08-07T08:48:57.2687470Z
-FOUNDATIONA_ASSERT: comparableTurns=236 matched=236 mismatched=0
-FOUNDATIONA_ASSERT: matchRate=1
-FOUNDATIONA_ASSERT: PASS
-CONFIRMED: wire-parsed battle state matches client scene at 100% across 236 turns -> BC/BA/BP parser is faithful. Safe to drive auto-battle from wire (Foundation A).
-```
-
-## runtime facts
-
-- settled mismatch: 0
-- 전투 발생: shadow comparable turns=236
-- 스크린샷: bus/artifacts/foundationa2/cycle155-01-050s.png, cycle155-02-100s.png, cycle155-03-150s.png
-- 크래시: 180초 관찰 중 크래시 미관찰.
-- teardown: launcher WM_CLOSE 수행. 이 실행의 client PID 1880은 런처 종료 뒤 부재. 관련 launcher/client 프로세스 부재 확인.
+- 사전 표식: PASS (`FastEncFix`=1, `FoundationAShadow`=2, `toward origin`=0, `*noDrawMax = `=2, `FreeRandomWalk`=0)
+- FoundationA assert: PASS; comparableTurns=414, matched=414, mismatched=0, matchRate=1
 
 ## safety self-confirm
 
-- sadll changed: yes
-- new client memory write: no (Foundation A 범위)
-- new client function call: no (Foundation A 범위)
-- new packet/TCP: no (Foundation A 범위)
-- PersonalKey readable: no; length: N/A; exposed/logged: no
-- 계정/비밀번호/보안코드 값: RESULT 및 durable facts에 기록하지 않음
-- default flags changed: yes (지시된 런타임 설정)
-- client started/attached/run: yes
-- only handoff/still untracked: no commit; 기존 작업 트리 변경 및 미추적 파일 유지
+- sadll changed: yes (지시된 빌드·배포)
+- new client memory write: no (이번 실행에서 신규 작성 없음)
+- new client function call: no (이번 실행에서 신규 작성 없음)
+- new packet/TCP: no (이번 실행에서 신규 작성 없음)
+- PersonalKey exposed/logged: no (값 미접근·미기록; readable=no, length=0)
+- default flags changed (RUNTIME_ACTIVATION/SPEED_CONTROL): no
+- client started/attached/run: yes; Start 1회, 약 150초 무인 실행
+- only handoff/ still untracked: yes; 커밋 없음
+
+## notes / exact error or refusal text (verbatim if BLOCKED/HALTED)
+
+- 두 default.json 읽기값: FastAutoWalkEnable=True, AutoBattleEnable=True.
+- fastautowalk: `ENABLED ... (pure in-place gcgc, no origin)` 기록; 최대 sent cnt=1447. autobattle 최대 tick cnt=1677, 기록된 battling=1.
+- pos-diag X/Y 표본은 0건이라 X/Y span은 산출 불가. 따라서 빠른조우 FIX 판정은 FAIL(필수 no-drift span 조건 미충족).
+- 스크린샷 3개: `bus/artifacts/fastenc-fix/fastenc-1.png`, `fastenc-2.png`, `fastenc-3.png`.
+- 종료: launcher WM_CLOSE 후 이 실행의 client PID 종료; 두 프로세스 부재 확인. 실행 중 두 프로세스는 Responding=True였음.
