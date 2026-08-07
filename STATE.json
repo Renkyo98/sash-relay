@@ -1,20 +1,20 @@
 ﻿{
     "schema":  1,
     "project":  "SaSH Client05 porting",
-    "phase":  "fastbattle_C_datasource_swap_northstar",
+    "phase":  "fastbattle_encounter_channel_diag",
     "turn":  "awaiting_analyst",
     "needs_human":  false,
     "human_gate":  null,
     "attach_authorized":  false,
     "autologin_authorized":  false,
     "oaaw":  true,
-    "cycle":  181,
+    "cycle":  182,
     "model":  "gpt-5.6-terra",
-    "reasoning_effort":  "medium",
-    "instruction":  "鍮좊Ⅸ?꾪닾 (媛) ?ъ씠??C = 援щ룞遺 ?곗씠?곗썝 ?ㅼ솑 ?ㅼ륫 = 遺곴레??(cycle 181, OAAW, 臾댁씤). ?댁떇 ?꾨즺: 鍮좊Ⅸ?꾪닾 ??(1)feBObj媛 g_fb 媛吏쒖뿏?고떚(???ㅽ봽???덉씠?꾩썐 func@8/dead@0x24/hp@0x78/max@0x80/mp@0x84/lv@0x8C/st@0x90) 諛섑솚?믨린議??먮룞?꾪닾 援щ룞遺媛 ???곗씠?곕? g_fb濡??쎌쓬(=?곗쿂 asyncBattleAction???뚯뒪臾닿? bt.objects ?댁떇), (2)fbFeedClient媛 ?꾪닾 ?ㅼ뭡??myNo@0x5A7E04/animFlag@0x5A7E18/svTurn@0x5A7E24/cliTurn@0x5A7E20/battling@0x64F83C)+?먯떆 BC@0x5A2DF8???대씪??write(李⑤떒??B_recv???곗씠?곗벐湲??泥??믨뎄??寃뚯씠???듦낵+諛고??곹솴 ?ㅻ깄??怨듦툒, (3)援щ룞 ?몃━嫄?寃뚯씠??autoBattleRequested??auto OR fast)(?곗쿂 asyncBattleAction 8242 ?숉삎). g++쨌媛吏쒖뿏?고떚 ?꾨뱶 寃利??꾨즺(hp/lv/mp ?뺥솗). 誘몄???battling ?ㅼ뭡??write?대룄 procNo=field(EN李⑤떒)???뚮뜑?놁씠 罹먮┃ ?뺤??섎뒗吏=?ㅼ륫. Config=鍮좊Ⅸ?꾪닾ON+鍮좊Ⅸ議곗슦(FastAutoWalk)ON+?먮룞?꾪닾OFF. Start=\u0027?앷린 ?ㅽ뻾\u0027 紐낆떆?대┃. ?깃났=諛고??곹솴 ???좊떅?쒖떆+罹먮┃ ?뺤?+泥섏튂쨌寃쏀뿕移?臾댄겕?섏떆=遺곴레?? ?ㅽ뙣(?뚮뜑/罹먮┃?대룞)硫?battling ?ㅼ뭡?????援щ룞寃뚯씠?몃? g_fb.active濡?吏곸젒. No commit. 怨꾩젙/鍮꾨쾲 誘몄텧??",
+    "reasoning_effort":  "low",
+    "instruction":  "鍮좊Ⅸ議곗슦 誘몃컻??吏꾨떒 = 梨꾨꼸 ?뚮옒洹??ㅽ봽 (cycle 182, 臾댁씤). ?ъ씠??81: ?ъ씠??C 諛고룷쨌臾댄겕?섏떆쨌罹먮┃?뺤?吏留?議곗슦 0(鍮좊Ⅸ議곗슦=fastAutoWalkRequested 誘몃컻??. sadll??FBCHAN ?ㅽ봽 異붽?(fastAutoWalkRequested/autoWalkRequested/fastBattleRequested/autoBattleRequested 2珥늵8??fastbattle-diag.log). 紐⑹쟻=FastAutoWalkEnable=true媛 fastAutoWalkRequested=1濡??꾪뙆?섎뒗吏 ?뺤젙. ?ㅼ젙 181?숈씪(鍮좊Ⅸ?꾪닾ON+FastAutoWalk true). Start=\u0027?앷린 ?ㅽ뻾\u0027(1443,674). 肄붾뱶=吏꾨떒濡쒓렇留? 蹂닿퀬 ?듭떖=FBCHAN faw 媛? No commit.",
     "relay":  "C:\\SaSH-relay",
     "repo":  "C:\\src\\etc-source-local",
     "client_exe":  "C:\\sa-bridge\\Client Source Code\\bin\\Release\\SA93Client.exe",
     "updated_by":  "codex-watcher",
-    "notes":  "?ъ씠??C 肄붿뼱 ?댁떇. ?곗쿂 異쒖쿂: feBObj?ㅼ솑=asyncBattleAction bt.objects ?뚯뒪臾닿?, fbFeedClient=Worker媛 wire濡?諛고??곹깭 梨꾩?, 寃뚯씠??asyncBattleAction 8242. 吏꾨떒留덉빱(FBMON/FBGATE/fbInstall STEP)???듦낵 ???뺣━. Start=\u0027?앷린 ?ㅽ뻾\u0027(1443,674) 怨좎젙. ?듦낵=(媛) ?앪넂?곗븣?? Owner watching, 臾댁씤. 蹂닿퀬 ?쒓뎅?? PS1 252431B."
+    "notes":  "faw=1?대㈃ ?꾪뙆OK?믩튌瑜몄“??釉붾줉 ?ㅻⅨ 寃뚯씠???먭?; faw=0?대㈃ ?꾪뙆?ㅽ뙣?믩윴泥?FastAutoWalk 泥댄겕諛뺤뒪?붿콈??留ㅽ븨/???댁쨷json ?먭?. ?ъ씠??C 肄붿뼱??諛고룷??議곗슦留??뺣낫?섎㈃ 遺곴레???먯젙 媛??. Owner watching, 臾댁씤. 蹂닿퀬 ?쒓뎅??"
 }
