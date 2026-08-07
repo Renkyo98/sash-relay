@@ -1,20 +1,20 @@
 ﻿{
     "schema":  1,
     "project":  "SaSH Client05 porting",
-    "phase":  "fastbattle_B_parser_live_verify",
+    "phase":  "fastbattle_B_parser_live_fastenc",
     "turn":  "awaiting_analyst",
     "needs_human":  false,
     "human_gate":  null,
     "attach_authorized":  false,
     "autologin_authorized":  false,
     "oaaw":  true,
-    "cycle":  178,
+    "cycle":  179,
     "model":  "gpt-5.6-terra",
     "reasoning_effort":  "medium",
-    "instruction":  "鍮좊Ⅸ?꾪닾 g_fb ?뚯꽌 ?ㅼ쬆 = ?ㅼ젣 BC ?뚯떛 寃利?(cycle 178, OAAW, 臾댁씤). ?낅?諛섏쟾(cycle177): \u0027?щ옒?????ㅼ쭊, Codex Start ?몃━嫄?臾몄젣. \u0027?앷린 ?ㅽ뻾\u0027 紐낆떆 醫뚰겢由?1443,674)?대㈃ 鍮좊Ⅸ?꾪닾 ?대씪 ?뺤긽?ㅽ뻾 + install ok=3 + 臾댄겕?섏떆(fastbattle-diag 留덉빱 FBMON/FBGATE/fbInstall STEP0~4濡??ㅼ쬆). ??30珥덈씪 議곗슦 ?놁뼱 BCunit 誘몃컻?? ?대쾲: ?덉젙??Start(紐낆떆 ?대┃ ?꾩닔) + 愿李?120珥덈줈 議곗슦 ?뺣낫 ??fbShadowB case \u0027C\u0027媛 ?ㅼ젣 BC瑜?g_fb濡??뚯떛??BCunit ?뚯뒪濡쒓렇 ?④린?붿? + ?먯떆 head=BC ??댁뼱? ?쇱튂 ?뺤씤. 鍮좊Ⅸ?꾪닾 援щ룞遺 ?꾩쭅 ?놁뼱 泥??꾪닾??罹먮┃ 硫덉땄 ?뺤긽(BC 1媛쒕㈃ 異⑸텇). 肄붾뱶蹂寃??놁쓬. ?깃났湲곗?=install ok=3 + BCunit???먯떆 BC? ?쇱튂(model\u003e0/hp\u003e0/name?덉쓬) + 臾댄겕?섏떆. No commit. 怨꾩젙/鍮꾨쾲 誘몄텧??",
+    "instruction":  "鍮좊Ⅸ?꾪닾 ?뚯꽌 ?ㅼ쬆 = 鍮좊Ⅸ議곗슦 ON?쇰줈 議곗슦 ?뺣낫 (cycle 179, OAAW, 臾댁씤). cycle178: ?대씪 ?뺤긽?ㅽ뻾쨌install ok=3쨌臾댄겕?섏떆??쇰굹 議곗슦 0(EN/B ?꾨Т) ???먯씤=鍮좊Ⅸ議곗슦(FastAutoWalk) OFF. ?곕━ sadll 鍮좊Ⅸ議곗슦(?쒖옄由?gcgc, PS1 792-841)??fastAutoWalkRequested濡?耳쒖쭚. ?대쾲: FastAutoWalkEnable=true濡??쒖옄由?鍮좊Ⅸ議곗슦 耳?議곗슦 ?뺣낫 ??g_fb ?뚯꽌(?곗쿂 case \u0027C\u0027 ?댁떇) ?ㅼ젣 BC ?ㅼ쬆. Start??諛섎뱶??\u0027?앷린 ?ㅽ뻾\u0027 紐낆떆 醫뚰겢由?1443,674). 肄붾뱶蹂寃??놁쓬(PS1 洹몃?濡?. 鍮좊Ⅸ?꾪닾 援щ룞遺 ?놁뼱 泥??꾪닾??罹먮┃ 硫덉땄 ?뺤긽(BC 1媛쒕㈃ 異⑸텇). ?깃났湲곗?=install ok=3 + EN\u003e0(議곗슦諛쒖깮) + BCunit???먯떆 head=BC? ?쇱튂(model\u003e0/hp\u003e0/name) + 臾댄겕?섏떆. No commit. 怨꾩젙/鍮꾨쾲 誘몄텧??",
     "relay":  "C:\\SaSH-relay",
     "repo":  "C:\\src\\etc-source-local",
     "client_exe":  "C:\\sa-bridge\\Client Source Code\\bin\\Release\\SA93Client.exe",
     "updated_by":  "codex-watcher",
-    "notes":  "D18: ?щ옒???ㅼ쭊 ?뺤젙, 鍮좊Ⅸ?꾪닾 ?대씪 ?ㅽ뻾쨌?낆꽕移??뺤긽. ?꿙tart??諛섎뱶??\u0027?앷린 ?ㅽ뻾\u0027 紐낆떆 ?대┃(1443,674). ?댄썑 ?ъ씠??C=?곗쿂 fast-battle 援щ룞(asyncBattleAction/battleActionFlag generalform708) + 諛고??곹솴 g_fb 怨듦툒 + ?꾪닾?쒓컙 諛고??곹솴 ??罹≪쿂 + 吏꾨떒留덉빱 ?뺣━. g_fb ?뚯꽌=?곗쿂 tcpserver case \u0027C\u0027 ?댁떇(寃利앹셿猷?. Owner watching, 臾댁씤. 蹂닿퀬 ?쒓뎅?? (媛) 以묎컙=?곗븣???놁쓬."
+    "notes":  "D18: ?щ옒???ㅼ쭊, 鍮좊Ⅸ?꾪닾 ?대씪 ?뺤긽. ?낆꽕??援먰썕: 鍮좊Ⅸ議곗슦=FastAutoWalkEnable(?쒖옄由?gcgc), 嫄룰린議곗슦=AutoWalkEnable(?ㅽ???. ?ㅻ꼫 ?ㅼ궗??鍮좊Ⅸ議곗슦. ?댄썑 ?ъ씠??C=?곗쿂 fast-battle 援щ룞(battleActionFlag/asyncBattleAction generalform708) g_fb ?낅젰 ?댁떇 + 諛고??곹솴 snapshot.battle 怨듦툒 + DEAD/HIDE/valid(sa::BC_FLG) + ?꾪닾?쒓컙 諛고??곹솴 ??罹≪쿂 + 吏꾨떒留덉빱 ?뺣━. Start=\u0027?앷린 ?ㅽ뻾\u0027 紐낆떆?대┃ 怨좎젙. Owner watching, 臾댁씤. 蹂닿퀬 ?쒓뎅?? (媛) 以묎컙=?곗븣???놁쓬."
 }
