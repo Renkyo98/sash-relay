@@ -1,40 +1,37 @@
 # RESULT (Codex writes this each turn)
 
-CYCLE: 174
-INSTRUCTION_SHA256: 88390CC1EFD77731DAD8B4485AE06A14BCC43C5874CA208046B82EDE8D31A04D
+CYCLE: 175
+INSTRUCTION_SHA256: 324B8053F71E10F5B830375D55207D0B21C63D8D56FC310CE8599EF9CC3F02D6
 STATUS: DONE
 
 ## git
 - branch: sash-client05-integration
 - HEAD: f325579faa0ccf1518856cd502298a9330ec1cd3
-- git status --short: pre-existing and launcher-script source deltas present; no user-requested source/flag/commit change made this cycle.
+- git status --short: recorded in `out/0175-cycle175-proctimeline-facts.md`
 
-## build
+## changed files (if any)
+- No source, flag, or commit changes made directly in this cycle.
+
+## build (if any)
 - toolchain: VS2022 v143 / Release Win32 / Qt 5.15.2 msvc2019 x86 / /MD
 - SaSH SHA256: 227875B30FAA1CD8A1149C8DF1F18D09C3D64FB07993FB79FCDF9C65385FB6C7
-- sadll SHA256: CCF4A7A16683FD3E33B1B7DBDB204448FD5E6FAAF09DE7B9BCB6389A02BBA621
-- warnings: 3   errors: 0
-- SaSH build: SKIPPED (SKIP_LAUNCHER_BUILD.flag)
-- git diff --check: PASS (warnings only)
+- sadll SHA256: 69A1C713090CC87F96A46C6E303070828B0FF6E6A3B8E002B089EECDDC124D7A
+- warnings: 6   errors: 0
+- git diff --check: PASS
 
-## runtime facts
-- Runtime default.json and settings/default.json: FastBattleEnable=True; AutoBattleEnable=False; AutoLoginEnable=True; AutoWalkEnable=True; FastAutoWalkEnable=False; ShowExpEnable=True; SpeedBoostValue=14; AutoWalkDistanceValue=5; AutoWalkDelayValue=0.
-- Launcher run: 167, started once at 2026-08-08T01:48:44+09:00.
-- Observation: SA93Client absent at 2026-08-08T01:49:21+09:00 and 2026-08-08T01:50:26+09:00. Estimated disappearance: before the first observation (within approximately 30 seconds of launcher start).
-- Screenshot: not created; SA93Client was absent at the capture opportunity.
-- fastbattle-diag.log: absent. Full content: absent.
-- autologin-diag-167.log: N; last line: none.
-- landing-diag-167.log: N; last line: none.
-- b1-step-diag-167.log: N; last line: none.
-- Collected existing C:\zmffk\fastbattle-diag.log / *-diag*.log matches to C:\SaSH-relay\out and C:\SaSH-relay\bus\artifacts\crashdiag.
-- Teardown: WM_CLOSE sent to SaSH-client05-cleanup-validation PID 7604; no SaSH* or SA93Client process remained.
+## static checks (if any)
+- SaSH build: SKIPPED (`SKIP_LAUNCHER_BUILD.flag`)
+- sadll build: PASS
 
 ## safety self-confirm
-- sadll changed: yes (launcher-script generated/deployed diagnostic build)
-- new client memory write: no
-- new client function call: no
-- new packet/TCP: no
-- PersonalKey exposed/logged: no (readable: no; length: not read)
-- default flags changed (RUNTIME_ACTIVATION/SPEED_CONTROL): no
-- client started/attached/run: yes; launcher started once, SA93Client absent before first 30-second observation
+- sadll changed: no direct edit
+- new client memory write: no direct edit
+- new client function call: no direct edit
+- new packet/TCP: no direct edit
+- PersonalKey exposed/logged: no (readable: no; length: N/A)
+- default flags changed (RUNTIME_ACTIVATION/SPEED_CONTROL): no direct edit
+- client started/attached/run: no (`SA93Client` was not observed)
 - only handoff/ still untracked: yes
+
+## notes / exact error or refusal text (verbatim if BLOCKED/HALTED)
+SA93Client timeline: not observed during 90-second polling window, 2026-08-08T02:03:27.0047763+09:00 through 2026-08-08T02:04:59.3085578+09:00. Launcher observed throughout; teardown completed with 0 remaining processes. Readonly log unchanged: 22055685 bytes, 2026-08-08T01:12:16.5569119+09:00 before and after. Current-run b1-step-diag, autologin-diag, and fastbattle-diag were absent.
