@@ -1,20 +1,20 @@
 ﻿{
     "schema":  1,
     "project":  "SaSH Client05 porting",
-    "phase":  "fastbattle_encounter_channel_diag",
+    "phase":  "fastbattle_encounter_channel_diag_retry",
     "turn":  "awaiting_analyst",
     "needs_human":  false,
     "human_gate":  null,
     "attach_authorized":  false,
     "autologin_authorized":  false,
     "oaaw":  true,
-    "cycle":  182,
+    "cycle":  183,
     "model":  "gpt-5.6-terra",
     "reasoning_effort":  "low",
-    "instruction":  "鍮좊Ⅸ議곗슦 誘몃컻??吏꾨떒 = 梨꾨꼸 ?뚮옒洹??ㅽ봽 (cycle 182, 臾댁씤). ?ъ씠??81: ?ъ씠??C 諛고룷쨌臾댄겕?섏떆쨌罹먮┃?뺤?吏留?議곗슦 0(鍮좊Ⅸ議곗슦=fastAutoWalkRequested 誘몃컻??. sadll??FBCHAN ?ㅽ봽 異붽?(fastAutoWalkRequested/autoWalkRequested/fastBattleRequested/autoBattleRequested 2珥늵8??fastbattle-diag.log). 紐⑹쟻=FastAutoWalkEnable=true媛 fastAutoWalkRequested=1濡??꾪뙆?섎뒗吏 ?뺤젙. ?ㅼ젙 181?숈씪(鍮좊Ⅸ?꾪닾ON+FastAutoWalk true). Start=\u0027?앷린 ?ㅽ뻾\u0027(1443,674). 肄붾뱶=吏꾨떒濡쒓렇留? 蹂닿퀬 ?듭떖=FBCHAN faw 媛? No commit.",
+    "instruction":  "鍮좊Ⅸ議곗슦 梨꾨꼸 吏꾨떒 ?ъ떎??182 ?쇱떆?ㅽ뙣 ?ъ떆??. fastbattle-diag??FBCHAN faw/aw/fb/ab 媛믪쑝濡?鍮좊Ⅸ議곗슦(fastAutoWalkRequested) ?꾪뙆 ?뺤젙. 鍮뚮뱶 寃곌낵 紐낆떆 蹂닿퀬. ?ㅼ젙 鍮좊Ⅸ?꾪닾ON+FastAutoWalk true. Start=\u0027?앷린 ?ㅽ뻾\u0027(1443,674). 肄붾뱶=吏꾨떒濡쒓렇留?cycle C + FBCHAN). No commit.",
     "relay":  "C:\\SaSH-relay",
     "repo":  "C:\\src\\etc-source-local",
     "client_exe":  "C:\\sa-bridge\\Client Source Code\\bin\\Release\\SA93Client.exe",
     "updated_by":  "codex-watcher",
-    "notes":  "faw=1?대㈃ ?꾪뙆OK?믩튌瑜몄“??釉붾줉 ?ㅻⅨ 寃뚯씠???먭?; faw=0?대㈃ ?꾪뙆?ㅽ뙣?믩윴泥?FastAutoWalk 泥댄겕諛뺤뒪?붿콈??留ㅽ븨/???댁쨷json ?먭?. ?ъ씠??C 肄붿뼱??諛고룷??議곗슦留??뺣낫?섎㈃ 遺곴레???먯젙 媛??. Owner watching, 臾댁씤. 蹂닿퀬 ?쒓뎅??"
+    "notes":  "faw=1?대㈃ ?꾪뙆OK?믩튌瑜몄“???ㅻⅨ寃뚯씠?? faw=0?대㈃ ?꾪뙆?ㅽ뙣?믩ℓ?????댁쨷json. ?ъ씠??C 肄붿뼱 諛고룷??議곗슦 ?뺣낫??遺곴레???먯젙). Owner watching, 臾댁씤. 蹂닿퀬 ?쒓뎅??"
 }

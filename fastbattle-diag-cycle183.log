@@ -1,0 +1,15 @@
+FBCHAN faw=1 aw=0 fb=1 ab=0
+FBGATE install-call g_fbLogEn=1
+fbInstall STEP0 enter base=00400000
+fbInstall STEP1 trampEN=10FA0000
+fbInstall STEP2 trampB=10FC0000
+fbInstall STEP3 patchEN ok=1
+fbInstall STEP4 patchB ok=3
+fastbattle-hook install ok=3 enTr=10FA0000 bTr=10FC0000
+FBCHAN faw=1 aw=0 fb=1 ab=0
+FBCHAN faw=1 aw=0 fb=1 ab=0
+FBCHAN faw=1 aw=0 fb=1 ab=0
+FBCHAN faw=1 aw=0 fb=1 ab=0
+FBCHAN faw=1 aw=0 fb=1 ab=0
+FBCHAN faw=1 aw=0 fb=1 ab=0
+FBCHAN faw=1 aw=0 fb=1 ab=0
