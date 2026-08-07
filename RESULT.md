@@ -6,12 +6,13 @@ STATUS: DONE
 
 ## git
 - branch: main
-- HEAD: 0f7ff15bd06eddd1e734870f6726ccb248f23071
-- git status --short: ?? artifacts/ps1-current/
+- HEAD: 3a4760ad670018dcaec4405463846e4ec41afb23
+- git status --short: (비어 있음)
 
 ## changed files (if any)
 - artifacts/ps1-current/human-b1diag-go.ps1  SHA256=8A39938DFE2C51657D44B253634F33BC38CE8E298164D5AED932FB227331870A
 - artifacts/ps1-current/client_runtime_diagnostics.cpp  SHA256=확인 생략(참고용 복사)
+- commit hash: 3a4760ad670018dcaec4405463846e4ec41afb23, message: bus: cycle 180 expose current ps1
 
 ## build (if any)
 - 빌드·클라이언트 실행 없음.
@@ -28,8 +29,9 @@ STATUS: DONE
 - PersonalKey exposed/logged: no
 - default flags changed (RUNTIME_ACTIVATION/SPEED_CONTROL): no
 - client started/attached/run: no
-- only handoff/ still untracked: yes (bus push 전)
+- only handoff/ still untracked: no
 
 ## notes / exact error or refusal text (verbatim if BLOCKED/HALTED)
 - human-b1diag-go.ps1: SHA256=8A39938DFE2C51657D44B253634F33BC38CE8E298164D5AED932FB227331870A, Length=249331.
 - 참고용 client_runtime_diagnostics.cpp 복사 완료.
+- 공개 bus push 완료.
