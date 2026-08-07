@@ -1,21 +1,21 @@
 ﻿{
     "schema":  1,
     "project":  "SaSH Client05 porting",
-    "phase":  "freewalk_black_reproduction_boost14",
+    "phase":  "freewalk_random_black_reproduction_boost14",
     "turn":  "awaiting_analyst",
     "needs_human":  false,
     "human_gate":  null,
     "attach_authorized":  false,
     "autologin_authorized":  false,
     "oaaw":  true,
-    "cycle":  149,
+    "cycle":  150,
     "model":  "gpt-5.6-terra",
     "reasoning_effort":  "medium",
-    "instruction":  "REPRODUCE free-walk black at SpeedBoost=14 (cycle 149, OAAW). Rebuild via human-b1diag-go.ps1 (229395B, markers [AutoWalkSpanFromConfig]+[F0 boost FAITHFUL], *noDrawMax writes=2). Config BOTH default.json: AutoLogin=true, AutoWalk=true, FastAutoWalk=false, AutoBattle=true, SpeedBoost=14, AutoWalkDistance=30 (long traversal=real scroll), AutoWalkDelay=5; readback both. Delete stale boost/autowalk logs. Launch, press Start once, auto-login, ~150s free-walk at boost14. \u003e=10 screenshots ~15s apart to bus/artifacts/freewalk-boost14. Collect newest boost-diag*.log + autowalk-diag*.log (C:\\zmffk AND D:\\SA\\zmffk). Run assert-walk.ps1 (report max tiles from origin - must be ~\u003e=15 to prove span engaged) and assert-noblack147.ps1 -Dir ...freewalk-boost14. Confirm boost-diag level=14 shows noDrawMax 2-\u003e14 (faithful). NOBLACK FAIL=black reproduced (GOAL); PASS+large span=escalate. No commit. See INSTRUCTION.md.",
+    "instruction":  "REPRODUCE free-walk black at SpeedBoost=14 via robust FREE RANDOM WALK (cycle 150, OAAW). Rebuild via human-b1diag-go.ps1 (markers [FreeRandomWalk]+[F0 boost FAITHFUL], *noDrawMax writes=2; verify by MARKERS not byte size). Config BOTH default.json: AutoLogin=true, AutoWalk=true(arms random walk), FastAutoWalk=false, AutoBattle=true, SpeedBoost=14, AutoWalkDistance=15(step), AutoWalkDelay=5; readback both. Delete stale boost/autowalk logs. Launch, Start once, auto-login, ~150s free random walk (client self-walks new terrain, re-randomizes heading when blocked so never stuck). \u003e=12 screenshots ~12s apart to bus/artifacts/freewalk-random-boost14. Collect newest boost-diag*.log + autowalk-diag*.log. assert-walk (distinct positions expect \u003e=15 = real wander; max tiles) + assert-noblack147 -Dir ...freewalk-random-boost14. Confirm boost-diag level=14 noDrawMax 2-\u003e14. NOBLACK FAIL=black reproduced (GOAL); PASS+many-tiles=escalate. No commit. See INSTRUCTION.md.",
     "relay":  "C:\\SaSH-relay",
     "repo":  "C:\\Users\\Administrator\\Documents\\Codex\\2026-07-19\\windows-ui-60-exit-code-0\\work\\etc-source-local",
     "client_exe":  "C:\\sa-bridge\\Client Source Code\\bin\\Release\\SA93Client.exe",
     "client_exe_sha256":  "756A90D6CCF5CEFEED72B12E3D524D88B702946B365FF804A86B47C56BB73F4E",
     "updated_by":  "codex-watcher",
-    "notes":  "Codex hands/feet validated (cycle 148 WALK_ASSERT PASS; config-both-files fix confirmed want=1). Owner clarified black = FREE WALK only (continuous scroll), NOT 嫄룰린議곗슦 (hardcoded +-3, no scroll). Fix: wired awSpan to the already-plumbed-but-ignored channel autoWalkDistance (= launcher AutoWalkDistance setting); large value -\u003e free-walk-equivalent long traversal. This cycle rebuilds (deploys faithful boost too) and runs boost=14 + AutoWalkDistance=30 to REPRODUCE and deterministically measure the black. Expected NOBLACK FAIL (black reproduced) -\u003e then A/B tune max-skip vs distance. Boost tradeoff decision still pending owner after repro is confirmed."
+    "notes":  "Cycle 149 halted on my brittle byte-size preflight (CRLF made 232160 vs hardcoded 229395); Codex correctly refused (good faithfulness). Lesson: verify by MARKERS not size. Owner directive: launcher fixed oscillation revisits one corridor (cached -\u003e no black); need a genuine free random walk into NEW terrain that does NOT get stuck. Implemented [FreeRandomWalk]: monitor reads live pos, random 8-dir heading, re-randomizes when position stops advancing (blocked) so never stuck; step = AutoWalkDistance. g++ -fsyntax-only PASS on the block. This cycle rebuilds (faithful boost too) and runs boost=14 to reproduce+measure the black. Expected NOBLACK FAIL (reproduced) -\u003e then A/B tune. Boost tradeoff decision still pending owner after repro confirmed."
 }
