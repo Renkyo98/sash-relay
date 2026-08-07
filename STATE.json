@@ -1,20 +1,20 @@
 ﻿{
     "schema":  1,
     "project":  "SaSH Client05 porting",
-    "phase":  "fastenc_fix_verify",
+    "phase":  "fastenc_open_terrain_retest",
     "turn":  "awaiting_analyst",
     "needs_human":  false,
     "human_gate":  null,
     "attach_authorized":  false,
     "autologin_authorized":  false,
     "oaaw":  true,
-    "cycle":  156,
+    "cycle":  157,
     "model":  "gpt-5.6-terra",
     "reasoning_effort":  "medium",
-    "instruction":  "VERIFY 鍮좊Ⅸ議곗슦(fast-encounter) fix (cycle 156, OAAW). Cycle 155 PASSED Foundation A (236 turns 100% wire==scene) but 鍮좊Ⅸ議곗슦 drifted into a wall pre-checked (needed manual uncheck/recheck). FIXED (marker FastEncFix): removed invented origin-capture + drift-correction; now pure in-place gcgc (launcher move(0,0,gcgc) faithful, net-zero, cannot move/jam). Reproduce bug scenario: 鍮좊Ⅸ議곗슦 checked in config BEFORE launch, UNATTENDED (no manual toggling). Preflight markers FastEncFix, FoundationAShadow, \u0027toward origin\u0027==0, FreeRandomWalk==0, *noDrawMax==2. Config BOTH default.json: AutoLogin=true, AutoWalk=false, FastAutoWalk=TRUE(pre-checked=bug repro), AutoBattle=true, FastBattle=false, ShowExp=true, SpeedBoost=14, AutoWalkDelay=5. Delete stale foundationa-shadow/fastautowalk/pos/autobattle logs. Build, Start once, DO NOT touch launcher, ~150s. assert-foundationA.ps1 (bonus re-confirm ~1.0). 鍮좊Ⅸ議곗슦 FIX PASS = fastautowalk sends firing AND pos-diag X/Y range SMALL (no drift) AND comparableTurns\u003e=20 (encounters unattended). Report pos-diag X/Y span explicitly. No commit. Never print account/password/security-code. See INSTRUCTION.md.",
+    "instruction":  "鍮좊Ⅸ議곗슦 OPEN-TERRAIN re-test (cycle 157, OAAW + owner one manual reposition). Cycle 156: in-place gcgc (current-tile) still slowly drifted into a wall (owner nudged once). Owner hypothesis: char was in cluttered terrain; in open terrain (no walls within ~8 tiles) it may stay put. Build unchanged (current-tile, marker FastEncPosLog) + pos=(x,y) added to fastautowalk-diag. Owner manually moves char to open terrain ONCE after login, then unattended. Preflight markers FastEncPosLog, FoundationAShadow, \u0027((int)fs, cx, cy, feDir)\u0027==1, FreeRandomWalk==0, *noDrawMax==2. Config BOTH default.json: AutoLogin=true, AutoWalk=false, FastAutoWalk=TRUE, AutoBattle=true, FastBattle=false, ShowExp=true, SpeedBoost=14, AutoWalkDelay=0. Build, Start once, OWNER repositions char to open terrain ONCE (expected - do NOT teardown early), ~150s. From fastautowalk-diag pos=(x,y): report WHOLE-run span AND LAST-60-line span (the real drift metric, post-reposition). Verdict: last-60 span\u003c=2 = current-tile fine in open terrain (156 drift was terrain); span\u003e5 = fundamental leak -\u003e next step launcher (0,0). assert-foundationA bonus. No commit. Never print account/password/security-code. See INSTRUCTION.md.",
     "relay":  "C:\\SaSH-relay",
     "repo":  "C:\\src\\etc-source-local",
     "client_exe":  "C:\\sa-bridge\\Client Source Code\\bin\\Release\\SA93Client.exe",
     "updated_by":  "codex-watcher",
-    "notes":  "Foundation A VERIFIED cycle 155 (236 turns, 100%). 鍮좊Ⅸ議곗슦 fix: pure in-place gcgc, no origin/drift-correction (was an invention causing pre-launch wrong-origin -\u003e perpetual walk-to-correct -\u003e drift/wall-jam/no-encounter; owner confirmed uncheck-\u003erecheck fixed it manually, which re-anchored origin - so removing origin entirely is the faithful fix). 嫄룰린議곗슦 = memory-move oscillation, wall-stuck accepted (RULES updated; 鍮좊Ⅸ議곗슦 is the primary in real use). NEXT after 156: switch auto-battle/escape/fall-escape/heal/show-exp from scene-read to the verified wire engine (FEATURE-AUDIT-F0.md), then fast-battle = block-only."
+    "notes":  "鍮좊Ⅸ議곗슦 open-terrain re-test. 156 in-place gcgc(current-tile) drifted into wall over time (owner nudged once). Launcher sends (0,0) not current-tile (move(QPoint(0,0),gcgc) tcpserver 7133) - candidate root fix, but owner wants to first rule out terrain: test current-tile in open terrain. pos logging added to fastautowalk-diag (pos-diag is tied to 嫄룰린議곗슦/off). If drifts even in open terrain -\u003e switch to (0,0). Foundation A already VERIFIED (155:236t, 156:414t, 100%). Cycle defaults now boost14/walkdelay0/observe short (RULES). NEXT after fastenc settled: switch auto-battle/escape/fall-escape/heal/show-exp to the verified wire engine, then fast-battle=block-only."
 }
