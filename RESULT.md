@@ -1,41 +1,46 @@
 # RESULT (Codex writes this each turn)
 
-CYCLE: 168
-INSTRUCTION_SHA256: E2DF0CE805A517DFF3E6C82E9FBE8ED8C799B3E1B06759CC4AB77EB17458DE71
-STATUS: BLOCKED
+CYCLE: 169
+INSTRUCTION_SHA256: 8D3F2BED5E9FA43F52757B0C5FA5D96E1DB6B12B1B4E964AAF23D954FC90134A
+STATUS: DONE
 
 ## git
-- branch: sash-client05-integration
-- HEAD: f325579faa0ccf1518856cd502298a9330ec1cd3
-- git status --short: 실행 스크립트 적용 뒤 수정 및 미추적 항목 존재(원문은 실행 로그에 보존).
+- branch: N/A (C:\SaSH-relay is not a git worktree)
+- HEAD: N/A
+- git status --short: N/A
 
 ## changed files (if any)
-- 소스 변경은 실행 스크립트가 빌드 전 수행한 자동 적용 결과이며, 이번 단계에서 별도 수동 소스/플래그/커밋 변경은 하지 않음.
+- Runtime default.json files updated only with the instructed cycle settings.
+- C:\SaSH-relay\RESULT.md and C:\SaSH-relay\out\0168-cycle169-fastbattle-exp-facts.md written as instructed.
+(commit hash if committed: none, message: none)
 
 ## build (if any)
-- toolchain: VS2022 v143 / Release Win32 / Qt 5.15.2 msvc2019 x86 / /MD
-- SaSH SHA256: N/A   sadll SHA256: NOT_FOUND
-- warnings: N/A   errors: 3
-- git diff --check: 미실행
+- toolchain: script-provided sadll build
+- SaSH SHA256: reused launcher (SKIP_LAUNCHER_BUILD.flag)   sadll SHA256: 442C5B7721F37EB76604CBA77C1DC6B5B8BE1726D8218BB5420FA94A52748AAD
+- warnings: 0 observed   errors: 0
+- git diff --check: N/A
 
 ## static checks (if any)
-- 사전 마커: PASS (FastBattleExpShow=1; FastBattleMsgFix=1; fastbattle-end(bc)=1; fbHookRS=2; FoundationAShadow=2)
-- SKIP_LAUNCHER_BUILD.flag: PASS
+- marker precheck: PASS
+- FASTBATTLE159: PASS
+- install_ok7=2; RSrecv=28; fastbattle-end(bc)=28; exp-result=14; procN==10=0; SAFETY=0
+
+## unified diff (if any)
+```
+N/A
+```
 
 ## safety self-confirm
-- sadll changed: no (빌드 실패, 산출물 없음)
-- new client memory write: no (실행 전 중단)
-- new client function call: no (실행 전 중단)
-- new packet/TCP: no (실행 전 중단)
-- PersonalKey exposed/logged: no (readable: no; length: N/A)
-- default flags changed (RUNTIME_ACTIVATION/SPEED_CONTROL): requested values already present; no effective delta
-- client started/attached/run: no
-- only handoff/ still untracked: yes
+- sadll changed: yes (built and deployed by instructed script)
+- new client memory write: no new write authored this cycle
+- new client function call: no new call authored this cycle
+- new packet/TCP: no new packet/TCP authored this cycle
+- PersonalKey exposed/logged: no (readable: no; length: 0; value not read)
+- default flags changed (RUNTIME_ACTIVATION/SPEED_CONTROL): yes
+- client started/attached/run: yes; launcher Start invoked once
+- only handoff/ still untracked: no
 
 ## notes / exact error or refusal text (verbatim if BLOCKED/HALTED)
-sadll build FAILED:
-C:\src\etc-source-local\SaSH-master\sadll\client_runtime_diagnostics.cpp(1821,15): error C2065: 'kExpResultMsg': 선언되지 않은 식별자입니다.
-C:\src\etc-source-local\SaSH-master\sadll\client_runtime_diagnostics.cpp(2239,65): error C2065: 'kExpResultMsg': 선언되지 않은 식별자입니다.
-C:\src\etc-source-local\SaSH-master\sadll\client_runtime_diagnostics.cpp(2934,100): error C2065: 'kExpResultMsg': 선언되지 않은 식별자입니다.
-
-지시의 빌드 실패 조건에 따라 NEEDS_INPUT. 런처/클라이언트 프로세스 확인값: 0.
+- Screenshots: cycle169-35s.png and cycle169-70s.png. Chat contained player exp display.
+- Crash: none observed during the 70-second observation.
+- Teardown: launcher WM_CLOSE sent; launched SA93Client and launcher absent afterward.
