@@ -1,19 +1,21 @@
 ﻿{
     "schema":  1,
     "project":  "SaSH Client05 porting",
-    "phase":  "walk_encounter_drift_fix_verify",
+    "phase":  "client05_boost_f0_verify",
     "turn":  "awaiting_analyst",
     "needs_human":  false,
     "human_gate":  null,
     "attach_authorized":  false,
     "autologin_authorized":  false,
     "oaaw":  true,
-    "cycle":  146,
-    "instruction":  "OAAW runtime-only: verify walk-encounter (AutoWalk) drift fix. default.json AutoWalk pre-enabled (FastAutoWalk off), start launcher+client (?앷린?ㅽ뻾), auto-battle, verify autowalk orig != (0,0) and oscillates around stable origin (no edge wander), screenshot, teardown. Exact paths in INSTRUCTION.md.",
+    "cycle":  147,
+    "model":  "gpt-5.6-terra",
+    "reasoning_effort":  "medium",
+    "instruction":  "VERIFY boost F0 fix (cycle 147, OAAW). Run C:\\SaSH-relay\\human-b1diag-go.ps1 (228339B, marker [F0 boost fix], zero *noDrawMax writes) to build+deploy the boost-fixed sadll; config SpeedBoostValue=14 + AutoLogin + AutoWalk; press launcher Start once; ~150s auto-walk run; \u003e=6 field screenshots to bus\\artifacts\\boost-fix; collect newest boost-diag*.log (search C:\\zmffk AND D:\\SA\\zmffk); run assert-boost147.ps1 (PASS iff level=14 line has noDrawMax before==after AND sysTime-\u003e1) and assert-noblack147.ps1; PASS iff BOTH pass. If BOOST147 FAIL -\u003e stale build, rebuild+rerun. If NOBLACK147 FAIL but BOOST147 PASS -\u003e NO_DRAW removal insufficient, next step is launcher code-byte draw-skip port (do NOT patch this cycle). No commit this cycle. See INSTRUCTION.md.",
     "relay":  "C:\\SaSH-relay",
-    "repo":  "C:\\src\\etc-source-local",
+    "repo":  "C:\\Users\\Administrator\\Documents\\Codex\\2026-07-19\\windows-ui-60-exit-code-0\\work\\etc-source-local",
     "client_exe":  "C:\\sa-bridge\\Client Source Code\\bin\\Release\\SA93Client.exe",
     "client_exe_sha256":  "756A90D6CCF5CEFEED72B12E3D524D88B702946B365FF804A86B47C56BB73F4E",
     "updated_by":  "codex-watcher",
-    "notes":  "Warmup/parallel: verify the OTHER half of the drift fix (walk-encounter autowalk origin gate; fast-encounter already verified cycle145). Proven cycle145 procedure reused (client start via ?앷린?ㅽ뻾). Meanwhile analyst designs magic/skill battle-action framework. OAAW terra/medium. One-shot."
+    "notes":  "Boost F0 fix deployed in human-b1diag-go.ps1 (227986-\u003e228339B): removed the invented NO_DRAW_MAX_CNT(0x571518) write; drive only SystemTime(0x571520)=frame timer, matching launcher WM_SetBoostSpeed pSpeed intent (sadll.cpp:1137, which never touches NO_DRAW_MAX_CNT). Root cause of black field during REAL map walking at boost=14 was the over-suppressing NO_DRAW write. This cycle is the deterministic mechanism proof (boost-diag.log noDrawMax unchanged + sysTime-\u003e1) plus a no-black screenshot cross-check; owner does the final free-roam walk-test manually. OAAW opened per owner \u0027proceed\u0027 + established 145/146 verify pattern on owned offline client."
 }

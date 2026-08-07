@@ -1,0 +1,2 @@
+battlemenu-suppress want=1 patched=4/4 (ab=1 ae=1)
+autobattle ENABLED hwnd=001F0086 old=FFFF04A5 pid=7340
