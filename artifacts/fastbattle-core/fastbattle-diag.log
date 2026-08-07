@@ -247,3 +247,119 @@ fbstate procN=9 battling=0 active=0 turn=4 anim=0
 fbstate procN=9 battling=0 active=0 turn=4 anim=0
 fbstate procN=9 battling=0 active=0 turn=4 anim=0
 fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fbstate procN=9 battling=0 active=0 turn=4 anim=0
+fastbattle-hook install ok=3 enTr=0DE70000 bTr=0DEA0000
+fbstate procN=1 battling=0 active=0 turn=0 anim=0
+EN fd=2628 result=1 field=8
+B fd=2628 sub=BP len=9 head=BP|0|0|24
+B fd=2628 sub=BC len=220 head=BC|0|0|test2||18ADC|1E|100|107|5|1|.............
+B fd=2628 sub=BA len=11 head=BA|38000|0|
+fastdrive(pkt) turn=0 myPos=0 anim=38000 target=15 bfd=A44
+B fd=2628 sub=BA len=11 head=BA|38001|0|
+B fd=2628 sub=BA len=11 head=BA|38021|0|
+B fd=2628 sub=bn len=94 head=bn|5|BH|a0|rF|f85|dAA|p0|FF|BH|a10|r0|f20|d0|p0|
+B fd=2628 sub=BP len=9 head=BP|0|0|24
+B fd=2628 sub=BC len=145 head=BC|0|0|test2||18ADC|1E|100|107|4|1|.............
+B fd=2628 sub=BA len=11 head=BA|20000|1|
+fastdrive(pkt) turn=1 myPos=0 anim=20000 target=17 bfd=A44
+B fd=2628 sub=BA len=11 head=BA|20001|1|
+B fd=2628 sub=BA len=11 head=BA|20021|1|
+B fd=2628 sub=bn len=29 head=bn|5|BH|a0|r11|f83|d8D|p0|FF|
+B fd=2628 sub=BP len=9 head=BP|0|0|24
+B fd=2628 sub=BC len=107 head=BC|0|0|test2||18ADC|1E|100|107|4|1|.............
+B fd=2628 sub=BA len=7 head=BA|0|2|
+fastdrive(pkt) turn=2 myPos=0 anim=0 target=-1 bfd=A44
+fbstate procN=9 battling=0 active=1 turn=2 anim=0
+fbstate procN=9 battling=0 active=1 turn=2 anim=0
+fbstate procN=9 battling=0 active=1 turn=2 anim=0
+fbstate procN=9 battling=0 active=1 turn=2 anim=0
+fbstate procN=9 battling=0 active=1 turn=2 anim=0
+fbstate procN=9 battling=0 active=1 turn=2 anim=0
+fbstate procN=9 battling=0 active=1 turn=2 anim=0
+fbstate procN=9 battling=0 active=1 turn=2 anim=0
+fastbattle SAFETY forced active=0 (stuck 8s) turn=2
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
+fbstate procN=9 battling=0 active=0 turn=2 anim=0
