@@ -1,55 +1,35 @@
 # RESULT (Codex writes this each turn)
 
-CYCLE: 179
-INSTRUCTION_SHA256: F913832B2A84B021197FC2E4E8AC961CDA22B8AF7B4500AB2D62DB9354C3E7E6
-STATUS: BLOCKED
+CYCLE: 180
+INSTRUCTION_SHA256: 10CB8E977B90DF323427016E6AE67E87B88B297A3507C0B7A55999CCF8BC4EFA
+STATUS: DONE
 
 ## git
-
-- branch: sash-client05-integration
-- HEAD: f325579faa0ccf1518856cd502298a9330ec1cd3
-- git status --short: <수집 시점의 원문은 out/0179-cycle179-parserLive2-facts.md에 보관>
+- branch: main
+- HEAD: 0f7ff15bd06eddd1e734870f6726ccb248f23071
+- git status --short: ?? artifacts/ps1-current/
 
 ## changed files (if any)
-
-- 런타임 설정 2개: FastAutoWalkEnable=True, FastBattleEnable=True, AutoBattleEnable=False; 그 밖의 작업 트리 변경의 귀속은 판정하지 않음.
+- artifacts/ps1-current/human-b1diag-go.ps1  SHA256=8A39938DFE2C51657D44B253634F33BC38CE8E298164D5AED932FB227331870A
+- artifacts/ps1-current/client_runtime_diagnostics.cpp  SHA256=확인 생략(참고용 복사)
 
 ## build (if any)
-
-- toolchain: VS2022 v143 / Release Win32 / Qt 5.15.2 msvc2019 x86 / /MD
-- SaSH: SKIPPED (SKIP_LAUNCHER_BUILD.flag)   sadll: OK, SHA256=5FB989D11F2E0FD23724C15AE0DA628D7721753BE2CE2350BE34F77359E7AF3A
-- warnings: 미집계   errors: 0 (sadll)
-- git diff --check: 미실행
+- 빌드·클라이언트 실행 없음.
 
 ## static checks (if any)
-
-- fastbattle-hook 설치: install ok=3 (3회)
-- 로그 신선본 복사: PASS (원본/out/bus SHA256 일치)
-
-## unified diff (if any)
-
-```
-없음
-```
+- 정본 PS1 SHA256 및 길이 수집: PASS
+- 민감값 로그/표시 없음: PASS
 
 ## safety self-confirm
-
-- sadll changed: no (이번 지시의 소스 변경 단계 없음)
+- sadll changed: no
 - new client memory write: no
 - new client function call: no
 - new packet/TCP: no
-- PersonalKey exposed/logged: no (readable: no, length: 0; 양쪽 설정)
-- default flags changed (RUNTIME_ACTIVATION/SPEED_CONTROL): yes (런타임 사용자 설정)
-- client started/attached/run: yes (SA93Client PID 3076 확인)
-- only handoff/ still untracked: no
+- PersonalKey exposed/logged: no
+- default flags changed (RUNTIME_ACTIVATION/SPEED_CONTROL): no
+- client started/attached/run: no
+- only handoff/ still untracked: yes (bus push 전)
 
 ## notes / exact error or refusal text (verbatim if BLOCKED/HALTED)
-
-- 90초 관찰 결과: EN fd= 0, BCunit pos= 0, B fd= head=BC| 0.
-- fastbattle-hook install ok=3 enTr=13B00000 bTr=13B10000
-- fastbattle-hook install ok=3 enTr=0F240000 bTr=0F260000
-- fastbattle-hook install ok=3 enTr=10EF0000 bTr=11D90000
-- 크래시: N (관찰 종료 시 SA93Client 실행 중).
-- 전투가 기록되지 않아 F5 배틀 상황/general 및 게임 화면 스크린샷은 생성되지 않음.
-- 로그 원본 및 복사본 SHA256: 56C92D7DC65D2CF73F5378AFAFABB535C59850890CD6F7842D684CC2E90D0B4E
-- 정리: WM_CLOSE 후 잔여 SA93Client=False, SaSH-client05-cleanup-validation=False.
+- human-b1diag-go.ps1: SHA256=8A39938DFE2C51657D44B253634F33BC38CE8E298164D5AED932FB227331870A, Length=249331.
+- 참고용 client_runtime_diagnostics.cpp 복사 완료.
