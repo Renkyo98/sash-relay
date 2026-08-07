@@ -1,36 +1,30 @@
 # RESULT (Codex writes this each turn)
 
-CYCLE: 164
-INSTRUCTION_SHA256: 8FCB8A3D1C2A60172B6543253E01DB81EB1ED4C65F532032504DD34C19E073F6
+CYCLE: 165
+INSTRUCTION_SHA256: 6589CCBDC55F8FDC608F423195BEF63AB0B3CDA842525D2CCCE44CC0A113C834
 STATUS: DONE
 
 ## build
-- SaSH build: SKIPPED (SKIP_LAUNCHER_BUILD.flag)
-- deployed sadll SHA256: 67D534B398A46839FD1E053887B531CEE58445DB0163D3328423D92DFF7BC766
 
-## config readback
-- runtime/default.json: FastBattleEnable=True; FastAutoWalkEnable=True; AutoBattleEnable=False
-- runtime/settings/default.json: FastBattleEnable=True; FastAutoWalkEnable=True; AutoBattleEnable=False
+- SaSH build SKIPPED (SKIP_LAUNCHER_BUILD.flag).
+- sadll: OK; deployed SHA256=C27169DC4C2CF6FC74BAFD5932DE275BDD701E1F3B9DCC6FB3ED85A1D8260944
+- warnings: 0 (not reported); errors: 0.
 
-## FASTBATTLE159 stdout (verbatim)
-```
-FASTBATTLE159: log=C:\zmffk\fastbattle-diag.log mtimeUtc=2026-08-07T11:08:56.5485680Z
-FASTBATTLE159: install_ok3=1 fastdrive=4 fbstate=88 procN==10=0 battlingSeen=0 SAFETY=0
-FASTBATTLE159: exp-result(EXP gained)=0
-FASTBATTLE159: FAIL
-REASON: EXP < 3 (battles not resolving / RS blocked / drive not killing enemies).
-```
+## diagnostic raw facts
 
-## facts
-- target=-1 count: 1
-- SAFETY count: 0
-- battle-exit packet (`EN result=0` or `sub=BU`): absent
-- crash: no; client and launcher remained present before required teardown
-- screenshots: `C:\SaSH-relay\bus\artifacts\fastbattle-core\fastbattle-core-01.png`, `C:\SaSH-relay\bus\artifacts\fastbattle-core\fastbattle-core-02.png`
-- diagnostic logs copied: `fastbattle-diag.log`, `autobattle-diag-157.log`
-- verdict: FAIL (exp-result=0; required >=3)
+- FASTBATTLE159: `install_ok3=2 fastdrive=30 fbstate=210 procN==10=0 battlingSeen=0 SAFETY=0`; `exp-result(EXP gained)=0`; `FAIL` expected for this diagnostic cycle.
+- `resultWnd=[^0]` first 5: no matches. `resultWnd=0` count=116; `resultWnd=[1-9A-F]` count=0.
+- EO triggers (`target=-1`): 7. The first EO was followed by 10 identical `fbstate procN=9 battling=0 active=0 turn=3 anim=0` lines.
+- `autobattle-diag*.log` `exp-result`: no; count=0.
+- Complete verbatim extraction and FASTBATTLE159 stdout: `out/0165-cycle165-fastbattle-diag-facts.md`.
 
 ## safety self-confirm
-- PersonalKey exposed/logged: no
-- client started/attached/run: yes
-- teardown: launcher WM_CLOSE sent; run client terminated; SaSH-client05-cleanup-validation and SA93Client absent
+
+- sadll changed: yes (built and deployed).
+- new client memory write: no (diagnostic cycle; no behavior change).
+- new client function call: no (diagnostic cycle; no behavior change).
+- new packet/TCP: no (diagnostic cycle; no behavior change).
+- PersonalKey exposed/logged: no.
+- default flags changed: no; both specified runtime configs already matched requested values.
+- client started/attached/run: yes; Start invoked once; no crash during observation.
+- teardown: complete; `SA93Client` and `SaSH-client05-cleanup-validation` stopped.

@@ -110,3 +110,299 @@ fbstate procN=9 battling=0 active=0 turn=3 anim=0
 fbstate procN=9 battling=0 active=0 turn=3 anim=0
 fbstate procN=9 battling=0 active=0 turn=3 anim=0
 fbstate procN=9 battling=0 active=0 turn=3 anim=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0
+fastbattle-hook install ok=3 enTr=22180000 bTr=22190000
+fbstate procN=1 battling=0 active=0 turn=0 anim=0 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=0 resultWnd=0
+EN fd=2652 result=1 field=6
+B fd=2652 sub=BP len=9 head=BP|0|0|24
+B fd=2652 sub=BC len=276 head=BC|0|0|test2||18ADC|1E|100|107|5|1|..............|1B|EC|F3|5|................||18A2B|1D|14F|159|1|0||0|0|0|F|....||187C9|3|1D|1D|1|0||0|0|0|10|....||187C9|2|1A|1A|1|0||0|0|0|11|....||187C9|2|17|17|1|0||0|0|0|12|....||187C9|3|1C|1C|1|0||0|0|
+B fd=2652 sub=BA len=11 head=BA|F8000|0|
+fastdrive(pkt) turn=0 myPos=0 anim=F8000 target=15 bfd=A5C
+B fd=2652 sub=BA len=11 head=BA|F8001|0|
+B fd=2652 sub=BA len=11 head=BA|F8021|0|
+B fd=2652 sub=bn len=107 head=bn|5|BH|a0|rF|f83|d73|p0|FF|BY|r5|a13|f2|d1|p0|a10|f2|d1|p0|FF|BH|a12|r5|f2|d1|p0|FF|BH|a11|r0|f0|d0|p0|FF|
+B fd=2652 sub=BP len=9 head=BP|0|0|24
+B fd=2652 sub=BC len=243 head=BC|0|0|test2||18ADC|1E|100|107|4|1|..............|1B|EC|F3|5|................||18A2B|1D|14C|159|0|0||0|0|0|10|....||187C9|2|1A|1A|0|0||0|0|0|11|....||187C9|2|17|17|0|0||0|0|0|12|....||187C9|3|1C|1C|0|0||0|0|0|13|....||187C9|3|1F|1F|0|0||0|0
+B fd=2652 sub=BA len=11 head=BA|F0000|1|
+fastdrive(pkt) turn=1 myPos=0 anim=F0000 target=16 bfd=A5C
+B fd=2652 sub=BA len=11 head=BA|F0001|1|
+B fd=2652 sub=BA len=11 head=BA|F0021|1|
+B fd=2652 sub=bn len=87 head=bn|5|BH|a0|r10|f85|d93|p0|FF|BH|a13|r0|f20|d0|p0|FF|BY|r5|a11|f2|d1|p0|a12|f2|d1|p0|FF|
+B fd=2652 sub=BP len=9 head=BP|0|0|24
+B fd=2652 sub=BC len=209 head=BC|0|0|test2||18ADC|1E|100|107|4|1|..............|1B|EC|F3|5|................||18A2B|1D|14A|159|0|0||0|0|0|11|....||187C9|2|17|17|0|0||0|0|0|12|....||187C9|3|1C|1C|0|0||0|0|0|13|....||187C9|3|1F|1F|0|0||0|0|0|
+B fd=2652 sub=BA len=11 head=BA|E0000|2|
+fastdrive(pkt) turn=2 myPos=0 anim=E0000 target=17 bfd=A5C
+B fd=2652 sub=BA len=11 head=BA|E0001|2|
+B fd=2652 sub=BA len=11 head=BA|E0021|2|
+B fd=2652 sub=bn len=75 head=bn|5|BH|a0|r11|f83|d74|p0|FF|BH|a12|r5|f20|d0|p0|FF|BH|a13|r5|f20|d0|p0|FF|
+B fd=2652 sub=BP len=9 head=BP|0|0|24
+B fd=2652 sub=BC len=175 head=BC|0|0|test2||18ADC|1E|100|107|4|1|..............|1B|EC|F3|5|................||18A2B|1D|14A|159|0|0||0|0|0|12|....||187C9|3|1C|1C|0|0||0|0|0|13|....||187C9|3|1F|1F|0|0||0|0|0|
+B fd=2652 sub=BA len=11 head=BA|C0000|3|
+fastdrive(pkt) turn=3 myPos=0 anim=C0000 target=18 bfd=A5C
+B fd=2652 sub=BA len=11 head=BA|C0001|3|
+B fd=2652 sub=BA len=11 head=BA|C0021|3|
+B fd=2652 sub=bn len=52 head=bn|5|BH|a0|r12|f83|d70|p0|FF|BH|a13|r0|f20|d0|p0|FF|
+B fd=2652 sub=BP len=9 head=BP|0|0|24
+B fd=2652 sub=BC len=141 head=BC|0|0|test2||18ADC|1E|100|107|4|1|..............|1B|EC|F3|5|................||18A2B|1D|14A|159|0|0||0|0|0|13|....||187C9|3|1F|1F|0|0||0|0|0|
+B fd=2652 sub=BA len=11 head=BA|80000|4|
+fastdrive(pkt) turn=4 myPos=0 anim=80000 target=19 bfd=A5C
+B fd=2652 sub=BA len=11 head=BA|80001|4|
+B fd=2652 sub=BA len=11 head=BA|80021|4|
+B fd=2652 sub=BH len=24 head=BH|a0|r13|f45|d89|p0|FF|
+B fd=2652 sub=BP len=9 head=BP|0|0|24
+B fd=2652 sub=BC len=107 head=BC|0|0|test2||18ADC|1E|100|107|4|1|..............|1B|EC|F3|5|................||18A2B|1D|14A|159|0|0||0|0|0|
+B fd=2652 sub=BA len=7 head=BA|0|5|
+fastdrive(pkt) turn=5 myPos=0 anim=0 target=-1 bfd=A5C
+EN fd=2652 result=1 field=7
+B fd=2652 sub=BP len=10 head=BP|0|20|24
+B fd=2652 sub=BC len=220 head=BC|0|0|test2||18ADC|1E|100|107|5|1|..............|1B|EC|F3|5|................||18A2B|1D|14A|159|1|0||0|0|0|F|........||1879C|2|1E|1E|1|0||0|0|0|10|........||1879C|3|24|24|1|0||0|0|0|11|........||1879C|3|22|22|1|0||0|0|0|
+B fd=2652 sub=BA len=11 head=BA|38000|0|
+fastdrive(pkt) turn=0 myPos=0 anim=38000 target=15 bfd=A5C
+B fd=2652 sub=BA len=11 head=BA|38001|0|
+B fd=2652 sub=BA len=11 head=BA|38021|0|
+B fd=2652 sub=bn len=40 head=bn|5|BH|a0|rF|f83|d90|p0|FF|bn|10|bn|11|
+B fd=2652 sub=BP len=9 head=BP|0|0|24
+B fd=2652 sub=BC len=183 head=BC|0|0|test2||18ADC|1E|100|107|4|1|..............|1B|EC|F3|5|................||18A2B|1D|14A|159|0|0||0|0|0|10|........||1879C|3|24|24|0|0||0|0|0|11|........||1879C|3|22|22|0|0||0|0|0|
+B fd=2652 sub=BA len=11 head=BA|30000|1|
+fastdrive(pkt) turn=1 myPos=0 anim=30000 target=16 bfd=A5C
+B fd=2652 sub=BA len=11 head=BA|30001|1|
+B fd=2652 sub=BA len=11 head=BA|30021|1|
+B fd=2652 sub=bn len=52 head=bn|5|BH|a0|r10|f83|d8F|p0|FF|BH|a11|r5|f20|d0|p0|FF|
+B fd=2652 sub=BP len=9 head=BP|0|0|24
+B fd=2652 sub=BC len=145 head=BC|0|0|test2||18ADC|1E|100|107|4|1|..............|1B|EC|F3|5|................||18A2B|1D|14A|159|0|0||0|0|0|11|........||1879C|3|22|22|0|0||0|0|0|
+B fd=2652 sub=BA len=11 head=BA|20000|2|
+fastdrive(pkt) turn=2 myPos=0 anim=20000 target=17 bfd=A5C
+B fd=2652 sub=BA len=11 head=BA|20001|2|
+B fd=2652 sub=BA len=11 head=BA|20021|2|
+B fd=2652 sub=bn len=29 head=bn|5|BH|a0|r11|f45|dAB|p0|FF|
+B fd=2652 sub=BP len=9 head=BP|0|0|24
+B fd=2652 sub=BC len=107 head=BC|0|0|test2||18ADC|1E|100|107|4|1|..............|1B|EC|F3|5|................||18A2B|1D|14A|159|0|0||0|0|0|
+B fd=2652 sub=BA len=7 head=BA|0|3|
+fastdrive(pkt) turn=3 myPos=0 anim=0 target=-1 bfd=A5C
+fbstate procN=9 battling=0 active=0 turn=3 anim=0 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=3 anim=0 resultWnd=0
+EN fd=2652 result=1 field=6
+B fd=2652 sub=BP len=9 head=BP|0|0|24
+B fd=2652 sub=BC len=258 head=BC|0|0|test2||18ADC|1E|100|107|5|1|..............|1B|EC|F3|5|................||18A2B|1D|14A|159|1|0||0|0|0|F|........||1879C|2|20|20|1|0||0|0|0|10|........||1879C|3|21|21|1|0||0|0|0|11|........||1879C|3|25|25|1|0||0|0|0|12|........||1879C|3
+B fd=2652 sub=BA len=11 head=BA|78000|0|
+fastdrive(pkt) turn=0 myPos=0 anim=78000 target=15 bfd=A5C
+B fd=2652 sub=BA len=11 head=BA|78001|0|
+B fd=2652 sub=BA len=11 head=BA|78021|0|
+B fd=2652 sub=BH len=86 head=BH|a0|rF|f83|d94|p0|FF|bn|5|BH|a11|r5|f20|d0|p0|FF|BY|r0|a10|f2|d1|p1|a12|f2|d1|p1|FF|
+B fd=2652 sub=BP len=9 head=BP|0|0|24
+B fd=2652 sub=BC len=220 head=BC|0|0|test2||18ADC|1E|FE|107|4|1|..............|1B|EA|F3|5|................||18A2B|1D|14A|159|0|0||0|0|0|10|........||1879C|3|21|21|0|0||0|0|0|11|........||1879C|3|25|25|0|0||0|0|0|12|........||1879C|3|21|21|0|0||0|0|0|
+B fd=2652 sub=BA len=11 head=BA|70000|1|
+fastdrive(pkt) turn=1 myPos=0 anim=70000 target=16 bfd=A5C
+B fd=2652 sub=BA len=11 head=BA|70001|1|
+B fd=2652 sub=BA len=11 head=BA|70021|1|
+B fd=2652 sub=bn len=73 head=bn|5|BH|a0|r10|f85|dA7|p0|FF|BH|a12|r5|f2|d1|p0|FF|BH|a11|r0|f2|d1|p1|FF|
+B fd=2652 sub=BP len=9 head=BP|0|0|24
+B fd=2652 sub=BC len=182 head=BC|0|0|test2||18ADC|1E|FD|107|4|1|..............|1B|E9|F3|5|................||18A2B|1D|149|159|0|0||0|0|0|11|........||1879C|3|25|25|0|0||0|0|0|12|........||1879C|3|21|21|0|0||0|0|0|
+B fd=2652 sub=BA len=11 head=BA|60000|2|
+fastdrive(pkt) turn=2 myPos=0 anim=60000 target=17 bfd=A5C
+B fd=2652 sub=BA len=11 head=BA|60001|2|
+B fd=2652 sub=BA len=11 head=BA|60021|2|
+B fd=2652 sub=bn len=52 head=bn|5|BH|a0|r11|f83|d91|p0|FF|BH|a12|r0|f20|d0|p0|FF|
+B fd=2652 sub=BP len=9 head=BP|0|0|24
+B fd=2652 sub=BC len=144 head=BC|0|0|test2||18ADC|1E|FD|107|4|1|..............|1B|E9|F3|5|................||18A2B|1D|149|159|0|0||0|0|0|12|........||1879C|3|21|21|0|0||0|0|0|
+B fd=2652 sub=BA len=11 head=BA|40000|3|
+fastdrive(pkt) turn=3 myPos=0 anim=40000 target=18 bfd=A5C
+B fd=2652 sub=BA len=11 head=BA|40001|3|
+B fd=2652 sub=BA len=11 head=BA|40021|3|
+B fd=2652 sub=bn len=29 head=bn|5|BH|a0|r12|f85|dAC|p0|FF|
+B fd=2652 sub=BP len=9 head=BP|0|0|24
+B fd=2652 sub=BC len=106 head=BC|0|0|test2||18ADC|1E|FD|107|4|1|..............|1B|E9|F3|5|................||18A2B|1D|149|159|0|0||0|0|0|
+B fd=2652 sub=BA len=7 head=BA|0|4|
+fastdrive(pkt) turn=4 myPos=0 anim=0 target=-1 bfd=A5C
+fbstate procN=9 battling=0 active=0 turn=4 anim=0 resultWnd=0
+EN fd=2652 result=1 field=6
+B fd=2652 sub=BP len=9 head=BP|0|0|24
+B fd=2652 sub=BC len=257 head=BC|0|0|test2||18ADC|1E|FD|107|5|1|..............|1B|E9|F3|5|................||18A2B|1D|149|159|1|0||0|0|0|F|........||187F0|4|36|36|1|0||0|0|0|10|........||187F0|3|2B|2B|1|0||0|0|0|11|........||187F0|2|24|24|1|0||0|0|0|12|........||187F0|3|
+B fd=2652 sub=BA len=11 head=BA|78000|0|
+fastdrive(pkt) turn=0 myPos=0 anim=78000 target=15 bfd=A5C
+B fd=2652 sub=BA len=11 head=BA|78001|0|
+B fd=2652 sub=BA len=11 head=BA|78021|0|
+B fd=2652 sub=BH len=96 head=BH|a0|rF|f83|dBE|p0|FF|bn|5|BH|a10|r5|f2|d1|p0|FF|BH|a11|r5|f20|d0|p0|FF|BH|a12|r0|f20|d0|p0|FF|
+B fd=2652 sub=BP len=9 head=BP|0|0|24
+B fd=2652 sub=BC len=220 head=BC|0|0|test2||18ADC|1E|FD|107|4|1|..............|1B|E9|F3|5|................||18A2B|1D|148|159|0|0||0|0|0|10|........||187F0|3|2B|2B|0|0||0|0|0|11|........||187F0|2|24|24|0|0||0|0|0|12|........||187F0|3|2E|2E|0|0||0|0|0|
+B fd=2652 sub=BA len=11 head=BA|70000|1|
+fastdrive(pkt) turn=1 myPos=0 anim=70000 target=16 bfd=A5C
+B fd=2652 sub=BA len=11 head=BA|70001|1|
+B fd=2652 sub=BA len=11 head=BA|70021|1|
+B fd=2652 sub=bn len=74 head=bn|5|BH|a0|r10|f83|dC5|p0|FF|BH|a12|r0|f0|d0|p0|FF|BH|a11|r5|f20|d0|p0|FF|
+B fd=2652 sub=BP len=9 head=BP|0|0|24
+B fd=2652 sub=BC len=182 head=BC|0|0|test2||18ADC|1E|FD|107|4|1|..............|1B|E9|F3|5|................||18A2B|1D|148|159|0|0||0|0|0|11|........||187F0|2|24|24|0|0||0|0|0|12|........||187F0|3|2E|2E|0|0||0|0|0|
+B fd=2652 sub=BA len=11 head=BA|60000|2|
+fastdrive(pkt) turn=2 myPos=0 anim=60000 target=17 bfd=A5C
+B fd=2652 sub=BA len=11 head=BA|60001|2|
+B fd=2652 sub=BA len=11 head=BA|60021|2|
+B fd=2652 sub=bn len=72 head=bn|5|BH|a0|r11|f83|dBE|p0|FF|BH|a12|r0|f2|d1|p1|r12|f91|counter8B|p0|FF|
+B fd=2652 sub=BP len=9 head=BP|0|0|24
+B fd=2652 sub=BC len=106 head=BC|0|0|test2||18ADC|1E|FC|107|4|1|..............|1B|E8|F3|5|................||18A2B|1D|148|159|0|0||0|0|0|
+B fd=2652 sub=BA len=7 head=BA|0|3|
+fastdrive(pkt) turn=3 myPos=0 anim=0 target=-1 bfd=A5C
+EN fd=2652 result=1 field=7
+B fd=2652 sub=BP len=9 head=BP|0|0|24
+B fd=2652 sub=BC len=295 head=BC|0|0|test2||18ADC|1E|FC|107|5|1|..............|1B|E8|F3|5|................||18A2B|1D|148|159|1|0||0|0|0|F|........||1879C|2|1D|1D|1|0||0|0|0|10|........||1879C|3|23|23|1|0||0|0|0|11|........||1879C|2|1D|1D|1|0||0|0|0|12|........||1879C|2|
+B fd=2652 sub=BA len=11 head=BA|F8000|0|
+fastdrive(pkt) turn=0 myPos=0 anim=F8000 target=15 bfd=A5C
+B fd=2652 sub=BA len=11 head=BA|F8001|0|
+B fd=2652 sub=BA len=11 head=BA|F8021|0|
+B fd=2652 sub=BH len=119 head=BH|a0|rF|f83|d90|p0|FF|bn|5|BH|a11|r5|f20|d0|p0|FF|BH|a10|r5|f2|d1|p0|FF|BH|a12|r5|f20|d0|p0|FF|BH|a13|r0|f20|d0|p0|FF|
+B fd=2652 sub=BP len=9 head=BP|0|0|24
+B fd=2652 sub=BC len=258 head=BC|0|0|test2||18ADC|1E|FC|107|4|1|..............|1B|E8|F3|5|................||18A2B|1D|147|159|0|0||0|0|0|10|........||1879C|3|23|23|0|0||0|0|0|11|........||1879C|2|1D|1D|0|0||0|0|0|12|........||1879C|2|1C|1C|0|0||0|0|0|13|........||1879C|3
+B fd=2652 sub=BA len=11 head=BA|F0000|1|
+fastdrive(pkt) turn=1 myPos=0 anim=F0000 target=16 bfd=A5C
+B fd=2652 sub=BA len=11 head=BA|F0001|1|
+B fd=2652 sub=BA len=11 head=BA|F0021|1|
+B fd=2652 sub=bn len=96 head=bn|5|BH|a0|r10|f83|d8D|p0|FF|BH|a12|r0|f2|d1|p1|FF|BH|a13|r5|f2|d1|p0|FF|BH|a11|r0|f20|d0|p0|FF|
+B fd=2652 sub=BP len=9 head=BP|0|0|24
+B fd=2652 sub=BC len=220 head=BC|0|0|test2||18ADC|1E|FB|107|4|1|..............|1B|E7|F3|5|................||18A2B|1D|146|159|0|0||0|0|0|11|........||1879C|2|1D|1D|0|0||0|0|0|12|........||1879C|2|1C|1C|0|0||0|0|0|13|........||1879C|3|22|22|0|0||0|0|0|
+B fd=2652 sub=BA len=11 head=BA|E0000|2|
+fastdrive(pkt) turn=2 myPos=0 anim=E0000 target=17 bfd=A5C
+B fd=2652 sub=BA len=11 head=BA|E0001|2|
+B fd=2652 sub=BA len=11 head=BA|E0021|2|
+B fd=2652 sub=bn len=74 head=bn|5|BH|a0|r11|f83|d89|p0|FF|BH|a13|r5|f20|d0|p0|FF|BH|a12|r5|f0|d0|p0|FF|
+B fd=2652 sub=BP len=9 head=BP|0|0|24
+B fd=2652 sub=BC len=182 head=BC|0|0|test2||18ADC|1E|FB|107|4|1|..............|1B|E7|F3|5|................||18A2B|1D|146|159|0|0||0|0|0|12|........||1879C|2|1C|1C|0|0||0|0|0|13|........||1879C|3|22|22|0|0||0|0|0|
+B fd=2652 sub=BA len=11 head=BA|C0000|3|
+fastdrive(pkt) turn=3 myPos=0 anim=C0000 target=18 bfd=A5C
+B fd=2652 sub=BA len=11 head=BA|C0001|3|
+B fd=2652 sub=BA len=11 head=BA|C0021|3|
+B fd=2652 sub=bn len=52 head=bn|5|BH|a0|r12|f83|d8E|p0|FF|BH|a13|r5|f20|d0|p0|FF|
+B fd=2652 sub=BP len=9 head=BP|0|0|24
+B fd=2652 sub=BC len=144 head=BC|0|0|test2||18ADC|1E|FB|107|4|1|..............|1B|E7|F3|5|................||18A2B|1D|146|159|0|0||0|0|0|13|........||1879C|3|22|22|0|0||0|0|0|
+B fd=2652 sub=BA len=11 head=BA|80000|4|
+fastdrive(pkt) turn=4 myPos=0 anim=80000 target=19 bfd=A5C
+B fd=2652 sub=BA len=11 head=BA|80001|4|
+B fd=2652 sub=BA len=11 head=BA|80021|4|
+B fd=2652 sub=bn len=29 head=bn|5|BH|a0|r13|f83|d8E|p0|FF|
+B fd=2652 sub=BP len=9 head=BP|0|0|24
+B fd=2652 sub=BC len=106 head=BC|0|0|test2||18ADC|1E|FB|107|4|1|..............|1B|E7|F3|5|................||18A2B|1D|146|159|0|0||0|0|0|
+B fd=2652 sub=BA len=7 head=BA|0|5|
+fastdrive(pkt) turn=5 myPos=0 anim=0 target=-1 bfd=A5C
+fbstate procN=9 battling=0 active=0 turn=5 anim=0 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=5 anim=0 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=5 anim=0 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=5 anim=0 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=5 anim=0 resultWnd=0
+EN fd=2652 result=1 field=7
+fastdrive turn=5 myPos=0 anim=0 target=-1 bfd=A5C
+B fd=2652 sub=BP len=9 head=BP|0|0|55
+B fd=2652 sub=BC len=219 head=BC|0|0|test2||18ADC|1E|FB|107|5|1|..............|1B|E7|F3|5|................||18A2B|1D|159|159|1|0||0|0|0|F|........||1879C|2|20|20|1|0||0|0|0|10|........||1879C|2|1F|1F|1|0||0|0|0|11|........||1879C|3|23|23|1|0||0|0|0|
+B fd=2652 sub=BA len=11 head=BA|38000|0|
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
+fbstate procN=9 battling=0 active=0 turn=0 anim=38000 resultWnd=0
