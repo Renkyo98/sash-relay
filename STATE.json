@@ -1,21 +1,21 @@
 ﻿{
     "schema":  1,
     "project":  "SaSH Client05 porting",
-    "phase":  "freewalk_random_black_reproduction_boost14",
+    "phase":  "blackwatch_instrumentation_build_validate",
     "turn":  "awaiting_analyst",
     "needs_human":  false,
     "human_gate":  null,
     "attach_authorized":  false,
     "autologin_authorized":  false,
     "oaaw":  true,
-    "cycle":  150,
+    "cycle":  151,
     "model":  "gpt-5.6-terra",
     "reasoning_effort":  "medium",
-    "instruction":  "REPRODUCE free-walk black at SpeedBoost=14 via robust FREE RANDOM WALK (cycle 150, OAAW). Rebuild via human-b1diag-go.ps1 (markers [FreeRandomWalk]+[F0 boost FAITHFUL], *noDrawMax writes=2; verify by MARKERS not byte size). Config BOTH default.json: AutoLogin=true, AutoWalk=true(arms random walk), FastAutoWalk=false, AutoBattle=true, SpeedBoost=14, AutoWalkDistance=15(step), AutoWalkDelay=5; readback both. Delete stale boost/autowalk logs. Launch, Start once, auto-login, ~150s free random walk (client self-walks new terrain, re-randomizes heading when blocked so never stuck). \u003e=12 screenshots ~12s apart to bus/artifacts/freewalk-random-boost14. Collect newest boost-diag*.log + autowalk-diag*.log. assert-walk (distinct positions expect \u003e=15 = real wander; max tiles) + assert-noblack147 -Dir ...freewalk-random-boost14. Confirm boost-diag level=14 noDrawMax 2-\u003e14. NOBLACK FAIL=black reproduced (GOAL); PASS+many-tiles=escalate. No commit. See INSTRUCTION.md.",
+    "instruction":  "BUILD+DEPLOY BlackWatch-instrumented client and VALIDATE the logger (cycle 151, OAAW, short run). Verify markers (BlackWatch, blackWatchProc, F0 boost FAITHFUL, *noDrawMax writes=2) NOT size. Config BOTH default.json: AutoLogin=true, AutoWalk=false, FastAutoWalk=false, AutoBattle=true, SpeedBoost=14; readback. Delete stale blackwatch.log. Build via human-b1diag-go.ps1 (if build fails, report error C lines + NEEDS_INPUT). Launch, Start once, auto-login, ~45s idle in-world (NO walk). Find blackwatch.log (C:\\zmffk AND D:\\SA\\zmffk), copy to out+bus. Validate: exists+non-empty, HB line count, GAP-START count, first+last HB verbatim, frame= increased first-\u003elast (sampler works), boost14 HB shows ndmax=14 \u0026 sys=1. PASS if frame advanced. Teardown but LEAVE deployed exe/dll for owner\u0027s manual test. No commit. See INSTRUCTION.md.",
     "relay":  "C:\\SaSH-relay",
     "repo":  "C:\\Users\\Administrator\\Documents\\Codex\\2026-07-19\\windows-ui-60-exit-code-0\\work\\etc-source-local",
     "client_exe":  "C:\\sa-bridge\\Client Source Code\\bin\\Release\\SA93Client.exe",
     "client_exe_sha256":  "756A90D6CCF5CEFEED72B12E3D524D88B702946B365FF804A86B47C56BB73F4E",
     "updated_by":  "codex-watcher",
-    "notes":  "Cycle 149 halted on my brittle byte-size preflight (CRLF made 232160 vs hardcoded 229395); Codex correctly refused (good faithfulness). Lesson: verify by MARKERS not size. Owner directive: launcher fixed oscillation revisits one corridor (cached -\u003e no black); need a genuine free random walk into NEW terrain that does NOT get stuck. Implemented [FreeRandomWalk]: monitor reads live pos, random 8-dir heading, re-randomizes when position stops advancing (blocked) so never stuck; step = AutoWalkDistance. g++ -fsyntax-only PASS on the block. This cycle rebuilds (faithful boost too) and runs boost=14 to reproduce+measure the black. Expected NOBLACK FAIL (reproduced) -\u003e then A/B tune. Boost tradeoff decision still pending owner after repro confirmed."
+    "notes":  "Owner\u0027s plan: instrument client+launcher logs comprehensively, owner manually reproduces the boost-14 black (free walk / after-encounter), notes the wall-clock time, analyst matches log. Added [BlackWatch]: dedicated 5ms thread watching SurfaceDate(0x593EE8, per-drawn-frame counter at draw path 0x433C65); logs no-draw GAP(\u003e=70ms=black/frozen) + 1s heartbeat with HH:MM:SS.mmm wall-clock + state (NoDrawCnt 0x571524, NO_DRAW_MAX_CNT 0x571518, SystemTime 0x571520, ProcTime 0x57151C, GameSpeedFlag 0x6AE6F8, pos). g++ -fsyntax-only PASS. Cycle 150 free-random-walk (382 tiles, faithful noDrawMax 2-\u003e14) did not catch black via sparse screenshots -\u003e hence timestamped in-client logging. This cycle only builds+validates the logger; owner does the real repro next on the deployed build."
 }
