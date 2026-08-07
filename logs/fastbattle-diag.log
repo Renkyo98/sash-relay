@@ -1,0 +1,16 @@
+FBMON first-tick module=00400000 chan=14B30000
+FBGATE install-call g_fbLogEn=1
+fbInstall STEP0 enter base=00400000
+fbInstall STEP1 trampEN=13B00000
+fbInstall STEP2 trampB=13B10000
+fbInstall STEP3 patchEN ok=1
+fbInstall STEP4 patchB ok=3
+fastbattle-hook install ok=3 enTr=13B00000 bTr=13B10000
+FBMON first-tick module=00400000 chan=18C70000
+FBGATE install-call g_fbLogEn=1
+fbInstall STEP0 enter base=00400000
+fbInstall STEP1 trampEN=0F240000
+fbInstall STEP2 trampB=0F260000
+fbInstall STEP3 patchEN ok=1
+fbInstall STEP4 patchB ok=3
+fastbattle-hook install ok=3 enTr=0F240000 bTr=0F260000
