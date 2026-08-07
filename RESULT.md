@@ -1,48 +1,65 @@
 # RESULT
 
-CYCLE: 153
-INSTRUCTION_SHA256: 7BA675151643E5737D85F0AAD635F51899BD20BD49703E665678A0C5BA314D79
-STATUS: DONE (OVERALL FAIL)
+CYCLE: 154
+INSTRUCTION_SHA256: E4A41ABF546F2BE7AF858B462D681D244C067E6C8542C877D1CB226EAEBBA308
+STATUS: DONE
 
 ## git
 
 - branch: sash-client05-integration
 - HEAD: f325579faa0ccf1518856cd502298a9330ec1cd3
-- git status --short: modified and untracked paths present after the explicitly requested build/deploy script; no commit made.
+- git status --short: 소스 변경 및 기존 미추적 파일이 존재함(사이클 중 커밋 없음).
+
+## changed files (if any)
+
+- 소스 파일을 직접 편집하지 않음. 지정된 빌드/배포 스크립트가 clean-HEAD 스냅샷에서 배포물을 생성함.
+- commit hash if committed: 없음
 
 ## build
 
-- human-b1diag-go.ps1: PASS (sadll OK; SaSH OK)
-- deployed sadll SHA256: 76F9FA382874B73CEDF81CDDD8F3ADD89CA30CBD45B09B61B46130DE2B06116C
+- 지정 스크립트: 성공 (sadll OK, SaSH OK)
+- deployed sadll SHA256: CFD0F50B8092048215381387E57BCD53889F1957B1E6651129B3B3845843BE58
+- warnings: 미집계
+- errors: 0
 
-## runtime config readback
+## config readback
 
-- runtime/default.json: FastBattleEnable=True; AutoBattleEnable=True; AutoWalkEnable=True
-- runtime/settings/default.json: FastBattleEnable=True; AutoBattleEnable=True; AutoWalkEnable=True
+- runtime/default.json: AutoBattleEnable=True, FastBattleEnable=False, AutoWalkEnable=True
+- runtime/settings/default.json: AutoBattleEnable=True, FastBattleEnable=False, AutoWalkEnable=True
 
-## assertions and observation
+## FOUNDATIONA_ASSERT stdout (verbatim)
 
-- FASTBATTLE_ASSERT stdout: `FASTBATTLE_ASSERT: FAIL` / `REASON: no fastbattle-diag*.log found (feature never applied -> flag not wired or monitor block not reached)`
-- exact `want=1` fastbattle line: absent; no fastbattle-diag log was created.
-- WALK_ASSERT stdout: PASS; distinct in-world positions: 129; max tiles from origin: 58.
-- autobattle battle/enable-line count: 50. Battle-state lines occurred (`battling=1`).
-- stuck: no (129 distinct in-world positions).
-- overall: FAIL (FASTBATTLE_ASSERT failed); movement and battles occurred.
-- screenshots: C:\SaSH-relay\bus\artifacts\fastbattle\fastbattle-01.png; C:\SaSH-relay\bus\artifacts\fastbattle\fastbattle-02.png; C:\SaSH-relay\bus\artifacts\fastbattle\fastbattle-03.png
-- collected logs: C:\SaSH-relay\out\autobattle-diag-144.log; C:\SaSH-relay\out\autowalk-diag-144.log; fastbattle log missing.
-- crash check: SA93Client was responding at the first capture; no crash observed before teardown.
+```
+FOUNDATIONA_ASSERT: log=C:\zmffk\foundationa-shadow.log mtimeUtc=2026-08-07T08:35:00.0764936Z
+FOUNDATIONA_ASSERT: comparableTurns=8 matched=5 mismatched=3
+FOUNDATIONA_ASSERT: matchRate=0.625
+--- mismatch samples (wire != scene) ---
+SHADOW turn=0 wAnim=18000 sAnim=18000 myNo=0 wMyPos=0 wMp=76 | p10(wh-1 sh0 wm-1 sm0)! p11(wh-1 sh0 wm-1 sm0)! p12(wh-1 sh0 wm-1 sm0)! p13(wh-1 sh0 wm-1 sm0)! p14(wh-1 sh0 wm-1 sm0)! p15(wh30 sh0 wm30 sm0)! p16(wh32 sh0 wm32 sm0)! p17(wh-1 sh0 wm-1 sm0)! p18(wh-1 sh0 wm-1 sm0)! p19(wh-1 sh0 wm-1 sm0)! cmp=2 match=0
+SHADOW turn=0 wAnim=38000 sAnim=38000 myNo=0 wMyPos=0 wMp=76 | p10(wh-1 sh0 wm-1 sm0)! p11(wh-1 sh0 wm-1 sm0)! p12(wh-1 sh0 wm-1 sm0)! p13(wh-1 sh0 wm-1 sm0)! p14(wh-1 sh0 wm-1 sm0)! p15(wh30 sh0 wm30 sm0)! p16(wh29 sh0 wm29 sm0)! p17(wh29 sh0 wm29 sm0)! p18(wh-1 sh0 wm-1 sm0)! p19(wh-1 sh0 wm-1 sm0)! cmp=3 match=0
+SHADOW turn=0 wAnim=78000 sAnim=78000 myNo=0 wMyPos=0 wMp=76 | p10(wh-1 sh0 wm-1 sm0)! p11(wh-1 sh0 wm-1 sm0)! p12(wh-1 sh0 wm-1 sm0)! p13(wh-1 sh0 wm-1 sm0)! p14(wh-1 sh0 wm-1 sm0)! p15(wh24 sh0 wm24 sm0)! p16(wh31 sh0 wm31 sm0)! p17(wh32 sh0 wm32 sm0)! p18(wh27 sh0 wm27 sm0)! p19(wh-1 sh0 wm-1 sm0)! cmp=4 match=0
+FOUNDATIONA_ASSERT: FAIL
+REASON: agreement 62.5% < 90% -> parser offset/stride likely wrong. Use mismatch samples to fix BC token indexing. NO switch/block until fixed.
+```
+
+## runtime facts
+
+- Foundation A: FAIL (5/8 일치, 62.5%; 기준 90% 미달).
+- 걷기조우 oscillation: 예. target=3 및 target=-3, side=0 3회/side=1 1802회.
+- 캐릭터 위치: 서로 다른 위치 44개.
+- 전투: foundationa comparable turns=8. autobattle-diag의 `battling=1`=0, `CHAR`=0; exp-result의 `battle=1`=3.
+- 스크린샷: bus/artifacts/foundationa/foundationa-01-50s.png, foundationa-02-100s.png, foundationa-03-150s.png.
+- 크래시: 관찰 종료 시 클라이언트 실행 상태였고 크래시 미관찰.
+- teardown: launcher WM_CLOSE 수행, 이 실행의 클라이언트 종료, 관련 launcher/client 프로세스 부재 확인.
 
 ## safety self-confirm
 
-- sadll changed: yes (deployed by the requested build script)
-- new client memory write: yes (only the instruction-specified fast-battle ret-byte patch)
-- new client function call: no
-- new packet/TCP: no beyond instruction-authorized existing features
-- PersonalKey readable: no; length: n/a; PersonalKey exposed/logged: no
-- default flags changed: yes, only the instruction-specified runtime config values
-- client started/attached/run: yes, owned offline validation client only
-- teardown: launcher WM_CLOSE issued; this run's SA93Client terminated; modal clear attempted; launcher and client processes confirmed absent
+- sadll changed: yes
+- new client memory write: no (Foundation A 범위)
+- new client function call: no (Foundation A 범위)
+- new packet/TCP: no (Foundation A 범위)
+- PersonalKey exposed/logged: no
+- 계정/비밀번호 값: RESULT 및 durable facts에 기록하지 않음
+- default flags changed: yes (지시된 런타임 설정)
+- client started/attached/run: yes
+- only handoff/still untracked: no commit; 기존 작업 트리 변경 및 미추적 파일 유지
 
-## notes
-
-- No commit made. No action beyond the specified cycle steps was performed.

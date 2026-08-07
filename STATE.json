@@ -1,21 +1,20 @@
 ﻿{
     "schema":  1,
     "project":  "SaSH Client05 porting",
-    "phase":  "fastbattle_impl_build_test",
+    "phase":  "foundationA_shadow_verify",
     "turn":  "awaiting_analyst",
     "needs_human":  false,
     "human_gate":  null,
     "attach_authorized":  false,
     "autologin_authorized":  false,
     "oaaw":  true,
-    "cycle":  153,
+    "cycle":  154,
     "model":  "gpt-5.6-terra",
     "reasoning_effort":  "medium",
-    "instruction":  "BUILD+TEST fast battle (cycle 153, OAAW). Verify markers [FastBattle]/fastBattleRequested/setClient05FastBattleRequested and *noDrawMax writes=2. Config BOTH default.json: AutoLogin=true, AutoWalk=true, FastAutoWalk=false, AutoBattle=true, FastBattle=true, SpeedBoost=0, AutoWalkDistance=5, AutoWalkDelay=5; readback. Delete stale fastbattle/autobattle/autowalk diag logs. Build via human-b1diag-go.ps1 (fail-\u003eerror C + NEEDS_INPUT). Launch, Start once, auto-login, ~150s (random-walk-\u003eencounter-\u003eauto-battle-\u003efast-battle drops EN/B). Collect fastbattle-diag+autobattle-diag+autowalk-diag. Run assert-fastbattle.ps1 (PASS iff want=1 line en=C3 b=C3 ok=3) + assert-walk.ps1 (distinct positions = char kept moving, NOT stuck). PASS iff patch installed AND char kept moving AND battles occurred. If PASS but stuck(distinct\u003c=2) -\u003e over-block, report last autowalk/autobattle/fastbattle lines to scope block. No commit. See INSTRUCTION.md.",
+    "instruction":  "BUILD+SHADOW-VERIFY Foundation A (cycle 154, OAAW). Preflight markers FoundationAShadow/AutoWalkOscillate/FastBattleHook, *noDrawMax==2, FreeRandomWalk==0. Config BOTH default.json: AutoLogin=true, AutoWalk=true, FastAutoWalk=false, AutoBattle=true, FastBattle=FALSE(scene needed), ShowExp=true, SpeedBoost=0, AutoWalkDistance=5, AutoWalkDelay=5; readback (FastBattle must be false). Delete stale foundationa-shadow/autobattle/autowalk logs. Build via human-b1diag-go.ps1 (fail-\u003eerror C + NEEDS_INPUT). Launch, Start once, auto-login, ~180s (oscillate-\u003eencounter-\u003eauto-battle w/ scene; shadow logs wire-vs-scene per turn). Collect foundationa-shadow+autobattle+autowalk. Run assert-foundationA.ps1 (PASS iff comparableTurns\u003e=8 AND matchRate\u003e=0.90). Confirm 嫄룰린議곗슦 oscillation (target orig+/-3, side flips) + battles occurred. If FAIL, paste first 8 mismatch SHADOW lines; change NO code. No commit. Foundation-A code is READ-ONLY (parse+read scene+log; no block, no send). Never print account/password/security-code. See INSTRUCTION.md.",
     "relay":  "C:\\SaSH-relay",
-    "repo":  "C:\\Users\\Administrator\\Documents\\Codex\\2026-07-19\\windows-ui-60-exit-code-0\\work\\etc-source-local",
+    "repo":  "C:\\src\\etc-source-local",
     "client_exe":  "C:\\sa-bridge\\Client Source Code\\bin\\Release\\SA93Client.exe",
-    "client_exe_sha256":  "756A90D6CCF5CEFEED72B12E3D524D88B702946B365FF804A86B47C56BB73F4E",
     "updated_by":  "codex-watcher",
-    "notes":  "Fast battle (恙ラ잍댆遼? F0 port implemented. Launcher: kFastBattleEnable -\u003e WM_SetBlockPacket sets IS_ENCOUNT_BLOCK_FLAG -\u003e hooked New_lssproto_EN_recv/New_lssproto_B_recv drop EN/B packets (sadll.cpp:496-506). Client05 R0 port (5 injections, all g++/here-string verified): channel fastBattleRequested + gamedevice setClient05FastBattleRequested + mainthread reapply/edge wiring of kFastBattleEnable + monitor block that ret-patches lssproto_EN_recv(0x485200)/lssproto_B_recv(0x483BF0) entry byte to 0xC3 when on (restore off), using the SAME VirtualProtect/FlushInstructionCache ret-patch mechanism as the proven time-lock feature (RULES 짠5 justification: both patch void __cdecl client fns to 0xC3 toggled by a flag). void __cdecl -\u003e 0xC3 returns cleanly. Battle resolves server-side; ported auto-battle (BC/BA, not blocked) drives actions. Risk under test: over-block -\u003e stuck in battle. Design doc: FASTBATTLE-DESIGN.md. Black-screen diagnosis closed+documented (BLACKSCREEN-DIAGNOSIS.md); owner moved to feature work."
+    "notes":  "Foundation A shadow-verify: launcher wire battle parser (EN/BP/BC/BA) ported, running in SHADOW mode (parse + compare-log vs client scene feBObj, NO block, NO send). Goal: prove wire-parse == client scene so auto-battle/escape/fall-escape/heal/show-exp (all currently scene-shortcut, see FEATURE-AUDIT-F0.md) can be switched to the wire engine and fast-battle becomes block-only. BC token stride from Stage1 capture: unit i pos at full-token 2+i*13, hp+5 maxhp+6 status+7 level+4. This build also reverts 嫄룰린議곗슦 to pre-blackscreen fixed-origin oscillation (FreeRandomWalk removed - black-screen closed). Fast-battle checkbox is mutually-exclusive with auto-battle (generalform.cpp) and show-exp is independent (both confirmed in audit)."
 }
