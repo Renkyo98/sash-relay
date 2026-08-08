@@ -1,22 +1,22 @@
 ﻿{
     "schema":  1,
     "project":  "SaSH Client05 porting",
-    "phase":  "fastbattle_conclude_fix_and_battlestatus",
+    "phase":  "fastbattle_eo_sync_and_f5_battlestatus",
     "turn":  "awaiting_analyst",
     "needs_human":  false,
     "human_gate":  null,
     "attach_authorized":  false,
     "autologin_authorized":  false,
     "oaaw":  true,
-    "cycle":  186,
+    "cycle":  187,
     "model":  "gpt-5.6-terra",
     "reasoning_effort":  "low",
-    "instruction_sha256":  "7E3600F22E95CFA36B8E81C343AFDD26341D36A258AC9C1937C14943FA3A62A8",
-    "instruction":  "ROOT CAUSE FIXED: fast-battle set battling@0x64F83C=1 on encounter but cleared g_fb.active ONLY on \u0027BU\u0027 (server forced-exit, never on normal end) -\u003e battling stuck -\u003e fast-encounter (gated battling==0) dies after 1 battle -\u003e no more encounters. FIX (F0 port of launcher tcpserver.cpp case \u0027C\u0027 14224-14278 isEnemyAllDead-\u003esetBattleEnd): fbParseBC now clears g_fb.active when all enemies dead. PS1 already replaced with fixed version. Step0 kill SA93Client + archive C:/zmffk/*diag*.log to archive-pre186. Build (verify FastBattleConclude marker + here-string/guard/g++). Config FastBattle=true AutoBattle=false FastAutoWalk=true AutoWalk=false Boost=14 (both default.json). Launch ONE via \u0027?앷린 ?ㅽ뻾\u0027(1443,674), record RUN_SINCE_ISO. Observe 90s; during battle open launcher F5-\u003e\u0027諛고? ?곹솴\u0027, save cycle186-battlestatus.png. Run assert-fastbattle186.ps1 (env RUN_SINCE_ISO). Report EN count(\u003e=3?), fastenc max cnt, fn1/fn4909D0, FBCHAN, exp-result(INFO), sa.dmp fresh?, assert exit, screenshot. No commit.",
+    "instruction_sha256":  "8517DAA3BEC54B23F885B96C4816D0EFD4B4A42AD347B231783DAE6FED1B6922",
+    "instruction":  "ROOT CAUSE (owner-confirmed repro): fast-battle checked at launch -\u003e encounters die (even at a good spot). Because B handler is blocked, the client never sends the battle-end EO, so the server stops re-sending surrounding objects -\u003e no further encounters. FIX (F0 port of launcher setBattleEnd tcpserver.cpp 8138-8143, same context = B_recv case \u0027C\u0027 isEnemyAllDead): on battle-end in fast-battle send lssproto_EO_send(sockfd,0) @0x4B5630, gated on g_fbLogEn (auto-battle sends its own EO; double = units break). PS1 already patched (FastBattleEOSync cycle187). Step0 kill SA93Client + archive C:/zmffk/*diag*.log -\u003e archive-pre187. Build (verify FastBattleEOSync marker + gates). Config FastBattle=true AutoBattle=false FastAutoWalk=true AutoWalk=false Boost=14. Launch ONE via \u0027?앷린 ?ㅽ뻾\u0027(1443,674), record RUN_SINCE_ISO. Observe ~120s; capture launcher F5-\u003e\u0027諛고? ?곹솴\u0027 TAB screenshot (NOT general tab) cycle187-battlestatus.png during battle. Run assert-fastbattle186.ps1. Report EN count(\u003e=3?), fastenc cnt, fn1/fn4909D0, FBCHAN, exp-result, sa.dmp fresh?, assert exit, screenshot. No commit.",
     "relay":  "C:\\SaSH-relay",
     "repo":  "C:\\src\\etc-source-local",
     "client_exe":  "C:\\sa-bridge\\Client Source Code\\bin\\Release\\SA93Client.exe",
     "assert":  "C:\\SaSH-relay\\assert-fastbattle186.ps1",
     "updated_by":  "codex-watcher",
-    "notes":  "鍮좊Ⅸ?꾪닾 議곗슦?딄? 洹쇰낯?섏젙(?곸쟾硫멤넂?꾪닾醫낅즺 ?댁떇). ?깃났湲곗?: ?곗냽議곗슦(EN\u003e=3)+鍮좊Ⅸ議곗슦 吏??cnt\u003e=10)+fn1/臾큗n4909D0(罹먮┃?곗젙吏)+FBCHAN fb=1 ab=0+臾댄겕?섏떆. 諛고??곹솴 ?ㅽ겕由곗꺑 ?좊떅?쒖떆 ?≪븞?먯젙?? exp-result??INFO(蹂꾨룄 ?꾩냽). 蹂닿퀬 ?쒓뎅??"
+    "notes":  "鍮좊Ⅸ?꾪닾 議곗슦?딄? 吏꾩쭨 洹쇰낯?섏젙 = ?꾪닾醫낅즺 EO ?꾩넚(?곗쿂 setBattleEnd ?댁떇). ?깃났湲곗?: EN 議곗슦 ?곗냽(??, ?ㅼ닔) + fastenc 吏??+ fn1/臾큗n4909D0(?뺤?) + FBCHAN fb=1 ab=0 + 臾댄겕?섏떆. 諛고??곹솴=F5 李쎌쓽 諛고??곹솴 ???ㅻ꼫 紐낆떆). exp-result??議곗슦 ?댁븘?섎㈃ ?먯뿰???뺤씤. 蹂닿퀬 ?쒓뎅??"
 }

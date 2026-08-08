@@ -3,3 +3,9 @@ autobattle ENABLED hwnd=00290388 old=FFFF0373 pid=10800
 autobattle CHAR t=226833140 turn=0 cliT=0 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st5 pet=hp342/st1 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=99/mx345] | enemies=15:st1/hp28/mx28/df0/fn1/lv2/v1 
 autobattle tick cnt=1 smto=1 res=0 battling=1 ctype=0 ptype=0
 autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|F
+battlemenu-suppress want=1 patched=4/4 (ab=0 ae=0)
+autobattle ENABLED hwnd=004D051E old=FFFF0455 pid=7064
+autobattle tick cnt=1 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=228628000 turn=0 cliT=0 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st5 pet=hp342/st1 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=99/mx345] | enemies=15:st1/hp45/mx45/df0/fn1/lv3/v1 16:st1/hp38/mx38/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+battlemenu-suppress want=0 patched=4/4 (ab=0 ae=0)

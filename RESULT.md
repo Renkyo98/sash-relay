@@ -1,85 +1,33 @@
-CYCLE: 186
-INSTRUCTION_SHA256: 7E3600F22E95CFA36B8E81C343AFDD26341D36A258AC9C1937C14943FA3A62A8
+# RESULT (Codex writes this each turn)
+
+CYCLE: 187
+INSTRUCTION_SHA256: 8517DAA3BEC54B23F885B96C4816D0EFD4B4A42AD347B231783DAE6FED1B6922
 STATUS: BLOCKED
 
 ## git
-- branch: sash-client05-integration
-- HEAD: f325579faa0ccf1518856cd502298a9330ec1cd3
-- git status --short: 
- M SaSH-master/SaSH/form/afkform.cpp
- M SaSH-master/SaSH/form/afkinfoform.cpp
- M SaSH-master/SaSH/form/afkinfoform.ui
- M SaSH-master/SaSH/form/battleinfoform.ui
- M SaSH-master/SaSH/form/chatinfoform.cpp
- M SaSH-master/SaSH/form/chatinfoform.ui
- M SaSH-master/SaSH/form/generalform.cpp
- M SaSH-master/SaSH/form/generalform.ui
- M SaSH-master/SaSH/form/growthcalculatorform.cpp
- M SaSH-master/SaSH/form/growthcalculatorform.ui
- M SaSH-master/SaSH/form/infoform.cpp
- M SaSH-master/SaSH/form/infoform.h
- M SaSH-master/SaSH/form/infoform.ui
- M SaSH-master/SaSH/form/iteminfoform.cpp
- M SaSH-master/SaSH/form/iteminfoform.h
- M SaSH-master/SaSH/form/iteminfoform.ui
- M SaSH-master/SaSH/form/mailinfoform.ui
- M SaSH-master/SaSH/form/playerinfoform.cpp
- M SaSH-master/SaSH/form/playerinfoform.ui
- M SaSH-master/SaSH/gamedevice.cpp
- M SaSH-master/SaSH/gamedevice.h
- M SaSH-master/SaSH/mainthread.cpp
- M SaSH-master/SaSH/net/tcpserver.cpp
- M SaSH-master/common/client05_readonly_protocol.h
- M SaSH-master/sadll/client05_transport_adapter.cpp
- M SaSH-master/sadll/client_runtime_diagnostics.cpp
- M SaSH-master/sadll/sadll.cpp
- M SaSH-master/tests/client05_readonly_protocol_tests.cpp
-?? SaSH-master/SaSH/SaSH/
-?? SaSH-master/b1-compile-on.props
-?? out/0082-b1-integration-map.md
-?? out/0083-recycle-fix.md
-?? out/0123-reattach-validate.md
-?? out/0172-cycle172-parserB-facts.md
-?? out/0175-cycle175-proctimeline-facts.md
+- branch: 확인 불가 (`C:\SaSH-relay`는 Git 저장소 아님)
+- HEAD: 확인 불가 (`C:\SaSH-relay`는 Git 저장소 아님)
+- git status --short: 확인 불가 (`C:\SaSH-relay`는 Git 저장소 아님)
 
-## build
-- sadll: PASS (deployed SHA256 C924A74FF256723A9D60ACE16399BCB54427DE54BFCF8B7F9E9483F77E4E292B)
-- SaSH: SKIPPED by SKIP_LAUNCHER_BUILD.flag
-- static gates: here-string balance, guard-lint, g++ syntax PASS (builder output)
+## changed files (if any)
+- 없음
 
-## static checks
-- assert-fastbattle186.ps1: FAIL (exit 1)
+## build (if any)
+- `human-b1diag-go.ps1`: 성공 (`sadll OK`; SaSH 빌드는 SKIP_LAUNCHER_BUILD.flag로 건너뜀)
+- deployed injected sadll SHA256: 7CE83CBF0894C35968007CDD0415C9206EC8B010EB1C8AD5A07349531877F5CA
+
+## static checks (if any)
+- FastBattleEOSync cycle187 마커: FAIL (run-187 및 srcsnapshot 검색 결과 없음)
 
 ## safety self-confirm
 - sadll changed: yes
-- new client memory write: no
-- new client function call: no
-- new packet/TCP: no
+- new client memory write: 확인하지 않음
+- new client function call: 확인하지 않음
+- new packet/TCP: 확인하지 않음
 - PersonalKey exposed/logged: no
 - default flags changed (RUNTIME_ACTIVATION/SPEED_CONTROL): no
-- client started/attached/run: yes
-- only handoff/ still untracked: yes
+- client started/attached/run: yes (빌드 스크립트가 런처 시작), 이후 종료함
+- only handoff/ still untracked: no
 
 ## notes / exact error or refusal text (verbatim if BLOCKED/HALTED)
-RUN_SINCE_ISO: 2026-08-08T00:24:00.0322840Z
-EN fd= encounters: 1
-fastautowalk maximum cnt: 2232
-autobattle fn1: 1
-autobattle fn4909D0: 0
-FBCHAN: FBCHAN faw=1 aw=0 fb=1 ab=0
-exp-result: 0 (INFO)
-sa.dmp new: no
-screenshot: C:\SaSH-relay\logs\human-ctrlinit\run-186\cycle186-battlestatus.png
-
-=== PASS ===
-  OK   FBCHAN pure fb=1 ab=0 x8
-  OK   BCunit parsed x5
-  OK   fast-encounter kept firing (max cnt=1811)
-  OK   fake-entity fn1 x1
-  OK   no fn4909D0 (char still)
-  OK   no fresh crash
-=== INFO ===
-  INFO exp-result x0 (no autobattle-diag.log)
-=== FAIL ===
-  FAIL encounters not continuous: EN x1 (need >=3)
-ASSERT: FAIL (1)
+FastBattleEOSync cycle187 마커가 생성물에서 확인되지 않아 INSTRUCTION Step 1의 "없으면 STOP"에 따라 Step 2 이후를 수행하지 않았다. 설정 변경, 자동 로그인, 전투/이동, F5 캡처, assert, bus push는 수행하지 않았다. SA93Client 및 SaSH-client05-cleanup-validation 종료를 시도했다.
