@@ -939,3 +939,9 @@ nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=95 mg=6)
 nmh-handler en=1 bat=0 sock=1 hp=250/mx263 pct=95 thr=95 petP=95 alP=95 mag=6 mi=3 mt=1 cost=20 mp=51 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
 nmh-handler en=1 bat=0 sock=1 hp=250/mx263 pct=95 thr=95 petP=95 alP=95 mag=6 mi=3 mt=1 cost=20 mp=51 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
 nmh-handler en=1 bat=0 sock=1 hp=250/mx263 pct=95 thr=95 petP=95 alP=95 mag=6 mi=3 mt=1 cost=20 mp=51 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=250/mx263 pct=95 thr=95 petP=95 alP=95 mag=6 mi=3 mt=1 cost=20 mp=51 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=250/mx263 pct=95 thr=95 petP=95 alP=95 mag=6 mi=3 mt=1 cost=20 mp=51 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=250/mx263 pct=95 thr=95 petP=95 alP=95 mag=6 mi=3 mt=1 cost=20 mp=51 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-monitor en=1 hwnd=1 bat=0 chan(en=1 ch=95 mg=6)
+nmh-handler en=1 bat=0 sock=1 hp=250/mx263 pct=95 thr=95 petP=95 alP=95 mag=6 mi=3 mt=1 cost=20 mp=51 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
+nmh-handler en=1 bat=0 sock=1 hp=250/mx263 pct=95 thr=95 petP=95 alP=95 mag=6 mi=3 mt=1 cost=20 mp=51 tgt=-1 fired=0 impEn=1 impV=30 imp=-1 fImp=0
