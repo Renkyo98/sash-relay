@@ -1,0 +1,712 @@
+battlemenu-suppress want=1 patched=4/4 (ab=0 ae=0)
+autobattle ENABLED hwnd=004402EE old=FFFF057D pid=9832
+autobattle tick cnt=1 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230334140 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st5 pet=hp342/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=99/mx345] | enemies=15:st1/hp32/mx32/df0/fn1/lv3/v1 16:st1/hp29/mx29/df0/fn1/lv3/v1 17:st1/hp30/mx30/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=3 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230334843 turn=1 cliT=1 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st4 pet=hp342/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=99/mx345] | enemies=16:st0/hp29/mx29/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|10
+autobattle tick cnt=15 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230335578 turn=0 cliT=0 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st5 pet=hp342/st1 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=99/mx345] | enemies=15:st1/hp46/mx46/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=23 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230339093 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st5 pet=hp342/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=99/mx345] | enemies=15:st1/hp25/mx25/df0/fn1/lv2/v1 16:st1/hp25/mx25/df0/fn1/lv2/v1 17:st1/hp23/mx23/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230339828 turn=1 cliT=1 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st4 pet=hp342/st0 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=99/mx345] | enemies=15:st0/hp25/mx25/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=38 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230340578 turn=0 cliT=0 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st5 pet=hp342/st1 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=99/mx345] | enemies=15:st1/hp51/mx51/df0/fn1/lv4/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=4 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230341625 turn=0 cliT=0 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st5 pet=hp342/st1 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=99/mx345] | enemies=15:st1/hp30/mx30/df0/fn1/lv2/v1 
+autobattle tick cnt=49 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230342734 turn=0 cliT=0 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st5 pet=hp342/st1 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=99/mx345] | enemies=15:st1/hp32/mx32/df0/fn1/lv3/v1 
+autobattle tick cnt=51 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230343656 turn=0 cliT=0 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st5 pet=hp342/st1 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=99/mx345] | enemies=15:st1/hp26/mx26/df0/fn1/lv2/v1 16:st1/hp22/mx22/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=55 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230344390 turn=1 cliT=1 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp262/st4 pet=hp342/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=99/mx345] | enemies=16:st0/hp22/mx22/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|10
+autobattle CHAR t=230348171 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp262/st5 pet=hp342/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=99/mx345] | enemies=15:st1/hp25/mx25/df0/fn1/lv2/v1 16:st1/hp24/mx24/df0/fn1/lv2/v1 17:st1/hp28/mx28/df0/fn1/lv3/v1 
+autobattle tick cnt=67 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230348921 turn=1 cliT=1 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp261/st4 pet=hp342/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=99/mx345] | enemies=16:st0/hp24/mx24/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|10
+autobattle tick cnt=81 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230351140 turn=0 cliT=0 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp261/st5 pet=hp342/st1 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=99/mx345] | enemies=15:st1/hp37/mx37/df0/fn1/lv2/v1 16:st1/hp46/mx46/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230351890 turn=0 cliT=0 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp261/st5 pet=hp342/st1 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=99/mx345] | enemies=15:st1/hp34/mx34/df0/fn1/lv3/v1 16:st1/hp29/mx29/df0/fn1/lv2/v1 17:st1/hp34/mx34/df0/fn1/lv3/v1 18:st1/hp38/mx38/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=94 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230352625 turn=1 cliT=1 myNo=0 afl=58000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st4 pet=hp342/st0 validEnemy=3 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=99/mx345] | enemies=15:st0/hp34/mx34/df0/fn1/lv3/v1 16:st0/hp29/mx29/df0/fn1/lv2/v1 18:st0/hp38/mx38/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=111 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230353359 turn=2 cliT=2 myNo=0 afl=40000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st4 pet=hp341/st0 validEnemy=1 fallback=18 delay=0 cmd=H|12 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=98/mx345] | enemies=18:st0/hp38/mx38/df0/fn1/lv3/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=18 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|12
+autobattle CHAR t=230354921 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st5 pet=hp341/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=98/mx345] | enemies=15:st1/hp37/mx37/df0/fn1/lv3/v1 16:st1/hp36/mx36/df0/fn1/lv3/v1 17:st1/hp37/mx37/df0/fn1/lv3/v1 
+autobattle tick cnt=116 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=3 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230355671 turn=1 cliT=1 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st4 pet=hp341/st0 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=98/mx345] | enemies=15:st0/hp37/mx37/df0/fn1/lv3/v1 16:st0/hp36/mx36/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230357515 turn=0 cliT=0 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st5 pet=hp341/st1 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=98/mx345] | enemies=15:st1/hp26/mx26/df0/fn1/lv2/v1 
+autobattle tick cnt=130 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230358250 turn=0 cliT=0 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st5 pet=hp341/st1 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=98/mx345] | enemies=15:st1/hp33/mx33/df0/fn1/lv3/v1 16:st1/hp26/mx26/df0/fn1/lv2/v1 17:st1/hp29/mx29/df0/fn1/lv3/v1 18:st1/hp24/mx24/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=145 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230358984 turn=1 cliT=1 myNo=0 afl=48000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp256/st4 pet=hp341/st0 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=97/mx263 petP=98/mx345] | enemies=15:st0/hp33/mx33/df0/fn1/lv3/v1 18:st0/hp24/mx24/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=154 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230361828 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp256/st5 pet=hp341/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=97/mx263 petP=98/mx345] | enemies=15:st1/hp37/mx37/df0/fn1/lv3/v1 16:st1/hp37/mx37/df0/fn1/lv3/v1 17:st1/hp39/mx39/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=3 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230362562 turn=1 cliT=1 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp256/st4 pet=hp341/st0 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=97/mx263 petP=98/mx345] | enemies=15:st0/hp37/mx37/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230363312 turn=0 cliT=0 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp256/st5 pet=hp341/st1 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=97/mx263 petP=98/mx345] | enemies=15:st1/hp37/mx37/df0/fn1/lv2/v1 
+autobattle tick cnt=169 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230364046 turn=0 cliT=0 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp256/st5 pet=hp341/st1 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=97/mx263 petP=98/mx345] | enemies=15:st1/hp30/mx30/df0/fn1/lv2/v1 16:st1/hp29/mx29/df0/fn1/lv2/v1 17:st1/hp37/mx37/df0/fn1/lv3/v1 18:st1/hp36/mx36/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=183 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230364781 turn=1 cliT=1 myNo=0 afl=58000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp255/st4 pet=hp340/st0 validEnemy=3 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=98/mx345] | enemies=15:st0/hp30/mx30/df0/fn1/lv2/v1 16:st0/hp29/mx29/df0/fn1/lv2/v1 18:st0/hp36/mx36/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=198 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230365515 turn=0 cliT=0 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp255/st5 pet=hp340/st1 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=98/mx345] | enemies=15:st1/hp24/mx24/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230366265 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp255/st5 pet=hp340/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=98/mx345] | enemies=15:st1/hp30/mx30/df0/fn1/lv3/v1 16:st1/hp31/mx31/df0/fn1/lv3/v1 17:st1/hp25/mx25/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=209 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230367015 turn=1 cliT=1 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp255/st4 pet=hp340/st0 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=98/mx345] | enemies=15:st0/hp30/mx30/df0/fn1/lv3/v1 16:st0/hp31/mx31/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=223 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230367765 turn=0 cliT=0 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp255/st5 pet=hp340/st1 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=98/mx345] | enemies=15:st1/hp36/mx36/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=237 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230368500 turn=0 cliT=0 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp255/st5 pet=hp340/st1 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=98/mx345] | enemies=15:st1/hp25/mx25/df0/fn1/lv2/v1 16:st1/hp30/mx30/df0/fn1/lv3/v1 17:st1/hp24/mx24/df0/fn1/lv2/v1 18:st1/hp27/mx27/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230369250 turn=1 cliT=1 myNo=0 afl=50000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp255/st4 pet=hp338/st0 validEnemy=2 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=97/mx345] | enemies=16:st0/hp30/mx30/df0/fn1/lv3/v1 18:st0/hp27/mx27/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=2 minLv=3 pcEnable=0 cmd=W|0|10
+autobattle tick cnt=252 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230369984 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp255/st5 pet=hp338/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=97/mx345] | enemies=15:st1/hp30/mx30/df0/fn1/lv2/v1 16:st1/hp30/mx30/df0/fn1/lv2/v1 17:st1/hp37/mx37/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=269 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230370734 turn=1 cliT=1 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp255/st4 pet=hp337/st0 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=97/mx345] | enemies=15:st0/hp30/mx30/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230372031 turn=0 cliT=0 myNo=0 afl=F8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp255/st5 pet=hp337/st1 validEnemy=5 fallback=19 delay=0 cmd=H|13 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=97/mx345] | enemies=15:st1/hp26/mx26/df0/fn1/lv2/v1 16:st1/hp26/mx26/df0/fn1/lv2/v1 17:st1/hp31/mx31/df0/fn1/lv3/v1 18:st1/hp24/mx24/df0/fn1/lv2/v1 19:st1/hp29/mx29/df0/fn1/lv3/v1 
+autobattle tick cnt=273 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=19 validEnemy=5 minLv=2 pcEnable=0 cmd=W|0|13
+autobattle CHAR t=230372765 turn=1 cliT=1 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp254/st4 pet=hp335/st0 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=97/mx345] | enemies=15:st0/hp26/mx26/df0/fn1/lv2/v1 16:st0/hp26/mx26/df0/fn1/lv2/v1 17:st0/hp31/mx31/df0/fn1/lv3/v1 18:st0/hp24/mx24/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=290 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230373500 turn=2 cliT=2 myNo=0 afl=50000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp254/st4 pet=hp334/st0 validEnemy=2 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=96/mx345] | enemies=16:st0/hp26/mx26/df0/fn1/lv2/v1 18:st0/hp24/mx24/df0/fn1/lv2/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|10
+autobattle CHAR t=230374921 turn=0 cliT=0 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp254/st5 pet=hp333/st1 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=96/mx345] | enemies=15:st1/hp24/mx24/df0/fn1/lv2/v1 
+autobattle tick cnt=299 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=301 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230378125 turn=0 cliT=0 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp254/st5 pet=hp333/st1 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=96/mx345] | enemies=15:st1/hp24/mx24/df0/fn1/lv2/v1 16:st1/hp30/mx30/df0/fn1/lv3/v1 17:st1/hp31/mx31/df0/fn1/lv3/v1 18:st1/hp22/mx22/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230378875 turn=1 cliT=1 myNo=0 afl=58000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st4 pet=hp332/st0 validEnemy=3 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=15:st0/hp24/mx24/df0/fn1/lv2/v1 16:st0/hp30/mx30/df0/fn1/lv3/v1 18:st0/hp22/mx22/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=318 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230379609 turn=2 cliT=2 myNo=0 afl=40000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st4 pet=hp332/st0 validEnemy=1 fallback=18 delay=0 cmd=H|12 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=18:st0/hp22/mx22/df0/fn1/lv2/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=18 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|12
+autobattle tick cnt=333 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230380343 turn=0 cliT=0 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st5 pet=hp332/st1 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=15:st1/hp24/mx24/df0/fn1/lv2/v1 16:st1/hp28/mx28/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230381078 turn=1 cliT=1 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st4 pet=hp332/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=16:st0/hp28/mx28/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|10
+autobattle tick cnt=350 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230381828 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st5 pet=hp332/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=15:st1/hp25/mx25/df0/fn1/lv2/v1 16:st1/hp28/mx28/df0/fn1/lv3/v1 17:st1/hp32/mx32/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=367 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230382562 turn=1 cliT=1 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st4 pet=hp332/st0 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=15:st0/hp25/mx25/df0/fn1/lv2/v1 16:st0/hp28/mx28/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230383312 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st5 pet=hp332/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=15:st1/hp40/mx40/df0/fn1/lv2/v1 16:st1/hp43/mx43/df0/fn1/lv2/v1 17:st1/hp41/mx41/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=379 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230384046 turn=1 cliT=1 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st4 pet=hp332/st0 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=15:st0/hp40/mx40/df0/fn1/lv2/v1 16:st0/hp43/mx43/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=396 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230384781 turn=2 cliT=2 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st4 pet=hp332/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=16:st0/hp43/mx43/df0/fn1/lv2/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|10
+autobattle CHAR t=230385531 turn=0 cliT=0 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st5 pet=hp332/st1 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=15:st1/hp40/mx40/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=406 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230386750 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st5 pet=hp332/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=15:st1/hp23/mx23/df0/fn1/lv2/v1 16:st1/hp22/mx22/df0/fn1/lv2/v1 17:st1/hp25/mx25/df0/fn1/lv2/v1 
+autobattle tick cnt=407 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230387468 turn=1 cliT=1 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp251/st4 pet=hp332/st0 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=15:st0/hp23/mx23/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=421 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230393750 turn=0 cliT=0 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp251/st5 pet=hp332/st1 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=15:st1/hp22/mx22/df0/fn1/lv2/v1 16:st1/hp25/mx25/df0/fn1/lv2/v1 17:st1/hp29/mx29/df0/fn1/lv3/v1 18:st1/hp27/mx27/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230394484 turn=1 cliT=1 myNo=0 afl=58000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp251/st4 pet=hp331/st0 validEnemy=3 fallback=15 delay=0 cmd=J|0|14 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=95/mx345] | enemies=15:st0/hp22/mx22/df0/fn1/lv2/v1 16:st0/hp25/mx25/df0/fn1/lv2/v1 18:st0/hp27/mx27/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230395859 turn=0 cliT=0 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st5 pet=hp345/st1 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=100/mx345] | enemies=15:st1/hp28/mx28/df0/fn1/lv3/v1 16:st1/hp29/mx29/df0/fn1/lv3/v1 
+autobattle tick cnt=436 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230396593 turn=0 cliT=0 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st5 pet=hp345/st1 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=100/mx345] | enemies=15:st1/hp31/mx31/df0/fn1/lv3/v1 16:st1/hp27/mx27/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=447 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230397343 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st5 pet=hp345/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=100/mx345] | enemies=15:st1/hp22/mx22/df0/fn1/lv2/v1 16:st1/hp27/mx27/df0/fn1/lv3/v1 17:st1/hp31/mx31/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230398218 turn=0 cliT=0 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st5 pet=hp345/st1 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=100/mx345] | enemies=15:st1/hp52/mx52/df0/fn1/lv4/v1 
+autobattle tick cnt=455 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=4 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230398953 turn=0 cliT=0 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st5 pet=hp345/st1 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=100/mx345] | enemies=15:st1/hp25/mx25/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230400859 turn=0 cliT=0 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st5 pet=hp345/st1 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=100/mx345] | enemies=15:st1/hp37/mx37/df0/fn1/lv3/v1 
+autobattle tick cnt=466 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230401593 turn=0 cliT=0 myNo=0 afl=F8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st5 pet=hp345/st1 validEnemy=5 fallback=19 delay=0 cmd=H|13 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=100/mx345] | enemies=15:st1/hp28/mx28/df0/fn1/lv2/v1 16:st1/hp28/mx28/df0/fn1/lv2/v1 17:st1/hp31/mx31/df0/fn1/lv2/v1 18:st1/hp29/mx29/df0/fn1/lv2/v1 19:st1/hp30/mx30/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=19 validEnemy=5 minLv=2 pcEnable=0 cmd=W|0|13
+autobattle tick cnt=481 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230402328 turn=1 cliT=1 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st4 pet=hp345/st0 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=100/mx345] | enemies=15:st0/hp28/mx28/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230403125 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st5 pet=hp345/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=100/mx345] | enemies=15:st1/hp34/mx34/df0/fn1/lv3/v1 16:st1/hp38/mx38/df0/fn1/lv3/v1 17:st1/hp31/mx31/df0/fn1/lv2/v1 
+autobattle tick cnt=490 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230403828 turn=1 cliT=1 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st4 pet=hp345/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=100/mx345] | enemies=16:st0/hp38/mx38/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|10
+autobattle CHAR t=230404640 turn=0 cliT=0 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st5 pet=hp345/st1 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=100/mx345] | enemies=15:st1/hp37/mx37/df0/fn1/lv3/v1 16:st1/hp31/mx31/df0/fn1/lv2/v1 17:st1/hp28/mx28/df0/fn1/lv2/v1 18:st1/hp31/mx31/df0/fn1/lv2/v1 
+autobattle tick cnt=503 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230405375 turn=1 cliT=1 myNo=0 afl=48000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp262/st4 pet=hp344/st0 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=99/mx345] | enemies=15:st0/hp37/mx37/df0/fn1/lv3/v1 18:st0/hp31/mx31/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230406796 turn=0 cliT=0 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp262/st5 pet=hp344/st1 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=99/mx345] | enemies=15:st1/hp31/mx31/df0/fn1/lv3/v1 16:st1/hp31/mx31/df0/fn1/lv3/v1 
+autobattle tick cnt=517 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230407546 turn=1 cliT=1 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp262/st4 pet=hp343/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=99/mx345] | enemies=16:st0/hp31/mx31/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|10
+autobattle CHAR t=230409078 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp262/st5 pet=hp343/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=99/mx345] | enemies=15:st1/hp45/mx45/df0/fn1/lv3/v1 16:st1/hp39/mx39/df0/fn1/lv2/v1 17:st1/hp46/mx46/df0/fn1/lv3/v1 
+autobattle tick cnt=531 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230410187 turn=0 cliT=0 myNo=0 afl=F8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp262/st5 pet=hp343/st1 validEnemy=5 fallback=19 delay=0 cmd=H|13 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=99/mx345] | enemies=15:st1/hp36/mx36/df0/fn1/lv3/v1 16:st1/hp28/mx28/df0/fn1/lv2/v1 17:st1/hp37/mx37/df0/fn1/lv3/v1 18:st1/hp28/mx28/df0/fn1/lv2/v1 19:st1/hp37/mx37/df0/fn1/lv3/v1 
+autobattle tick cnt=533 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=19 validEnemy=5 minLv=2 pcEnable=0 cmd=W|0|13
+autobattle CHAR t=230410921 turn=1 cliT=1 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp261/st4 pet=hp340/st0 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=98/mx345] | enemies=15:st0/hp36/mx36/df0/fn1/lv3/v1 16:st0/hp28/mx28/df0/fn1/lv2/v1 17:st0/hp37/mx37/df0/fn1/lv3/v1 18:st0/hp28/mx28/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=550 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230411671 turn=2 cliT=2 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp261/st4 pet=hp340/st0 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=98/mx345] | enemies=15:st0/hp36/mx36/df0/fn1/lv3/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230413218 turn=0 cliT=0 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp261/st5 pet=hp340/st1 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=98/mx345] | enemies=15:st1/hp48/mx48/df0/fn1/lv4/v1 16:st1/hp37/mx37/df0/fn1/lv2/v1 17:st1/hp53/mx53/df0/fn1/lv4/v1 18:st1/hp51/mx51/df0/fn1/lv4/v1 
+autobattle tick cnt=559 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230413953 turn=1 cliT=1 myNo=0 afl=50000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp261/st4 pet=hp340/st0 validEnemy=2 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=98/mx345] | enemies=16:st0/hp37/mx37/df0/fn1/lv2/v1 18:st0/hp51/mx51/df0/fn1/lv4/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|10
+autobattle CHAR t=230418765 turn=0 cliT=0 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp261/st5 pet=hp340/st1 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=98/mx345] | enemies=15:st1/hp35/mx35/df0/fn1/lv3/v1 16:st1/hp40/mx40/df0/fn1/lv3/v1 
+autobattle tick cnt=573 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230419500 turn=1 cliT=1 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp261/st4 pet=hp340/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=98/mx345] | enemies=16:st0/hp40/mx40/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|10
+autobattle tick cnt=587 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230420250 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp261/st5 pet=hp340/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=98/mx345] | enemies=15:st1/hp33/mx33/df0/fn1/lv3/v1 16:st1/hp24/mx24/df0/fn1/lv2/v1 17:st1/hp25/mx25/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=604 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230420984 turn=1 cliT=1 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp261/st4 pet=hp340/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=98/mx345] | enemies=16:st0/hp24/mx24/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|10
+autobattle CHAR t=230424125 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp261/st5 pet=hp340/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=98/mx345] | enemies=15:st1/hp32/mx32/df0/fn1/lv3/v1 16:st1/hp28/mx28/df0/fn1/lv3/v1 17:st1/hp22/mx22/df0/fn1/lv2/v1 
+autobattle tick cnt=608 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230424859 turn=1 cliT=1 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp261/st4 pet=hp340/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=98/mx345] | enemies=16:st0/hp28/mx28/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|10
+autobattle tick cnt=622 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230425609 turn=0 cliT=0 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp261/st5 pet=hp340/st1 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=98/mx345] | enemies=15:st1/hp29/mx29/df0/fn1/lv3/v1 16:st1/hp28/mx28/df0/fn1/lv3/v1 17:st1/hp29/mx29/df0/fn1/lv3/v1 18:st1/hp27/mx27/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=3 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=639 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230426343 turn=1 cliT=1 myNo=0 afl=58000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp260/st4 pet=hp339/st0 validEnemy=3 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=98/mx345] | enemies=15:st0/hp29/mx29/df0/fn1/lv3/v1 16:st0/hp28/mx28/df0/fn1/lv3/v1 18:st0/hp27/mx27/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=3 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230427093 turn=2 cliT=2 myNo=0 afl=50000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp260/st4 pet=hp339/st0 validEnemy=2 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=98/mx345] | enemies=16:st0/hp28/mx28/df0/fn1/lv3/v1 18:st0/hp27/mx27/df0/fn1/lv3/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=2 minLv=3 pcEnable=0 cmd=W|0|10
+autobattle tick cnt=656 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230427828 turn=3 cliT=3 myNo=0 afl=40000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp260/st4 pet=hp339/st0 validEnemy=1 fallback=18 delay=0 cmd=H|12 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=98/mx345] | enemies=18:st0/hp27/mx27/df0/fn1/lv3/v1 
+autobattle PET turn=3 myNo=0 row=0 si=0 seed=-2 target=18 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|12
+autobattle tick cnt=667 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230430937 turn=0 cliT=0 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp260/st5 pet=hp339/st1 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=98/mx345] | enemies=15:st1/hp26/mx26/df0/fn1/lv2/v1 16:st1/hp24/mx24/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230431671 turn=1 cliT=1 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp260/st4 pet=hp339/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=98/mx345] | enemies=16:st0/hp24/mx24/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|10
+autobattle CHAR t=230432531 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp260/st5 pet=hp339/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=98/mx345] | enemies=15:st1/hp39/mx39/df0/fn1/lv2/v1 16:st1/hp54/mx54/df0/fn1/lv4/v1 17:st1/hp49/mx49/df0/fn1/lv4/v1 
+autobattle tick cnt=682 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230433265 turn=1 cliT=1 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp260/st4 pet=hp338/st0 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=97/mx345] | enemies=15:st0/hp39/mx39/df0/fn1/lv2/v1 16:st0/hp54/mx54/df0/fn1/lv4/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=699 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230434000 turn=2 cliT=2 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp260/st4 pet=hp338/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=97/mx345] | enemies=16:st0/hp54/mx54/df0/fn1/lv4/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=4 pcEnable=0 cmd=W|0|10
+autobattle tick cnt=712 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230434750 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp260/st5 pet=hp338/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=97/mx345] | enemies=15:st1/hp24/mx24/df0/fn1/lv2/v1 16:st1/hp27/mx27/df0/fn1/lv2/v1 17:st1/hp25/mx25/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230435500 turn=1 cliT=1 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp260/st4 pet=hp337/st0 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=97/mx345] | enemies=15:st0/hp24/mx24/df0/fn1/lv2/v1 16:st0/hp27/mx27/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=728 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230436234 turn=0 cliT=0 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp260/st5 pet=hp337/st1 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=97/mx345] | enemies=15:st1/hp25/mx25/df0/fn1/lv2/v1 16:st1/hp31/mx31/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=745 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230436968 turn=1 cliT=1 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp259/st4 pet=hp337/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=97/mx345] | enemies=16:st0/hp31/mx31/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|10
+autobattle CHAR t=230437718 turn=0 cliT=0 myNo=0 afl=F8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp259/st5 pet=hp337/st1 validEnemy=5 fallback=19 delay=0 cmd=H|13 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=97/mx345] | enemies=15:st1/hp39/mx39/df0/fn1/lv2/v1 16:st1/hp42/mx42/df0/fn1/lv2/v1 17:st1/hp47/mx47/df0/fn1/lv3/v1 18:st1/hp51/mx51/df0/fn1/lv4/v1 19:st1/hp38/mx38/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=19 validEnemy=5 minLv=2 pcEnable=0 cmd=W|0|13
+autobattle tick cnt=756 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230438453 turn=1 cliT=1 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp259/st4 pet=hp337/st0 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=97/mx345] | enemies=15:st0/hp39/mx39/df0/fn1/lv2/v1 16:st0/hp42/mx42/df0/fn1/lv2/v1 17:st0/hp47/mx47/df0/fn1/lv3/v1 18:st0/hp51/mx51/df0/fn1/lv4/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=773 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230439187 turn=2 cliT=2 myNo=0 afl=40000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp259/st4 pet=hp336/st0 validEnemy=1 fallback=18 delay=0 cmd=H|12 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=97/mx345] | enemies=18:st0/hp51/mx51/df0/fn1/lv4/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=18 validEnemy=1 minLv=4 pcEnable=0 cmd=W|0|12
+autobattle CHAR t=230439921 turn=3 cliT=3 myNo=0 afl=40000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp259/st4 pet=hp336/st0 validEnemy=1 fallback=18 delay=0 cmd=H|12 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=97/mx345] | enemies=18:st0/hp21/mx51/df0/fn1/lv4/v1 
+autobattle PET turn=3 myNo=0 row=0 si=0 seed=-2 target=18 validEnemy=1 minLv=4 pcEnable=0 cmd=W|0|12
+autobattle tick cnt=790 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230440671 turn=0 cliT=0 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp259/st5 pet=hp336/st1 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=97/mx345] | enemies=15:st1/hp23/mx23/df0/fn1/lv2/v1 16:st1/hp23/mx23/df0/fn1/lv2/v1 17:st1/hp26/mx26/df0/fn1/lv2/v1 18:st1/hp31/mx31/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=804 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230441421 turn=1 cliT=1 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp259/st4 pet=hp336/st0 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=97/mx345] | enemies=15:st0/hp23/mx23/df0/fn1/lv2/v1 16:st0/hp23/mx23/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=813 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230442171 turn=0 cliT=0 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp259/st5 pet=hp336/st1 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=97/mx345] | enemies=15:st1/hp23/mx23/df0/fn1/lv2/v1 16:st1/hp28/mx28/df0/fn1/lv3/v1 17:st1/hp26/mx26/df0/fn1/lv3/v1 18:st1/hp31/mx31/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230442906 turn=1 cliT=1 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp259/st4 pet=hp335/st0 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=97/mx345] | enemies=15:st0/hp23/mx23/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230443640 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp259/st5 pet=hp335/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=97/mx345] | enemies=15:st1/hp29/mx29/df0/fn1/lv3/v1 16:st1/hp24/mx24/df0/fn1/lv2/v1 17:st1/hp31/mx31/df0/fn1/lv3/v1 
+autobattle tick cnt=829 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230444390 turn=1 cliT=1 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st4 pet=hp335/st0 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=97/mx345] | enemies=15:st0/hp29/mx29/df0/fn1/lv3/v1 16:st0/hp24/mx24/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=846 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230445125 turn=2 cliT=2 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st4 pet=hp334/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=96/mx345] | enemies=16:st0/hp24/mx24/df0/fn1/lv2/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|10
+autobattle tick cnt=856 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230445859 turn=0 cliT=0 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st5 pet=hp334/st1 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=96/mx345] | enemies=15:st1/hp26/mx26/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=860 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230447156 turn=0 cliT=0 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st5 pet=hp334/st1 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=96/mx345] | enemies=15:st1/hp37/mx37/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230447890 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st5 pet=hp334/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=96/mx345] | enemies=15:st1/hp31/mx31/df0/fn1/lv3/v1 16:st1/hp29/mx29/df0/fn1/lv3/v1 17:st1/hp28/mx28/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=3 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=873 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230448625 turn=1 cliT=1 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st4 pet=hp333/st0 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=96/mx345] | enemies=15:st0/hp31/mx31/df0/fn1/lv3/v1 16:st0/hp29/mx29/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230449343 turn=0 cliT=0 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st5 pet=hp333/st1 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=96/mx345] | enemies=15:st1/hp38/mx38/df0/fn1/lv3/v1 16:st1/hp36/mx36/df0/fn1/lv3/v1 17:st1/hp37/mx37/df0/fn1/lv3/v1 18:st1/hp36/mx36/df0/fn1/lv3/v1 
+autobattle tick cnt=883 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=3 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230450078 turn=1 cliT=1 myNo=0 afl=50000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp257/st4 pet=hp333/st0 validEnemy=2 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=97/mx263 petP=96/mx345] | enemies=16:st0/hp36/mx36/df0/fn1/lv3/v1 18:st0/hp36/mx36/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=2 minLv=3 pcEnable=0 cmd=W|0|10
+autobattle tick cnt=900 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230450812 turn=2 cliT=2 myNo=0 afl=40000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp256/st4 pet=hp333/st0 validEnemy=1 fallback=18 delay=0 cmd=H|12 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=97/mx263 petP=96/mx345] | enemies=18:st0/hp36/mx36/df0/fn1/lv3/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=18 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|12
+autobattle tick cnt=914 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230451546 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp256/st5 pet=hp333/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=97/mx263 petP=96/mx345] | enemies=15:st1/hp24/mx24/df0/fn1/lv2/v1 16:st1/hp26/mx26/df0/fn1/lv2/v1 17:st1/hp29/mx29/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230452281 turn=1 cliT=1 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp256/st4 pet=hp332/st0 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=97/mx263 petP=96/mx345] | enemies=15:st0/hp24/mx24/df0/fn1/lv2/v1 16:st0/hp26/mx26/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=931 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230453031 turn=2 cliT=2 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp256/st4 pet=hp332/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=97/mx263 petP=96/mx345] | enemies=16:st0/hp26/mx26/df0/fn1/lv2/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|10
+autobattle CHAR t=230454421 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp256/st5 pet=hp332/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=97/mx263 petP=96/mx345] | enemies=15:st1/hp31/mx31/df0/fn1/lv3/v1 16:st1/hp25/mx25/df0/fn1/lv2/v1 17:st1/hp31/mx31/df0/fn1/lv3/v1 
+autobattle tick cnt=942 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230455171 turn=1 cliT=1 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp255/st4 pet=hp332/st0 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=96/mx345] | enemies=15:st0/hp31/mx31/df0/fn1/lv3/v1 16:st0/hp25/mx25/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=959 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230455906 turn=2 cliT=2 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp254/st4 pet=hp332/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=96/mx345] | enemies=16:st0/hp25/mx25/df0/fn1/lv2/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|10
+autobattle tick cnt=974 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230456640 turn=0 cliT=0 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp254/st5 pet=hp332/st1 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=96/mx345] | enemies=15:st1/hp29/mx29/df0/fn1/lv2/v1 16:st1/hp39/mx39/df0/fn1/lv3/v1 17:st1/hp39/mx39/df0/fn1/lv3/v1 18:st1/hp31/mx31/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230457390 turn=1 cliT=1 myNo=0 afl=58000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp254/st4 pet=hp332/st0 validEnemy=3 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=96/mx345] | enemies=15:st0/hp29/mx29/df0/fn1/lv2/v1 16:st0/hp39/mx39/df0/fn1/lv3/v1 18:st0/hp31/mx31/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=990 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230458125 turn=2 cliT=2 myNo=0 afl=50000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st4 pet=hp332/st0 validEnemy=2 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=16:st0/hp39/mx39/df0/fn1/lv3/v1 18:st0/hp31/mx31/df0/fn1/lv2/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|10
+autobattle tick cnt=1007 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230458875 turn=3 cliT=3 myNo=0 afl=40000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st4 pet=hp332/st0 validEnemy=1 fallback=18 delay=0 cmd=H|12 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=18:st0/hp31/mx31/df0/fn1/lv2/v1 
+autobattle PET turn=3 myNo=0 row=0 si=0 seed=-2 target=18 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|12
+autobattle CHAR t=230459609 turn=0 cliT=0 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st5 pet=hp332/st1 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=15:st1/hp28/mx28/df0/fn1/lv2/v1 16:st1/hp32/mx32/df0/fn1/lv2/v1 
+autobattle tick cnt=1018 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230460343 turn=1 cliT=1 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st4 pet=hp332/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=16:st0/hp32/mx32/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|10
+autobattle tick cnt=1033 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230461078 turn=0 cliT=0 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st5 pet=hp332/st1 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=15:st1/hp37/mx37/df0/fn1/lv3/v1 16:st1/hp27/mx27/df0/fn1/lv2/v1 17:st1/hp30/mx30/df0/fn1/lv2/v1 18:st1/hp28/mx28/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=1050 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230461828 turn=1 cliT=1 myNo=0 afl=48000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st4 pet=hp331/st0 validEnemy=2 fallback=15 delay=0 cmd=J|0|14 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=95/mx345] | enemies=15:st0/hp37/mx37/df0/fn1/lv3/v1 18:st0/hp28/mx28/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230462562 turn=2 cliT=2 myNo=0 afl=40000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st4 pet=hp345/st0 validEnemy=1 fallback=18 delay=0 cmd=H|12 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=100/mx345] | enemies=18:st0/hp28/mx28/df0/fn1/lv2/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=18 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|12
+autobattle tick cnt=1066 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230463296 turn=0 cliT=0 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st5 pet=hp345/st1 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=100/mx345] | enemies=15:st1/hp25/mx25/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230464296 turn=0 cliT=0 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st5 pet=hp345/st1 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=100/mx345] | enemies=15:st1/hp26/mx26/df0/fn1/lv2/v1 16:st1/hp31/mx31/df0/fn1/lv3/v1 17:st1/hp25/mx25/df0/fn1/lv2/v1 18:st1/hp32/mx32/df0/fn1/lv3/v1 
+autobattle tick cnt=1074 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230465046 turn=1 cliT=1 myNo=0 afl=58000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st4 pet=hp342/st0 validEnemy=3 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=99/mx345] | enemies=15:st0/hp26/mx26/df0/fn1/lv2/v1 16:st0/hp31/mx31/df0/fn1/lv3/v1 18:st0/hp32/mx32/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=1090 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230465796 turn=2 cliT=2 myNo=0 afl=50000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st4 pet=hp341/st0 validEnemy=2 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=98/mx345] | enemies=16:st0/hp31/mx31/df0/fn1/lv3/v1 18:st0/hp32/mx32/df0/fn1/lv3/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=2 minLv=3 pcEnable=0 cmd=W|0|10
+autobattle tick cnt=1107 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230466531 turn=3 cliT=3 myNo=0 afl=40000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st4 pet=hp341/st0 validEnemy=1 fallback=18 delay=0 cmd=H|12 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=98/mx345] | enemies=18:st0/hp32/mx32/df0/fn1/lv3/v1 
+autobattle PET turn=3 myNo=0 row=0 si=0 seed=-2 target=18 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|12
+autobattle CHAR t=230467265 turn=0 cliT=0 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st5 pet=hp341/st1 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=98/mx345] | enemies=15:st1/hp39/mx39/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230469625 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st5 pet=hp341/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=98/mx345] | enemies=15:st1/hp37/mx37/df0/fn1/lv2/v1 16:st1/hp50/mx50/df0/fn1/lv4/v1 17:st1/hp35/mx35/df0/fn1/lv2/v1 
+autobattle tick cnt=1122 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230470359 turn=1 cliT=1 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st4 pet=hp341/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=98/mx345] | enemies=16:st0/hp50/mx50/df0/fn1/lv4/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=4 pcEnable=0 cmd=W|0|10
+autobattle tick cnt=1136 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230471093 turn=0 cliT=0 myNo=0 afl=F8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st5 pet=hp341/st1 validEnemy=5 fallback=19 delay=0 cmd=H|13 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=98/mx345] | enemies=15:st1/hp35/mx35/df0/fn1/lv3/v1 16:st1/hp31/mx31/df0/fn1/lv2/v1 17:st1/hp29/mx29/df0/fn1/lv2/v1 18:st1/hp34/mx34/df0/fn1/lv3/v1 19:st1/hp29/mx29/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=19 validEnemy=5 minLv=2 pcEnable=0 cmd=W|0|13
+autobattle CHAR t=230471828 turn=1 cliT=1 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp262/st4 pet=hp340/st0 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=98/mx345] | enemies=15:st0/hp35/mx35/df0/fn1/lv3/v1 16:st0/hp31/mx31/df0/fn1/lv2/v1 17:st0/hp29/mx29/df0/fn1/lv2/v1 18:st0/hp34/mx34/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=1153 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230472562 turn=2 cliT=2 myNo=0 afl=58000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp262/st4 pet=hp339/st0 validEnemy=3 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=98/mx345] | enemies=15:st0/hp35/mx35/df0/fn1/lv3/v1 16:st0/hp31/mx31/df0/fn1/lv2/v1 18:st0/hp34/mx34/df0/fn1/lv3/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230474562 turn=0 cliT=0 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp262/st5 pet=hp339/st1 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=98/mx345] | enemies=15:st1/hp40/mx40/df0/fn1/lv2/v1 16:st1/hp56/mx56/df0/fn1/lv4/v1 17:st1/hp55/mx55/df0/fn1/lv4/v1 18:st1/hp45/mx45/df0/fn1/lv3/v1 
+autobattle tick cnt=1163 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230475296 turn=1 cliT=1 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp262/st4 pet=hp339/st0 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=98/mx345] | enemies=15:st0/hp40/mx40/df0/fn1/lv2/v1 16:st0/hp56/mx56/df0/fn1/lv4/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=1177 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230476031 turn=0 cliT=0 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp262/st5 pet=hp339/st1 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=98/mx345] | enemies=15:st1/hp28/mx28/df0/fn1/lv3/v1 16:st1/hp23/mx23/df0/fn1/lv2/v1 17:st1/hp28/mx28/df0/fn1/lv3/v1 18:st1/hp32/mx32/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=1194 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230476765 turn=1 cliT=1 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp262/st4 pet=hp339/st0 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=98/mx345] | enemies=15:st0/hp28/mx28/df0/fn1/lv3/v1 16:st0/hp23/mx23/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230477500 turn=2 cliT=2 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp262/st4 pet=hp339/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=98/mx345] | enemies=16:st0/hp23/mx23/df0/fn1/lv2/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|10
+autobattle CHAR t=230478984 turn=0 cliT=0 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp262/st5 pet=hp339/st1 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=98/mx345] | enemies=15:st1/hp28/mx28/df0/fn1/lv2/v1 16:st1/hp37/mx37/df0/fn1/lv3/v1 
+autobattle tick cnt=1209 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230479734 turn=1 cliT=1 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp262/st4 pet=hp339/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=98/mx345] | enemies=16:st0/hp37/mx37/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|10
+autobattle CHAR t=230481296 turn=0 cliT=0 myNo=0 afl=F8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp262/st5 pet=hp339/st1 validEnemy=5 fallback=19 delay=0 cmd=H|13 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=98/mx345] | enemies=15:st1/hp25/mx25/df0/fn1/lv2/v1 16:st1/hp21/mx21/df0/fn1/lv2/v1 17:st1/hp23/mx23/df0/fn1/lv2/v1 18:st1/hp30/mx30/df0/fn1/lv3/v1 19:st1/hp22/mx22/df0/fn1/lv2/v1 
+autobattle tick cnt=1223 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=19 validEnemy=5 minLv=2 pcEnable=0 cmd=W|0|13
+autobattle CHAR t=230482031 turn=1 cliT=1 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp261/st4 pet=hp339/st0 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=98/mx345] | enemies=15:st0/hp25/mx25/df0/fn1/lv2/v1 16:st0/hp21/mx21/df0/fn1/lv2/v1 17:st0/hp23/mx23/df0/fn1/lv2/v1 18:st0/hp30/mx30/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=1240 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230482765 turn=2 cliT=2 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp261/st4 pet=hp337/st0 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=97/mx345] | enemies=15:st0/hp25/mx25/df0/fn1/lv2/v1 16:st0/hp21/mx21/df0/fn1/lv2/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=1257 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230483515 turn=3 cliT=3 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp260/st4 pet=hp337/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=97/mx345] | enemies=16:st0/hp21/mx21/df0/fn1/lv2/v1 
+autobattle PET turn=3 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|10
+autobattle CHAR t=230484500 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp260/st5 pet=hp337/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=97/mx345] | enemies=15:st1/hp30/mx30/df0/fn1/lv3/v1 16:st1/hp30/mx30/df0/fn1/lv3/v1 17:st1/hp24/mx24/df0/fn1/lv2/v1 
+autobattle tick cnt=1261 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+battlemenu-suppress want=1 patched=4/4 (ab=0 ae=0)
+autobattle ENABLED hwnd=00620522 old=FFFF05F3 pid=4568
+autobattle CHAR t=230502000 turn=0 cliT=0 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp260/st5 pet=hp337/st1 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=97/mx345] | enemies=15:st1/hp35/mx35/df0/fn1/lv3/v1 16:st1/hp38/mx38/df0/fn1/lv3/v1 17:st1/hp31/mx31/df0/fn1/lv2/v1 18:st1/hp36/mx36/df0/fn1/lv3/v1 
+autobattle tick cnt=1 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230502734 turn=1 cliT=1 myNo=0 afl=58000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st4 pet=hp337/st0 validEnemy=3 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=97/mx345] | enemies=15:st0/hp35/mx35/df0/fn1/lv3/v1 16:st0/hp38/mx38/df0/fn1/lv3/v1 18:st0/hp36/mx36/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=3 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=18 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230503468 turn=2 cliT=2 myNo=0 afl=50000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st4 pet=hp336/st0 validEnemy=2 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=97/mx345] | enemies=16:st0/hp38/mx38/df0/fn1/lv3/v1 18:st0/hp36/mx36/df0/fn1/lv3/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=2 minLv=3 pcEnable=0 cmd=W|0|10
+autobattle CHAR t=230504640 turn=0 cliT=0 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st5 pet=hp336/st1 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=97/mx345] | enemies=15:st1/hp22/mx22/df0/fn1/lv2/v1 16:st1/hp33/mx33/df0/fn1/lv3/v1 17:st1/hp30/mx30/df0/fn1/lv3/v1 18:st1/hp26/mx26/df0/fn1/lv2/v1 
+autobattle tick cnt=27 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230505375 turn=1 cliT=1 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st4 pet=hp335/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=97/mx345] | enemies=16:st0/hp33/mx33/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|10
+autobattle CHAR t=230507250 turn=0 cliT=0 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st5 pet=hp335/st1 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=97/mx345] | enemies=15:st1/hp25/mx25/df0/fn1/lv2/v1 
+autobattle tick cnt=41 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230507984 turn=0 cliT=0 myNo=0 afl=F8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st5 pet=hp335/st1 validEnemy=5 fallback=19 delay=0 cmd=H|13 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=97/mx345] | enemies=15:st1/hp25/mx25/df0/fn1/lv2/v1 16:st1/hp24/mx24/df0/fn1/lv2/v1 17:st1/hp25/mx25/df0/fn1/lv2/v1 18:st1/hp26/mx26/df0/fn1/lv3/v1 19:st1/hp30/mx30/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=19 validEnemy=5 minLv=2 pcEnable=0 cmd=W|0|13
+autobattle tick cnt=48 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230508718 turn=1 cliT=1 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp255/st4 pet=hp335/st0 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=97/mx345] | enemies=15:st0/hp25/mx25/df0/fn1/lv2/v1 16:st0/hp24/mx24/df0/fn1/lv2/v1 17:st0/hp25/mx25/df0/fn1/lv2/v1 18:st0/hp26/mx26/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=65 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230509453 turn=2 cliT=2 myNo=0 afl=58000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp254/st4 pet=hp334/st0 validEnemy=3 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=96/mx345] | enemies=15:st0/hp25/mx25/df0/fn1/lv2/v1 16:st0/hp24/mx24/df0/fn1/lv2/v1 18:st0/hp26/mx26/df0/fn1/lv3/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230510156 turn=0 cliT=0 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp254/st5 pet=hp333/st1 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=96/mx345] | enemies=15:st1/hp30/mx30/df0/fn1/lv2/v1 16:st1/hp33/mx33/df0/fn1/lv3/v1 17:st1/hp36/mx36/df0/fn1/lv3/v1 18:st1/hp35/mx35/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=75 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230510906 turn=1 cliT=1 myNo=0 afl=50000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st4 pet=hp333/st0 validEnemy=2 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=16:st0/hp33/mx33/df0/fn1/lv3/v1 18:st0/hp35/mx35/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=2 minLv=3 pcEnable=0 cmd=W|0|10
+autobattle tick cnt=91 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230511640 turn=2 cliT=2 myNo=0 afl=40000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st4 pet=hp333/st0 validEnemy=1 fallback=18 delay=0 cmd=H|12 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=18:st0/hp35/mx35/df0/fn1/lv3/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=18 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|12
+autobattle CHAR t=230513687 turn=0 cliT=0 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st5 pet=hp333/st1 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=15:st1/hp24/mx24/df0/fn1/lv2/v1 16:st1/hp28/mx28/df0/fn1/lv3/v1 17:st1/hp29/mx29/df0/fn1/lv3/v1 18:st1/hp22/mx22/df0/fn1/lv2/v1 
+autobattle tick cnt=98 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230514437 turn=1 cliT=1 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st4 pet=hp333/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=16:st0/hp28/mx28/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|10
+autobattle CHAR t=230517140 turn=0 cliT=0 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st5 pet=hp333/st1 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=15:st1/hp44/mx44/df0/fn1/lv3/v1 16:st1/hp41/mx41/df0/fn1/lv2/v1 17:st1/hp41/mx41/df0/fn1/lv2/v1 18:st1/hp51/mx51/df0/fn1/lv4/v1 
+autobattle tick cnt=112 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230517890 turn=1 cliT=1 myNo=0 afl=48000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st4 pet=hp333/st0 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=15:st0/hp44/mx44/df0/fn1/lv3/v1 18:st0/hp51/mx51/df0/fn1/lv4/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=129 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230518625 turn=2 cliT=2 myNo=0 afl=40000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st4 pet=hp333/st0 validEnemy=1 fallback=18 delay=0 cmd=H|12 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=18:st0/hp51/mx51/df0/fn1/lv4/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=18 validEnemy=1 minLv=4 pcEnable=0 cmd=W|0|12
+autobattle tick cnt=139 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230519359 turn=0 cliT=0 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st5 pet=hp333/st1 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=15:st1/hp24/mx24/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230520093 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st5 pet=hp333/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=15:st1/hp24/mx24/df0/fn1/lv2/v1 16:st1/hp28/mx28/df0/fn1/lv2/v1 17:st1/hp26/mx26/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230520796 turn=0 cliT=0 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st5 pet=hp333/st1 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=15:st1/hp31/mx31/df0/fn1/lv3/v1 16:st1/hp30/mx30/df0/fn1/lv3/v1 
+autobattle tick cnt=153 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230521531 turn=0 cliT=0 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st5 pet=hp333/st1 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=15:st1/hp30/mx30/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=162 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230522265 turn=0 cliT=0 myNo=0 afl=F8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st5 pet=hp333/st1 validEnemy=5 fallback=19 delay=0 cmd=H|13 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=15:st1/hp34/mx34/df0/fn1/lv3/v1 16:st1/hp31/mx31/df0/fn1/lv2/v1 17:st1/hp37/mx37/df0/fn1/lv3/v1 18:st1/hp38/mx38/df0/fn1/lv3/v1 19:st1/hp31/mx31/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=19 validEnemy=5 minLv=2 pcEnable=0 cmd=W|0|13
+autobattle CHAR t=230523000 turn=1 cliT=1 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st4 pet=hp333/st0 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=15:st0/hp34/mx34/df0/fn1/lv3/v1 16:st0/hp31/mx31/df0/fn1/lv2/v1 17:st0/hp37/mx37/df0/fn1/lv3/v1 18:st0/hp38/mx38/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=179 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230523734 turn=2 cliT=2 myNo=0 afl=50000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp250/st4 pet=hp333/st0 validEnemy=2 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=16:st0/hp31/mx31/df0/fn1/lv2/v1 18:st0/hp38/mx38/df0/fn1/lv3/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|10
+autobattle tick cnt=190 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230524484 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp250/st5 pet=hp333/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=96/mx345] | enemies=15:st1/hp31/mx31/df0/fn1/lv3/v1 16:st1/hp29/mx29/df0/fn1/lv3/v1 17:st1/hp23/mx23/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+battlemenu-suppress want=1 patched=4/4 (ab=0 ae=0)
+autobattle ENABLED hwnd=003A0388 old=FFFF017D pid=6672
+autobattle CHAR t=230673812 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp249/st5 pet=hp333/st1 validEnemy=3 fallback=17 delay=0 cmd=J|0|14 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=94/mx263 petP=96/mx345] | enemies=15:st1/hp31/mx31/df0/fn1/lv2/v1 16:st1/hp37/mx37/df0/fn1/lv3/v1 17:st1/hp28/mx28/df0/fn1/lv2/v1 
+autobattle tick cnt=1 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230674546 turn=1 cliT=1 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st4 pet=hp344/st0 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=99/mx345] | enemies=15:st0/hp31/mx31/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=15 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230675296 turn=0 cliT=0 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st5 pet=hp344/st1 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=99/mx345] | enemies=15:st1/hp50/mx50/df0/fn1/lv3/v1 16:st1/hp47/mx47/df0/fn1/lv3/v1 17:st1/hp46/mx46/df0/fn1/lv3/v1 18:st1/hp46/mx46/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=3 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230676046 turn=1 cliT=1 myNo=0 afl=58000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp260/st4 pet=hp344/st0 validEnemy=3 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=99/mx345] | enemies=15:st0/hp50/mx50/df0/fn1/lv3/v1 16:st0/hp47/mx47/df0/fn1/lv3/v1 18:st0/hp46/mx46/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=3 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=32 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230676781 turn=2 cliT=2 myNo=0 afl=50000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp259/st4 pet=hp344/st0 validEnemy=2 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=99/mx345] | enemies=16:st0/hp47/mx47/df0/fn1/lv3/v1 18:st0/hp46/mx46/df0/fn1/lv3/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=2 minLv=3 pcEnable=0 cmd=W|0|10
+autobattle tick cnt=49 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230677515 turn=3 cliT=3 myNo=0 afl=40000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp259/st4 pet=hp344/st0 validEnemy=1 fallback=18 delay=0 cmd=H|12 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=99/mx345] | enemies=18:st0/hp26/mx46/df0/fn1/lv3/v1 
+autobattle PET turn=3 myNo=0 row=0 si=0 seed=-2 target=18 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|12
+autobattle CHAR t=230678625 turn=0 cliT=0 myNo=0 afl=F8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp259/st5 pet=hp344/st1 validEnemy=5 fallback=19 delay=0 cmd=H|13 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=99/mx345] | enemies=15:st1/hp31/mx31/df0/fn1/lv2/v1 16:st1/hp29/mx29/df0/fn1/lv2/v1 17:st1/hp31/mx31/df0/fn1/lv2/v1 18:st1/hp28/mx28/df0/fn1/lv2/v1 19:st1/hp28/mx28/df0/fn1/lv2/v1 
+autobattle tick cnt=54 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=19 validEnemy=5 minLv=2 pcEnable=0 cmd=W|0|13
+autobattle CHAR t=230679359 turn=1 cliT=1 myNo=0 afl=58000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st4 pet=hp344/st0 validEnemy=3 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=99/mx345] | enemies=15:st0/hp31/mx31/df0/fn1/lv2/v1 16:st0/hp29/mx29/df0/fn1/lv2/v1 18:st0/hp28/mx28/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=71 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230680093 turn=2 cliT=2 myNo=0 afl=50000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st4 pet=hp344/st0 validEnemy=2 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=99/mx345] | enemies=16:st0/hp29/mx29/df0/fn1/lv2/v1 18:st0/hp28/mx28/df0/fn1/lv2/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|10
+autobattle tick cnt=88 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230680843 turn=3 cliT=3 myNo=0 afl=40000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st4 pet=hp344/st0 validEnemy=1 fallback=18 delay=0 cmd=H|12 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=99/mx345] | enemies=18:st0/hp28/mx28/df0/fn1/lv2/v1 
+autobattle PET turn=3 myNo=0 row=0 si=0 seed=-2 target=18 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|12
+autobattle CHAR t=230681578 turn=0 cliT=0 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st5 pet=hp344/st1 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=99/mx345] | enemies=15:st1/hp36/mx36/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230684234 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st5 pet=hp344/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=99/mx345] | enemies=15:st1/hp30/mx30/df0/fn1/lv3/v1 16:st1/hp28/mx28/df0/fn1/lv3/v1 17:st1/hp30/mx30/df0/fn1/lv3/v1 
+autobattle tick cnt=97 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=3 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230684968 turn=1 cliT=1 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st4 pet=hp344/st0 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=99/mx345] | enemies=15:st0/hp30/mx30/df0/fn1/lv3/v1 16:st0/hp28/mx28/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=111 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230685718 turn=0 cliT=0 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st5 pet=hp344/st1 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=99/mx345] | enemies=15:st1/hp35/mx35/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230687437 turn=0 cliT=0 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st5 pet=hp344/st1 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=99/mx345] | enemies=15:st1/hp34/mx34/df0/fn1/lv3/v1 16:st1/hp39/mx39/df0/fn1/lv3/v1 17:st1/hp28/mx28/df0/fn1/lv2/v1 18:st1/hp33/mx33/df0/fn1/lv3/v1 
+autobattle tick cnt=119 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230688171 turn=1 cliT=1 myNo=0 afl=58000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp257/st4 pet=hp343/st0 validEnemy=3 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=97/mx263 petP=99/mx345] | enemies=15:st0/hp34/mx34/df0/fn1/lv3/v1 16:st0/hp39/mx39/df0/fn1/lv3/v1 18:st0/hp33/mx33/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=3 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=136 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230688906 turn=2 cliT=2 myNo=0 afl=50000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp256/st4 pet=hp343/st0 validEnemy=2 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=97/mx263 petP=99/mx345] | enemies=16:st0/hp39/mx39/df0/fn1/lv3/v1 18:st0/hp33/mx33/df0/fn1/lv3/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=2 minLv=3 pcEnable=0 cmd=W|0|10
+autobattle tick cnt=152 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230689609 turn=3 cliT=3 myNo=0 afl=40000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp256/st4 pet=hp343/st0 validEnemy=1 fallback=18 delay=0 cmd=H|12 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=97/mx263 petP=99/mx345] | enemies=18:st0/hp33/mx33/df0/fn1/lv3/v1 
+autobattle PET turn=3 myNo=0 row=0 si=0 seed=-2 target=18 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|12
+autobattle CHAR t=230691812 turn=0 cliT=0 myNo=0 afl=F8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp256/st5 pet=hp343/st1 validEnemy=5 fallback=19 delay=0 cmd=H|13 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=97/mx263 petP=99/mx345] | enemies=15:st1/hp51/mx51/df0/fn1/lv4/v1 16:st1/hp48/mx48/df0/fn1/lv3/v1 17:st1/hp38/mx38/df0/fn1/lv2/v1 18:st1/hp40/mx40/df0/fn1/lv2/v1 19:st1/hp55/mx55/df0/fn1/lv4/v1 
+autobattle tick cnt=157 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=19 validEnemy=5 minLv=2 pcEnable=0 cmd=W|0|13
+autobattle CHAR t=230692546 turn=1 cliT=1 myNo=0 afl=50000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp255/st4 pet=hp343/st0 validEnemy=2 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=99/mx345] | enemies=16:st0/hp48/mx48/df0/fn1/lv3/v1 18:st0/hp40/mx40/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|10
+autobattle tick cnt=174 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230693296 turn=2 cliT=2 myNo=0 afl=40000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp255/st4 pet=hp343/st0 validEnemy=1 fallback=18 delay=0 cmd=H|12 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=99/mx345] | enemies=18:st0/hp40/mx40/df0/fn1/lv2/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=18 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|12
+autobattle tick cnt=183 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230694656 turn=0 cliT=0 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp255/st5 pet=hp343/st1 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=99/mx345] | enemies=15:st1/hp29/mx29/df0/fn1/lv2/v1 16:st1/hp37/mx37/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230695406 turn=1 cliT=1 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp255/st4 pet=hp343/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=99/mx345] | enemies=16:st0/hp37/mx37/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|10
+autobattle CHAR t=230697250 turn=0 cliT=0 myNo=0 afl=F8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp255/st5 pet=hp343/st1 validEnemy=5 fallback=19 delay=0 cmd=H|13 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=99/mx345] | enemies=15:st1/hp29/mx29/df0/fn1/lv2/v1 16:st1/hp36/mx36/df0/fn1/lv3/v1 17:st1/hp31/mx31/df0/fn1/lv2/v1 18:st1/hp31/mx31/df0/fn1/lv2/v1 19:st1/hp28/mx28/df0/fn1/lv2/v1 
+autobattle tick cnt=198 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=19 validEnemy=5 minLv=2 pcEnable=0 cmd=W|0|13
+autobattle CHAR t=230697984 turn=1 cliT=1 myNo=0 afl=20000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp255/st4 pet=hp343/st0 validEnemy=1 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=99/mx345] | enemies=17:st0/hp31/mx31/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230702953 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp255/st5 pet=hp343/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=99/mx345] | enemies=15:st1/hp37/mx37/df0/fn1/lv3/v1 16:st1/hp38/mx38/df0/fn1/lv3/v1 17:st1/hp29/mx29/df0/fn1/lv2/v1 
+autobattle tick cnt=212 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230703703 turn=1 cliT=1 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp255/st4 pet=hp342/st0 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=99/mx345] | enemies=15:st0/hp37/mx37/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=226 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230704515 turn=0 cliT=0 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp255/st5 pet=hp342/st1 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=99/mx345] | enemies=15:st1/hp31/mx31/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=229 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230705562 turn=0 cliT=0 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp255/st5 pet=hp342/st1 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=99/mx345] | enemies=15:st1/hp30/mx30/df0/fn1/lv3/v1 16:st1/hp32/mx32/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230706421 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp255/st5 pet=hp342/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=99/mx345] | enemies=15:st1/hp28/mx28/df0/fn1/lv2/v1 16:st1/hp26/mx26/df0/fn1/lv2/v1 17:st1/hp30/mx30/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230707609 turn=0 cliT=0 myNo=0 afl=F8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp254/st5 pet=hp341/st1 validEnemy=5 fallback=19 delay=0 cmd=H|13 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=98/mx345] | enemies=15:st1/hp30/mx30/df0/fn1/lv3/v1 16:st1/hp25/mx25/df0/fn1/lv2/v1 17:st1/hp26/mx26/df0/fn1/lv2/v1 18:st1/hp30/mx30/df0/fn1/lv3/v1 19:st1/hp23/mx23/df0/fn1/lv2/v1 
+autobattle tick cnt=234 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=19 validEnemy=5 minLv=2 pcEnable=0 cmd=W|0|13
+autobattle CHAR t=230708343 turn=1 cliT=1 myNo=0 afl=68000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp254/st4 pet=hp339/st0 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=98/mx345] | enemies=15:st0/hp30/mx30/df0/fn1/lv3/v1 17:st0/hp26/mx26/df0/fn1/lv2/v1 18:st0/hp30/mx30/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=251 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230709078 turn=2 cliT=2 myNo=0 afl=40000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp254/st4 pet=hp339/st0 validEnemy=1 fallback=18 delay=0 cmd=H|12 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=98/mx345] | enemies=18:st0/hp30/mx30/df0/fn1/lv3/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=18 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|12
+autobattle tick cnt=262 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230709828 turn=0 cliT=0 myNo=0 afl=F8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp254/st5 pet=hp339/st1 validEnemy=5 fallback=19 delay=0 cmd=H|13 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=98/mx345] | enemies=15:st1/hp37/mx37/df0/fn1/lv3/v1 16:st1/hp27/mx27/df0/fn1/lv2/v1 17:st1/hp28/mx28/df0/fn1/lv2/v1 18:st1/hp30/mx30/df0/fn1/lv2/v1 19:st1/hp37/mx37/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=19 validEnemy=5 minLv=2 pcEnable=0 cmd=W|0|13
+autobattle CHAR t=230710562 turn=1 cliT=1 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp253/st4 pet=hp338/st0 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=97/mx345] | enemies=15:st0/hp37/mx37/df0/fn1/lv3/v1 16:st0/hp27/mx27/df0/fn1/lv2/v1 17:st0/hp28/mx28/df0/fn1/lv2/v1 18:st0/hp30/mx30/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=279 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230711296 turn=2 cliT=2 myNo=0 afl=58000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp250/st4 pet=hp338/st0 validEnemy=3 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=97/mx345] | enemies=15:st0/hp37/mx37/df0/fn1/lv3/v1 16:st0/hp27/mx27/df0/fn1/lv2/v1 18:st0/hp30/mx30/df0/fn1/lv2/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=296 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230712031 turn=3 cliT=3 myNo=0 afl=40000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp249/st4 pet=hp338/st0 validEnemy=1 fallback=18 delay=0 cmd=J|0|14 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=94/mx263 petP=97/mx345] | enemies=18:st0/hp30/mx30/df0/fn1/lv2/v1 
+autobattle PET turn=3 myNo=0 row=0 si=0 seed=-2 target=18 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|12
+autobattle CHAR t=230714328 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp263/st5 pet=hp345/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=100/mx263 petP=100/mx345] | enemies=15:st1/hp30/mx30/df0/fn1/lv3/v1 16:st1/hp25/mx25/df0/fn1/lv2/v1 17:st1/hp29/mx29/df0/fn1/lv3/v1 
+autobattle tick cnt=302 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230715062 turn=1 cliT=1 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp262/st4 pet=hp345/st0 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=100/mx345] | enemies=15:st0/hp30/mx30/df0/fn1/lv3/v1 16:st0/hp25/mx25/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=319 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230715796 turn=2 cliT=2 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp262/st4 pet=hp345/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=100/mx345] | enemies=16:st0/hp25/mx25/df0/fn1/lv2/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|10
+autobattle CHAR t=230719250 turn=0 cliT=0 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp262/st5 pet=hp345/st1 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=100/mx345] | enemies=15:st1/hp24/mx24/df0/fn1/lv2/v1 
+autobattle tick cnt=328 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230720000 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp262/st5 pet=hp345/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=100/mx345] | enemies=15:st1/hp37/mx37/df0/fn1/lv3/v1 16:st1/hp30/mx30/df0/fn1/lv2/v1 17:st1/hp38/mx38/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230722796 turn=0 cliT=0 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp262/st5 pet=hp345/st1 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=100/mx345] | enemies=15:st1/hp22/mx22/df0/fn1/lv2/v1 16:st1/hp29/mx29/df0/fn1/lv3/v1 
+autobattle tick cnt=337 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230723531 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp262/st5 pet=hp345/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=100/mx345] | enemies=15:st1/hp25/mx25/df0/fn1/lv2/v1 16:st1/hp25/mx25/df0/fn1/lv2/v1 17:st1/hp23/mx23/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=353 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230724281 turn=1 cliT=1 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp262/st4 pet=hp345/st0 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=100/mx345] | enemies=15:st0/hp25/mx25/df0/fn1/lv2/v1 16:st0/hp25/mx25/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=370 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230725015 turn=2 cliT=2 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp262/st4 pet=hp344/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=99/mx345] | enemies=16:st0/hp25/mx25/df0/fn1/lv2/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|10
+autobattle CHAR t=230726015 turn=0 cliT=0 myNo=0 afl=F8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp262/st5 pet=hp344/st1 validEnemy=5 fallback=19 delay=0 cmd=H|13 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=99/mx263 petP=99/mx345] | enemies=15:st1/hp29/mx29/df0/fn1/lv3/v1 16:st1/hp32/mx32/df0/fn1/lv3/v1 17:st1/hp26/mx26/df0/fn1/lv2/v1 18:st1/hp26/mx26/df0/fn1/lv2/v1 19:st1/hp24/mx24/df0/fn1/lv2/v1 
+autobattle tick cnt=374 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=19 validEnemy=5 minLv=2 pcEnable=0 cmd=W|0|13
+autobattle CHAR t=230726750 turn=1 cliT=1 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st4 pet=hp344/st0 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=99/mx345] | enemies=15:st0/hp29/mx29/df0/fn1/lv3/v1 16:st0/hp32/mx32/df0/fn1/lv3/v1 17:st0/hp26/mx26/df0/fn1/lv2/v1 18:st0/hp26/mx26/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=391 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230727484 turn=2 cliT=2 myNo=0 afl=50000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st4 pet=hp344/st0 validEnemy=2 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=99/mx345] | enemies=16:st0/hp32/mx32/df0/fn1/lv3/v1 18:st0/hp26/mx26/df0/fn1/lv2/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|10
+autobattle CHAR t=230730187 turn=0 cliT=0 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st5 pet=hp344/st1 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=99/mx345] | enemies=15:st1/hp24/mx24/df0/fn1/lv2/v1 
+autobattle tick cnt=400 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230730937 turn=0 cliT=0 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st5 pet=hp344/st1 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=99/mx345] | enemies=15:st1/hp22/mx22/df0/fn1/lv2/v1 16:st1/hp22/mx22/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230731703 turn=0 cliT=0 myNo=0 afl=F8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st5 pet=hp344/st1 validEnemy=5 fallback=19 delay=0 cmd=H|13 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=99/mx345] | enemies=15:st1/hp29/mx29/df0/fn1/lv2/v1 16:st1/hp37/mx37/df0/fn1/lv3/v1 17:st1/hp30/mx30/df0/fn1/lv2/v1 18:st1/hp35/mx35/df0/fn1/lv3/v1 19:st1/hp34/mx34/df0/fn1/lv3/v1 
+autobattle tick cnt=411 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=19 validEnemy=5 minLv=2 pcEnable=0 cmd=W|0|13
+autobattle CHAR t=230732437 turn=1 cliT=1 myNo=0 afl=58000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp258/st4 pet=hp344/st0 validEnemy=3 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=98/mx263 petP=99/mx345] | enemies=15:st0/hp29/mx29/df0/fn1/lv2/v1 16:st0/hp37/mx37/df0/fn1/lv3/v1 18:st0/hp35/mx35/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=428 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230733171 turn=2 cliT=2 myNo=0 afl=50000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp257/st4 pet=hp344/st0 validEnemy=2 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=97/mx263 petP=99/mx345] | enemies=16:st0/hp37/mx37/df0/fn1/lv3/v1 18:st0/hp35/mx35/df0/fn1/lv3/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=2 minLv=3 pcEnable=0 cmd=W|0|10
+autobattle tick cnt=437 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230733875 turn=0 cliT=0 myNo=0 afl=F8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp257/st5 pet=hp344/st1 validEnemy=5 fallback=19 delay=0 cmd=H|13 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=97/mx263 petP=99/mx345] | enemies=15:st1/hp25/mx25/df0/fn1/lv2/v1 16:st1/hp23/mx23/df0/fn1/lv2/v1 17:st1/hp24/mx24/df0/fn1/lv2/v1 18:st1/hp24/mx24/df0/fn1/lv2/v1 19:st1/hp25/mx25/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=19 validEnemy=5 minLv=2 pcEnable=0 cmd=W|0|13
+autobattle CHAR t=230734609 turn=1 cliT=1 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp257/st4 pet=hp342/st0 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=97/mx263 petP=99/mx345] | enemies=15:st0/hp25/mx25/df0/fn1/lv2/v1 16:st0/hp23/mx23/df0/fn1/lv2/v1 17:st0/hp24/mx24/df0/fn1/lv2/v1 18:st0/hp24/mx24/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=454 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230735343 turn=2 cliT=2 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp257/st4 pet=hp341/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=97/mx263 petP=98/mx345] | enemies=16:st0/hp23/mx23/df0/fn1/lv2/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|10
+autobattle tick cnt=465 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230737687 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp257/st5 pet=hp341/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=97/mx263 petP=98/mx345] | enemies=15:st1/hp40/mx40/df0/fn1/lv2/v1 16:st1/hp56/mx56/df0/fn1/lv4/v1 17:st1/hp54/mx54/df0/fn1/lv4/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230738421 turn=1 cliT=1 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp257/st4 pet=hp340/st0 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=97/mx263 petP=98/mx345] | enemies=15:st0/hp40/mx40/df0/fn1/lv2/v1 16:st0/hp56/mx56/df0/fn1/lv4/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=480 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230739156 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp257/st5 pet=hp340/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=97/mx263 petP=98/mx345] | enemies=15:st1/hp34/mx34/df0/fn1/lv3/v1 16:st1/hp34/mx34/df0/fn1/lv3/v1 17:st1/hp36/mx36/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=3 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230739890 turn=1 cliT=1 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp257/st4 pet=hp339/st0 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=97/mx263 petP=98/mx345] | enemies=15:st0/hp34/mx34/df0/fn1/lv3/v1 16:st0/hp34/mx34/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=497 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230740640 turn=2 cliT=2 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp257/st4 pet=hp339/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=97/mx263 petP=98/mx345] | enemies=16:st0/hp34/mx34/df0/fn1/lv3/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|10
+autobattle CHAR t=230741437 turn=0 cliT=0 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp257/st5 pet=hp339/st1 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=97/mx263 petP=98/mx345] | enemies=15:st1/hp36/mx36/df0/fn1/lv3/v1 
+autobattle tick cnt=510 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230742171 turn=0 cliT=0 myNo=0 afl=F8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp257/st5 pet=hp339/st1 validEnemy=5 fallback=19 delay=0 cmd=H|13 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=97/mx263 petP=98/mx345] | enemies=15:st1/hp31/mx31/df0/fn1/lv3/v1 16:st1/hp29/mx29/df0/fn1/lv3/v1 17:st1/hp32/mx32/df0/fn1/lv3/v1 18:st1/hp27/mx27/df0/fn1/lv2/v1 19:st1/hp28/mx28/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=19 validEnemy=5 minLv=2 pcEnable=0 cmd=W|0|13
+autobattle tick cnt=523 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230742906 turn=1 cliT=1 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp254/st4 pet=hp339/st0 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=98/mx345] | enemies=15:st0/hp31/mx31/df0/fn1/lv3/v1 16:st0/hp29/mx29/df0/fn1/lv3/v1 17:st0/hp32/mx32/df0/fn1/lv3/v1 18:st0/hp27/mx27/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=540 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230743656 turn=2 cliT=2 myNo=0 afl=58000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp253/st4 pet=hp339/st0 validEnemy=3 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=98/mx345] | enemies=15:st0/hp31/mx31/df0/fn1/lv3/v1 16:st0/hp29/mx29/df0/fn1/lv3/v1 18:st0/hp27/mx27/df0/fn1/lv2/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230744406 turn=3 cliT=3 myNo=0 afl=40000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp253/st4 pet=hp339/st0 validEnemy=1 fallback=18 delay=0 cmd=H|12 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=98/mx345] | enemies=18:st0/hp27/mx27/df0/fn1/lv2/v1 
+autobattle PET turn=3 myNo=0 row=0 si=0 seed=-2 target=18 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|12
+autobattle tick cnt=556 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230745156 turn=0 cliT=0 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp253/st5 pet=hp339/st1 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=98/mx345] | enemies=15:st1/hp31/mx31/df0/fn1/lv2/v1 16:st1/hp35/mx35/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230745859 turn=1 cliT=1 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp253/st4 pet=hp338/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=97/mx345] | enemies=16:st0/hp35/mx35/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|10
+autobattle tick cnt=572 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230746593 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp253/st5 pet=hp338/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=97/mx345] | enemies=15:st1/hp24/mx24/df0/fn1/lv2/v1 16:st1/hp24/mx24/df0/fn1/lv2/v1 17:st1/hp28/mx28/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230747343 turn=1 cliT=1 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp253/st4 pet=hp338/st0 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=97/mx345] | enemies=15:st0/hp24/mx24/df0/fn1/lv2/v1 16:st0/hp24/mx24/df0/fn1/lv2/v1 
+autobattle tick cnt=589 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230748078 turn=0 cliT=0 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp253/st5 pet=hp338/st1 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=97/mx345] | enemies=15:st1/hp34/mx34/df0/fn1/lv3/v1 16:st1/hp31/mx31/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=599 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230748812 turn=1 cliT=1 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp253/st4 pet=hp338/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=97/mx345] | enemies=16:st0/hp31/mx31/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|10
+autobattle CHAR t=230751453 turn=0 cliT=0 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp253/st5 pet=hp338/st1 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=97/mx345] | enemies=15:st1/hp35/mx35/df0/fn1/lv3/v1 
+autobattle tick cnt=608 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230752203 turn=0 cliT=0 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp253/st5 pet=hp338/st1 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=97/mx345] | enemies=15:st1/hp39/mx39/df0/fn1/lv2/v1 16:st1/hp42/mx42/df0/fn1/lv3/v1 17:st1/hp42/mx42/df0/fn1/lv3/v1 18:st1/hp39/mx39/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=621 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230752937 turn=1 cliT=1 myNo=0 afl=58000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp253/st4 pet=hp336/st0 validEnemy=3 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=96/mx263 petP=97/mx345] | enemies=15:st0/hp39/mx39/df0/fn1/lv2/v1 16:st0/hp42/mx42/df0/fn1/lv3/v1 18:st0/hp39/mx39/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=638 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230753671 turn=2 cliT=2 myNo=0 afl=50000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st4 pet=hp336/st0 validEnemy=2 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=97/mx345] | enemies=16:st0/hp42/mx42/df0/fn1/lv3/v1 18:st0/hp39/mx39/df0/fn1/lv2/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|10
+autobattle CHAR t=230754593 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st5 pet=hp336/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=97/mx345] | enemies=15:st1/hp28/mx28/df0/fn1/lv2/v1 16:st1/hp38/mx38/df0/fn1/lv3/v1 17:st1/hp29/mx29/df0/fn1/lv2/v1 
+autobattle tick cnt=642 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230755328 turn=1 cliT=1 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st4 pet=hp336/st0 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=97/mx345] | enemies=15:st0/hp28/mx28/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=657 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230756078 turn=0 cliT=0 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp252/st5 pet=hp336/st1 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=97/mx345] | enemies=15:st1/hp26/mx26/df0/fn1/lv2/v1 16:st1/hp26/mx26/df0/fn1/lv2/v1 17:st1/hp30/mx30/df0/fn1/lv3/v1 18:st1/hp25/mx25/df0/fn1/lv2/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=674 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230756812 turn=1 cliT=1 myNo=0 afl=48000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp251/st4 pet=hp336/st0 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=97/mx345] | enemies=15:st0/hp26/mx26/df0/fn1/lv2/v1 18:st0/hp25/mx25/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230757546 turn=2 cliT=2 myNo=0 afl=40000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp251/st4 pet=hp336/st0 validEnemy=1 fallback=18 delay=0 cmd=H|12 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=97/mx345] | enemies=18:st0/hp25/mx25/df0/fn1/lv2/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=18 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|12
+autobattle CHAR t=230759140 turn=0 cliT=0 myNo=0 afl=F8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp251/st5 pet=hp336/st1 validEnemy=5 fallback=19 delay=0 cmd=H|13 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=97/mx345] | enemies=15:st1/hp37/mx37/df0/fn1/lv3/v1 16:st1/hp28/mx28/df0/fn1/lv2/v1 17:st1/hp29/mx29/df0/fn1/lv2/v1 18:st1/hp29/mx29/df0/fn1/lv2/v1 19:st1/hp31/mx31/df0/fn1/lv2/v1 
+autobattle tick cnt=690 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=19 validEnemy=5 minLv=2 pcEnable=0 cmd=W|0|13
+autobattle CHAR t=230759843 turn=1 cliT=1 myNo=0 afl=78000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp251/st4 pet=hp335/st0 validEnemy=4 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=97/mx345] | enemies=15:st0/hp37/mx37/df0/fn1/lv3/v1 16:st0/hp28/mx28/df0/fn1/lv2/v1 17:st0/hp29/mx29/df0/fn1/lv2/v1 18:st0/hp29/mx29/df0/fn1/lv2/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=4 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle tick cnt=706 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230760578 turn=2 cliT=2 myNo=0 afl=58000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp251/st4 pet=hp335/st0 validEnemy=3 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=97/mx345] | enemies=15:st0/hp37/mx37/df0/fn1/lv3/v1 16:st0/hp28/mx28/df0/fn1/lv2/v1 18:st0/hp29/mx29/df0/fn1/lv2/v1 
+autobattle PET turn=2 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle tick cnt=723 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230761312 turn=3 cliT=3 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp251/st4 pet=hp335/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=97/mx345] | enemies=16:st0/hp28/mx28/df0/fn1/lv2/v1 
+autobattle PET turn=3 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=2 pcEnable=0 cmd=W|0|10
+autobattle CHAR t=230762421 turn=0 cliT=0 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp251/st5 pet=hp335/st1 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=97/mx345] | enemies=15:st1/hp31/mx31/df0/fn1/lv2/v1 16:st1/hp36/mx36/df0/fn1/lv3/v1 
+autobattle tick cnt=727 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=2 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230763156 turn=1 cliT=1 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp251/st4 pet=hp335/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=97/mx345] | enemies=16:st0/hp36/mx36/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|10
+autobattle CHAR t=230765437 turn=0 cliT=0 myNo=0 afl=18000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp251/st5 pet=hp335/st1 validEnemy=2 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=97/mx345] | enemies=15:st1/hp34/mx34/df0/fn1/lv3/v1 16:st1/hp38/mx38/df0/fn1/lv3/v1 
+autobattle tick cnt=741 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=2 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230766187 turn=1 cliT=1 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp251/st4 pet=hp335/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=97/mx345] | enemies=16:st0/hp38/mx38/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|10
+autobattle tick cnt=755 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle CHAR t=230766921 turn=0 cliT=0 myNo=0 afl=8000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp251/st5 pet=hp335/st1 validEnemy=1 fallback=15 delay=0 cmd=H|F heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=97/mx345] | enemies=15:st1/hp37/mx37/df0/fn1/lv3/v1 
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=15 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|F
+autobattle CHAR t=230767843 turn=0 cliT=0 myNo=0 afl=38000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp251/st5 pet=hp335/st1 validEnemy=3 fallback=17 delay=0 cmd=H|11 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=97/mx345] | enemies=15:st1/hp22/mx22/df0/fn1/lv2/v1 16:st1/hp29/mx29/df0/fn1/lv3/v1 17:st1/hp29/mx29/df0/fn1/lv3/v1 
+autobattle tick cnt=761 smto=1 res=0 battling=1 ctype=0 ptype=0
+autobattle PET turn=0 myNo=0 row=0 si=0 seed=-2 target=17 validEnemy=3 minLv=2 pcEnable=0 cmd=W|0|11
+autobattle CHAR t=230768593 turn=1 cliT=1 myNo=0 afl=10000 cb=0 pb=0 subP=3 procN=9 actInf=0 menuF=0 tgtSel=0 resW=0 self=hp250/st4 pet=hp335/st0 validEnemy=1 fallback=16 delay=0 cmd=H|10 heal[en=1 tf=3 c=95 p=95 a=95 mag=3 selfP=95/mx263 petP=97/mx345] | enemies=16:st0/hp29/mx29/df0/fn1/lv3/v1 
+autobattle PET turn=1 myNo=0 row=0 si=0 seed=-2 target=16 validEnemy=1 minLv=3 pcEnable=0 cmd=W|0|10

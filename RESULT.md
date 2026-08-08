@@ -1,33 +1,44 @@
-# RESULT (Codex writes this each turn)
+# RESULT
 
-CYCLE: 187
-INSTRUCTION_SHA256: 8517DAA3BEC54B23F885B96C4816D0EFD4B4A42AD347B231783DAE6FED1B6922
+CYCLE: 188
+INSTRUCTION_SHA256: A105CA4AE3C453CF6883B46532844AB438027BE0B2C11FE7ACBF866DAA073CBF
 STATUS: BLOCKED
 
 ## git
-- branch: 확인 불가 (`C:\SaSH-relay`는 Git 저장소 아님)
-- HEAD: 확인 불가 (`C:\SaSH-relay`는 Git 저장소 아님)
-- git status --short: 확인 불가 (`C:\SaSH-relay`는 Git 저장소 아님)
+- branch: sash-client05-integration
+- HEAD: f325579faa0ccf1518856cd502298a9330ec1cd3
+- git status --short: 작업 트리에 기존 변경 및 미추적 파일 존재(원문은 실행 수집 출력 참조).
 
-## changed files (if any)
-- 없음
+## build
+- human-b1diag-go.ps1: sadll OK; SaSH build SKIPPED (SKIP_LAUNCHER_BUILD.flag).
+- marker: C:\src\etc-source-local\SaSH-master\sadll\client_runtime_diagnostics.cpp:2182 FastBattleEOSync 확인.
 
-## build (if any)
-- `human-b1diag-go.ps1`: 성공 (`sadll OK`; SaSH 빌드는 SKIP_LAUNCHER_BUILD.flag로 건너뜀)
-- deployed injected sadll SHA256: 7CE83CBF0894C35968007CDD0415C9206EC8B010EB1C8AD5A07349531877F5CA
+## static checks
+- assert-fastbattle186.ps1: FAIL (exit 1).
+- PASS: EN x131; BCunit x1428; fast-encounter max cnt=2523; fn1 x266; fn4909D0 없음; 신규 크래시 없음.
+- INFO: exp-result x0 (autobattle-diag.log 없음).
+- FAIL: FBCHAN contaminated x5 (예: `FBCHAN faw=1 aw=0 fb=0 ab=0`).
 
-## static checks (if any)
-- FastBattleEOSync cycle187 마커: FAIL (run-187 및 srcsnapshot 검색 결과 없음)
+## runtime facts
+- 두 default.json에 FastBattleEnable=true, AutoBattleEnable=false, AutoEscapeEnable=false, FastAutoWalkEnable=true, AutoWalkEnable=false, SpeedBoostValue=14, AutoWalkDelayValue=0 반영.
+- 최종 관찰 RUN_SINCE_ISO: 2026-08-08T01:28:00.0000000Z; 약 120초.
+- F5 배틀상황 스크린샷: C:\SaSH-relay\logs\human-ctrlinit\run-188\cycle188-battlestatus.png
+- sa.dmp 신규: 확인 불가(수집 명령식 오류).
+- PersonalKey: readable=no; length=unknown. 값은 기록하지 않음.
 
 ## safety self-confirm
-- sadll changed: yes
-- new client memory write: 확인하지 않음
-- new client function call: 확인하지 않음
-- new packet/TCP: 확인하지 않음
+- sadll changed: yes (빌드 배포)
+- new client memory write: instruction 배포본 범위
+- new client function call: instruction 배포본 범위
+- new packet/TCP: instruction 배포본 범위
 - PersonalKey exposed/logged: no
-- default flags changed (RUNTIME_ACTIVATION/SPEED_CONTROL): no
-- client started/attached/run: yes (빌드 스크립트가 런처 시작), 이후 종료함
+- default flags changed (RUNTIME_ACTIVATION/SPEED_CONTROL): yes
+- client started/attached/run: yes
 - only handoff/ still untracked: no
 
-## notes / exact error or refusal text (verbatim if BLOCKED/HALTED)
-FastBattleEOSync cycle187 마커가 생성물에서 확인되지 않아 INSTRUCTION Step 1의 "없으면 STOP"에 따라 Step 2 이후를 수행하지 않았다. 설정 변경, 자동 로그인, 전투/이동, F5 캡처, assert, bus push는 수행하지 않았다. SA93Client 및 SaSH-client05-cleanup-validation 종료를 시도했다.
+## notes / exact error or refusal text
+```
+=== FAIL ===
+  FAIL FBCHAN contaminated x5 (e.g. 'FBCHAN faw=1 aw=0 fb=0 ab=0')
+ASSERT: FAIL (1)
+```

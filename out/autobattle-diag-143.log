@@ -1,4 +1,0 @@
-battlemenu-suppress want=1 patched=4/4 (ab=1 ae=1)
-autobattle ENABLED hwnd=004805DC old=FFFF0215 pid=5664
-autobattle ESCAPE turn=0 myNo=0 ride=-1 fell=0 ae=1 noEsc=0
-autobattle tick cnt=1 smto=1 res=0 battling=1 ctype=0 ptype=0
