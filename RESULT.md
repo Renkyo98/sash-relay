@@ -1,55 +1,85 @@
-# RESULT
-
-CYCLE: 184
-INSTRUCTION_SHA256: C453B8E09A588D4C16F49C4A6CC41B5E31183A2540853551A778B234ECF2156E
-STATUS: DONE
+CYCLE: 186
+INSTRUCTION_SHA256: 7E3600F22E95CFA36B8E81C343AFDD26341D36A258AC9C1937C14943FA3A62A8
+STATUS: BLOCKED
 
 ## git
 - branch: sash-client05-integration
 - HEAD: f325579faa0ccf1518856cd502298a9330ec1cd3
-- git status --short: pre-existing dirty worktree; source/flag/commit changes not made in this cycle.
+- git status --short: 
+ M SaSH-master/SaSH/form/afkform.cpp
+ M SaSH-master/SaSH/form/afkinfoform.cpp
+ M SaSH-master/SaSH/form/afkinfoform.ui
+ M SaSH-master/SaSH/form/battleinfoform.ui
+ M SaSH-master/SaSH/form/chatinfoform.cpp
+ M SaSH-master/SaSH/form/chatinfoform.ui
+ M SaSH-master/SaSH/form/generalform.cpp
+ M SaSH-master/SaSH/form/generalform.ui
+ M SaSH-master/SaSH/form/growthcalculatorform.cpp
+ M SaSH-master/SaSH/form/growthcalculatorform.ui
+ M SaSH-master/SaSH/form/infoform.cpp
+ M SaSH-master/SaSH/form/infoform.h
+ M SaSH-master/SaSH/form/infoform.ui
+ M SaSH-master/SaSH/form/iteminfoform.cpp
+ M SaSH-master/SaSH/form/iteminfoform.h
+ M SaSH-master/SaSH/form/iteminfoform.ui
+ M SaSH-master/SaSH/form/mailinfoform.ui
+ M SaSH-master/SaSH/form/playerinfoform.cpp
+ M SaSH-master/SaSH/form/playerinfoform.ui
+ M SaSH-master/SaSH/gamedevice.cpp
+ M SaSH-master/SaSH/gamedevice.h
+ M SaSH-master/SaSH/mainthread.cpp
+ M SaSH-master/SaSH/net/tcpserver.cpp
+ M SaSH-master/common/client05_readonly_protocol.h
+ M SaSH-master/sadll/client05_transport_adapter.cpp
+ M SaSH-master/sadll/client_runtime_diagnostics.cpp
+ M SaSH-master/sadll/sadll.cpp
+ M SaSH-master/tests/client05_readonly_protocol_tests.cpp
+?? SaSH-master/SaSH/SaSH/
+?? SaSH-master/b1-compile-on.props
+?? out/0082-b1-integration-map.md
+?? out/0083-recycle-fix.md
+?? out/0123-reattach-validate.md
+?? out/0172-cycle172-parserB-facts.md
+?? out/0175-cycle175-proctimeline-facts.md
 
-## changed files (if any)
-- runtime default.json (two files): FastBattleEnable=true, AutoBattleEnable=false, AutoEscapeEnable=false, FastAutoWalkEnable=true, AutoWalkEnable=false, SpeedBoostValue=14, AutoWalkDelayValue=0.
-- RESULT.md and out/0184-fastbattle-pure.md written.
+## build
+- sadll: PASS (deployed SHA256 C924A74FF256723A9D60ACE16399BCB54427DE54BFCF8B7F9E9483F77E4E292B)
+- SaSH: SKIPPED by SKIP_LAUNCHER_BUILD.flag
+- static gates: here-string balance, guard-lint, g++ syntax PASS (builder output)
 
-## build (if any)
-- not run
+## static checks
+- assert-fastbattle186.ps1: FAIL (exit 1)
 
 ## safety self-confirm
-- sadll changed: no
+- sadll changed: yes
 - new client memory write: no
 - new client function call: no
 - new packet/TCP: no
-- PersonalKey exposed/logged: no (readable: no; length: 0)
+- PersonalKey exposed/logged: no
 - default flags changed (RUNTIME_ACTIVATION/SPEED_CONTROL): no
 - client started/attached/run: yes
-- only handoff/ still untracked: no
+- only handoff/ still untracked: yes
 
-## raw facts
-- RUN_SINCE_ISO: 2026-08-08T08:48:35.3071594+09:00
-- FBCHAN: 20 lines fb=1 ab=0; 4 lines fb=0 ab=1.
-- EN fd nonzero: 2.
-- BCunit: 44.
-- autobattle CHAR: 50; fn1: 6; fn4909D0: 34.
-- exp-result: 10.
-- fastautowalk nonzero positions: 142,376; 156,378; 155,378.
-- fresh sa.dmp since RUN_SINCE_ISO: no.
-- screenshot: C:\SaSH-relay\logs\human-ctrlinit\run-185\cycle185-battlestatus.png
-- assert exit code: 1.
+## notes / exact error or refusal text (verbatim if BLOCKED/HALTED)
+RUN_SINCE_ISO: 2026-08-08T00:24:00.0322840Z
+EN fd= encounters: 1
+fastautowalk maximum cnt: 2232
+autobattle fn1: 1
+autobattle fn4909D0: 0
+FBCHAN: FBCHAN faw=1 aw=0 fb=1 ab=0
+exp-result: 0 (INFO)
+sa.dmp new: no
+screenshot: C:\SaSH-relay\logs\human-ctrlinit\run-186\cycle186-battlestatus.png
 
-## assert output (verbatim)
-```
-=== PASS items ===
-  OK  encounter EN fd nonzero x2
-  OK  BCunit parsed x44
-  OK  CHAR drive x50
-  OK  fake-entity fn1 present x6
-  OK  exp-result x10
-  OK  no fresh crash dump
-=== FAIL items ===
-  FAIL FBCHAN contaminated: 4 line(s) not fb=1 ab=0 (e.g. 'FBCHAN faw=1 aw=0 fb=0 ab=1')
-  FAIL REAL scene entity fn4909D0 present x34 -> char entered real battle (auto-battle contamination)
-  FAIL char MOVED across 3 positions: 142,376 156,378 155,378
-ASSERT: FAIL (3)
-```
+=== PASS ===
+  OK   FBCHAN pure fb=1 ab=0 x8
+  OK   BCunit parsed x5
+  OK   fast-encounter kept firing (max cnt=1811)
+  OK   fake-entity fn1 x1
+  OK   no fn4909D0 (char still)
+  OK   no fresh crash
+=== INFO ===
+  INFO exp-result x0 (no autobattle-diag.log)
+=== FAIL ===
+  FAIL encounters not continuous: EN x1 (need >=3)
+ASSERT: FAIL (1)
